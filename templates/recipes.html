@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block content %}
 
-    {% for recipe in recipes %}
+    <!-- {% for recipe in recipes %}
         {{ recipe.recipe_name }}<br>
         {{ recipe.category_name }}<br>
         {{ recipe.recipe_ingredients }}<br>
@@ -9,54 +9,28 @@
         {{ recipe.recipe_inventor }}<br>
         {{ recipe.prepare_time }}<br>
         {{ recipe.img_url }}<br>
-    {% endfor %}
+    {% endfor %} -->
+    
+    <h3 class="center-align">Recipes</h3>
 
-     <div class="row">
-        <div class="col s12 m4 l4">
+    <div class="row">
+        {% for recipe in recipes %}
+        <div class="col s12 m4">
             <div class="card">
                 <div class="card-image">
-                    <img src="images/sample-1.jpg">
+                    <img src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1074500_11-ee0d41a.jpg">
                     <span class="card-title">Card Title</span>
                 </div>
                 <div class="card-content">
-                    <p>I am a very simple card. I am good at containing small bits of information.
-                    I am convenient because I require little markup to use effectively.</p>
+                    {{ recipe.recipe_name }}<br>
+                    {{ recipe.prepare_time }}
                 </div>
                 <div class="card-action">
-                    <a href="#">This is a link</a>
+                    <!-- <a href="#">This is a link</a> -->
+                    <p>Created by: </p>
                 </div>
             </div>
-        </div>
-         <div class="col s12 m4 l4">
-            <div class="card">
-                <div class="card-image">
-                    <img src="images/sample-1.jpg">
-                    <span class="card-title">Card Title</span>
-                </div>
-                <div class="card-content">
-                    <p>I am a very simple card. I am good at containing small bits of information.
-                    I am convenient because I require little markup to use effectively.</p>
-                </div>
-                <div class="card-action">
-                    <a href="#">This is a link</a>
-                </div>
-            </div>
-        </div>
-         <div class="col s12 m4 l4">
-            <div class="card">
-                <div class="card-image">
-                    <img src="images/sample-1.jpg">
-                    <span class="card-title">Card Title</span>
-                </div>
-                <div class="card-content">
-                    <p>I am a very simple card. I am good at containing small bits of information.
-                    I am convenient because I require little markup to use effectively.</p>
-                </div>
-                <div class="card-action">
-                    <a href="#">This is a link</a>
-                </div>
-            </div>
-        </div>
+        {% endfor %}
     </div>
     
 {% endblock %}
