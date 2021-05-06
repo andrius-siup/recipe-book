@@ -4,56 +4,62 @@
     <h3 class="center-align">Add Recipe</h3>
 
      <div class="row card-panel grey lighten-5">
-         <form class="col s12" method="POST" action="">
-             <div class="row">
-                 <div class="input-field col s12">
-                     <!-- <i class="fas fa-user-circle prefix"></i> -->
-                     <input id="recipe_name" name="recipe_name" minlength="5" maxlength="50" type="text" class="validate" required>
-                     <label for="recipe_name">Recipe Name</label>
-                 </div>
-                  <div class="row">
+        <form class="col s12" method="POST" action="">
+            <div class="row">
+                <div class="input-field col s12">
+                    <select id="category_name" name="category_name" class="validate" required>
+                        <option value="" disabled selected>Choose Category</option>
+                        {% for category in categories %}
+                            <option value="{{ category.category_name }}">{{ category.category_name }}</option>
+                        {% endfor %}
+                    </select>
+                    <label for="category_name">Recipe Category</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <!-- <i class="fas fa-user-circle prefix"></i> -->
+                    <input id="recipe_name" name="recipe_name" minlength="5" maxlength="50" type="text" class="validate" required>
+                    <label for="recipe_name">Recipe Name</label>
+                </div>
+            </div>    
+                <div class="row">
                     <div class="input-field col s12">
-                        <input id="ingredients_list" name="ingredients_list" minlength="5" maxlength="300" type="text" class="validate" required>
+                        <input id="ingredients_list" name="ingredients_list" minlength="5" maxlength="300" type="text"
+                            class="validate" required>
                         <label for="ingredients_list">Ingredients List</label>
                     </div>
-                 </div>
-                  <div class="row">
+                </div>
+                <div class="row">
                     <div class="input-field col s12">
-                        <textarea id="instructions" name="instructions" minlength="5" maxlength="300" type="text" class="validate" class="materialize-textarea"  required></textarea>
+                        <textarea id="instructions" name="instructions" minlength="5" maxlength="300" type="text" class="validate"
+                            class="materialize-textarea" required></textarea>
                         <label for="instructions">Instructions</label>
                     </div>
-                 </div>
-                 <div class="row">
+                </div>
+                <div class="row">
                     <div class="input-field col s12">
                         <input id="recipe_img" name="recipe_img" minlength="5" maxlength="300" class="validate" required>
                         <label for="recipe_img">Image URL</label>
                     </div>
-                 </div>
-                 <div class="row">
-                    <div class="input-field col s12">
-                        <!-- <i class="material-icons prefix"></i> -->
-                        <input id="recipe_category" name="recipe_category" type="text" class="validate" required>
-                        <label for="recipe_category">Category</label>
-                    </div>
-                 </div>
-                 <div class="row">
+                </div>
+                <div class="row">
                     <div class="input-field col s12">
                         <!-- <i class="material-icons prefix"></i> -->
                         <input id="prep_time" name="prep_time" type="number" class="validate" required>
                         <label for="prep_time">Preparation Time</label>
                     </div>
-                 </div>
-                 <div class="row">
-                     <div class="input-field col s12">
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
                         <p>
                             <label>
                                 <input type="checkbox" />
                                 <span>Owen</span>
                             </label>
                         </p>
-                     </div>
-                 </div>
-             </div>
+                    </div>
+                </div>
          </form>
      </div>
 
