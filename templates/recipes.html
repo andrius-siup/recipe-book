@@ -14,9 +14,10 @@
                     <h6>{{ recipe.recipe_name }}</h6>
                     <p>{{ recipe.prep_time }}</p>
                     <p><em>Created by: {{ recipe.created_by }}</em></p>
-                    <a href="{{ url_for('edit_recipe', recipe_id=recipe._id) }}" class="btn-small green accent-4">Edit</a>
-                    <a href="" class="btn-small red accent-4">Delete</a>
-
+                    {% if session.user|lower == recipe.created_by|lower %}
+                        <a href="{{ url_for('edit_recipe', recipe_id=recipe._id) }}" class="btn-small green accent-4">Edit</a>
+                        <a href="" class="btn-small red accent-4">Delete</a>
+                    {% endif %}
                 </div>
             </div>
         </div>
