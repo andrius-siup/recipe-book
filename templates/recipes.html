@@ -21,6 +21,7 @@
     </form>
 </div>
 
+{% if recipes|length > 0 %}    
     <div class="row">
         {% for recipe in recipes %}
         <div class="col s12 m4">
@@ -41,5 +42,8 @@
         </div>
         {% endfor %}
     </div>
+{% else %}
+    <h3 class="center-align red-text">No Results Found</h3>    
+{% endif %}    
 
     {% endblock %}
