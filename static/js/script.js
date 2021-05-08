@@ -5,7 +5,7 @@ $(document).ready(function () {
     $('select').formSelect();
 
 
-
+    
     // The code was borrowed from Tim Nelson tutorial
     validateMaterializeSelect();
 
