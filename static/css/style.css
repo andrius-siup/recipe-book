@@ -6,6 +6,13 @@ body {
 
 @media screen and (max-width: 480px) {
 
+    .view-recipe-header h3 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 28px;
+        text-align: center;
+    }
+
     .view-recipe-img {
         text-align: center;
     }
