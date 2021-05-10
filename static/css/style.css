@@ -5,7 +5,12 @@ body {
 
 
 @media screen and (max-width: 480px) {
+    /*********************** recipes page */
+    .recipes-header h1 {
+        font-size: 32px;
+    }
 
+    /************************ view-recipe */
     .view-recipe-header h1 {
         margin-top: 30px;
         margin-bottom: 30px;

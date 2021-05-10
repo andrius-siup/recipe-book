@@ -1,7 +1,11 @@
 {% extends "base.html" %}
 {% block content %}
 
-<h3 class="center-align">Recipes</h3>
+<div class="row">
+    <div class="col s12 recipes-header">
+        <h1 class="center-align">Recipes</h3>
+    </div>
+</div>
 
 <div class="row card-panel grey lighten-5">
     <form action="{{ url_for('search') }}" method="post" class="col s12">
