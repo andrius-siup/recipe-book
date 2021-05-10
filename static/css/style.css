@@ -24,9 +24,12 @@ body {
     margin-right: auto;
     }
 
+    .view-recipe-instruction h2,
     .view-recipe-ingredients h2 {
         font-size: 18px;
         font-weight: bold;
     }
+
+    
 
 } 
