@@ -6,11 +6,11 @@ body {
 
 @media screen and (max-width: 480px) {
 
-    .recipe-img {
+    .view-recipe-img {
         text-align: center;
     }
 
-    .recipe-img img {
+    .view-recipe-img img {
     width: 100%;
     max-width: 300px;
     margin-left: auto;
