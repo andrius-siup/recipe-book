@@ -6,5 +6,19 @@
             <h3>{{ recipes.recipe_name }}</h3>
         </div>
     </div>
+    <div class="row">
+        <div class="col s12">
+            <img src="{{ recipes.recipe_img }}">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s4">
+            <p>{{ recipes.ingredients_list }}</p>
+        </div>
+        <div class="col s8">
+            <p>{{ recipes.instructions }}</p>
+        </div>
+    </div>
+   
 
 {% endblock %}
