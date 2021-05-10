@@ -30,14 +30,30 @@
                     <img src="{{ recipe.recipe_img }}">
                 </div>
                 <div class="card-content">
-                    <h6>{{ recipe.recipe_name }}</h6>
-                    <p>{{ recipe.prep_time }}</p>
-                    <p><em>Created by: {{ recipe.created_by }}</em></p>
+                    <div class="row">
+                        <div class="col s12 center-align">
+                            <h6>{{ recipe.recipe_name }}</h6>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s12">
+                            <p>Prepare Time {{ recipe.prep_time }} min</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s12">
+                            <p><em>Created by: {{ recipe.created_by }}</em></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s12 center-align">
+                            <a href="{{ url_for('view_recipe', recipe_id=recipe._id) }}" class="btn-small blue accent-4">More</a>
+                        </div>
+                    </div>
                     <!-- {% if session.user|lower == recipe.created_by|lower %}
                         <a href="{{ url_for('edit_recipe', recipe_id=recipe._id) }}" class="btn-small green accent-4">Edit</a>
                         <a href="{{ url_for('delete_recipe', recipe_id=recipe._id) }}" class="btn-small red accent-4">Delete</a>
                     {% endif %} -->
-                    <a href="{{ url_for('view_recipe', recipe_id=recipe._id) }}" class="btn-small blue accent-4">More</a>
                 </div>
             </div>
         </div>
