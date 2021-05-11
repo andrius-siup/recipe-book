@@ -1,7 +1,11 @@
 {% extends "base.html" %}
 {% block content %}
 
-    <h3 class="center-align">Edit Recipe</h3>
+    <div class="row">
+        <div class="col s12 edit-recipe-header">
+            <h2 class="center-align">Edit Recipe</h2>
+        </div>
+    </div>
 
      <div class="row card-panel grey lighten-5">
         <form class="col s12" method="POST" action="{{ url_for('edit_recipe', recipe_id=recipe._id) }}">
@@ -57,7 +61,7 @@
                         <label for="prep_time">Preparation Time</label>
                     </div>
                 </div>
-                <div class="row">
+                <!-- <div class="row">
                     <div class="input-field col s12">
                         <p>
                             <label>
@@ -66,7 +70,7 @@
                             </label>
                         </p>
                     </div>
-                </div>
+                </div> -->
                 <div class="row edit-pg-btn">
                     <div class="col s12 center-align">
                         <a href="{{ url_for('get_recipes') }}" class="btn-large edit-cancel-btn red">
