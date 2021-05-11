@@ -6,10 +6,11 @@ $(document).ready(function () {
 
 
 
-     if (screen.width < 480) {
-         $('.edit-cancel-btn').removeClass('btn-large').addClass('btn-small');
-         $('.edit-submit-btn').removeClass('btn-large').addClass('btn-small');
-     } 
+    if (screen.width < 480) {
+        $('.edit-cancel-btn').removeClass('btn-large').addClass('btn-small');
+        $('.edit-submit-btn').removeClass('btn-large').addClass('btn-small');
+        $('.add-recipe-btn').removeClass('btn-large').addClass('btn-small');
+    } 
    
 
 
