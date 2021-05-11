@@ -81,4 +81,15 @@ body {
     textarea {
         height: 6rem;
     }
+
+    /* .input-field > label {
+        font-size: 1.3rem;
+    } */
+
+/************************ add-recipe */
+
+    .input-field.col label {
+    left: .99rem;
+    }
+
 } 
