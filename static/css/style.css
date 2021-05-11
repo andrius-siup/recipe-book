@@ -92,4 +92,10 @@ body {
     left: .99rem;
     }
 
+    .add-recipe-header h2 {
+        font-size: 32px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
 } 
