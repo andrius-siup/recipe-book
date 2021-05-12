@@ -11,6 +11,7 @@ footer {
 
 .copyright-row {
     margin-bottom: 0;
+    text-align: center;
 }
 
 
@@ -121,6 +122,11 @@ footer {
     .social-media ul li {
         margin-right: 10px;
         margin-left: 10px;
+    }
+
+    .copyright-row {
+        padding-bottom: 30px;
+        padding-top: 10px;
     }
 
 } 
