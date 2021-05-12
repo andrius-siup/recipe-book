@@ -22,6 +22,12 @@ footer {
 
 @media screen and (max-width: 480px) {
 
+    /*********************** flash message */
+
+    .flash-message h4 {
+        font-size: 25px;
+    }
+
     /*********************** recipes page */
     .recipes-header h1 {
         font-size: 32px;
@@ -103,7 +109,7 @@ footer {
         font-size: 1.3rem;
     } */
 
-/************************ add-recipe */
+    /************************ add-recipe */
 
     .input-field.col label {
     left: .99rem;
@@ -116,14 +122,14 @@ footer {
     }
 
 
-/************************ manage categories */
+    /************************ manage categories */
 
     .add-category-btn {
         margin-top: 10px;
         margin-bottom: 15px;
     }
 
-/************************ footer */
+    /************************ footer */
 
     footer .valign-wrapper {
         display: inline-flex;
