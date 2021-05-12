@@ -187,5 +187,14 @@ footer {
         padding: 15px;
     }
 
+    .recipe-card .card .card-content .row {
+        margin-bottom: 10px;
+    }
+
+    .home-pg-card-btn {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
     
 }
