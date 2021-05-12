@@ -10,14 +10,14 @@
 <div class="row card-panel search-panel grey lighten-5">
     <form action="{{ url_for('search') }}" method="post" class="col s12">
         <div class="row valign-wrapper center-align">
-            <div class="input-field col s12">
+            <div class="input-field col s12 m8">
                 <input type="text" name="query" id="query" minlength="3" class="validate" required>
                 <label for="query">Search Recipes</label>
             </div>
             <div class="col s12 m4 search-buttons">
                 <a href="{{ url_for('get_recipes') }}" class="red btn">Reset</a>
                 <button type="submit" class="green btn">
-                    <i class="fas fa-search left hide-on-small-only"></i> Search
+                    <i class="fas fa-search left hide-on-med-and-down"></i> Search
                 </button>
             </div>
         </div>

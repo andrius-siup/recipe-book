@@ -12,11 +12,9 @@ $(document).ready(function () {
         $('.edit-cancel-btn').removeClass('btn-large').addClass('btn-small');
         $('.edit-submit-btn').removeClass('btn-large').addClass('btn-small');
         $('.add-recipe-btn').removeClass('btn-large').addClass('btn-small');
-    } 
-   
+    }
 
 
-    
     // The code was borrowed from Tim Nelson tutorial
     validateMaterializeSelect();
 
