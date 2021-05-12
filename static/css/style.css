@@ -159,3 +159,20 @@ footer {
     }
 
 } 
+
+@media screen and (max-width: 768px) {
+
+    /************************ recipes */
+    .recipes-header h1 {
+        margin-bottom: 30px;
+    }
+
+    .search-panel {
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
+
+
+
+}
