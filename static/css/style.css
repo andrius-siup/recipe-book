@@ -104,4 +104,13 @@ body {
         display: inline-flex;
     }
 
+    .social-media {
+        text-align: center;
+    }
+
+    .social-media ul li {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
 } 
