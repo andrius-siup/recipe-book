@@ -98,4 +98,10 @@ body {
         margin-top: 30px;
     }
 
+/************************ footer */
+
+    footer .valign-wrapper {
+        display: inline-flex;
+    }
+
 } 
