@@ -3,6 +3,8 @@ $(document).ready(function () {
         edge: "right"
     });
     $('select').formSelect();
+    $("#copyright").text(new Date().getFullYear());
+
 
 
 
