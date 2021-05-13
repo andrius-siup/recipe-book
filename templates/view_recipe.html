@@ -2,7 +2,7 @@
 {% block content %}
 
     <div class="row">    
-        <div class="col s12 view-recipe-header">
+        <div class="col s12 m12 view-recipe-header">
             <h1>{{ recipes.recipe_name }}</h1>
         </div>
     </div>
@@ -12,17 +12,17 @@
         </div>
     </div>
     <div class="row">
-        <div class="col s12 m4 view-recipe-ingredients">
+        <div class="col s12 m12 view-recipe-ingredients">
             <h2>Ingredient List:</h2>
             <p>{{ recipes.ingredients_list }}</p>
         </div>
-        <div class="col s12 m8 view-recipe-instruction">
+        <div class="col s12 m12 view-recipe-instruction">
             <h2>Instruction:</h2>
             <p>{{ recipes.instructions }}</p>
         </div>
     </div>
     <div class="row">
-        <div class="col s12 view-recipe-buttons">
+        <div class="col s12 m12 view-recipe-buttons">
             {% if session.user|lower == recipes.created_by|lower %}
                 <a href="{{ url_for('edit_recipe', recipe_id=recipes._id) }}" class="btn-small green accent-4">Edit</a>
                 <a href="{{ url_for('delete_recipe', recipe_id=recipes._id) }}" class="btn-small red accent-4">Delete</a>

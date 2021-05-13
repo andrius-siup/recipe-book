@@ -196,6 +196,32 @@ footer {
         margin-bottom: 10px;
     }
 
+    /************************ view-recipe */
+    .view-recipe-header h1 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        text-align: center;
+        font-size: 4rem;
+    }
+
+    .view-recipe-instruction h2,
+    .view-recipe-ingredients h2 {
+        font-size: 2rem;
+        /* font-weight: bold; */
+    }
+
+    .view-recipe-img img {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .view-recipe-buttons {
+        text-align: left;
+        margin-bottom: 50px;
+    }
+		
+
+
     /************************ add recipe */
 
     .add-recipe-header h2 {
