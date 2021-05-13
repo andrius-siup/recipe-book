@@ -196,6 +196,21 @@ footer {
         margin-bottom: 10px;
     }
 
+    /************************ add recipe */
+
+    .add-recipe-header h2 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .add-recipe-form {
+        margin-bottom: 50px;
+    }
+
+    textarea {
+        height: 6rem;
+    }
+
     /************************ footer */
 
     .social-media-row {
@@ -209,7 +224,7 @@ footer {
     }
 
     .social-media ul li i {
-        font-size: 45px;
+        /* font-size: 45px; */
     }
 
     .copyright-row {
