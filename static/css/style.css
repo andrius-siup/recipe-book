@@ -289,6 +289,25 @@ footer {
         margin-bottom: 30px;
     }
 
+    /************************ register */
+
+    .register-header-row {
+        margin-top: 30px;
+    }
+
+    .register-header h3 {
+        font-size: 60px;
+    }
+
+    .register-form-row {
+        margin-top: 100px;
+        margin-bottom: 100px;        
+    }
+
+    .login-link p {
+        font-size: x-large;
+    }
+
 
     /************************ footer */
 
