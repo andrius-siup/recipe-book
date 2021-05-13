@@ -196,5 +196,29 @@ footer {
         margin-bottom: 10px;
     }
 
+    /************************ footer */
+
+    .social-media-row {
+        margin-top: 0px;
+        padding-top: 30px;
+        margin-bottom: 0px;
+    }
+
+    .social-media ul {
+        justify-content: center;
+    }
+
+    .social-media ul li i {
+        font-size: 45px;
+    }
+
+    .copyright-row {
+        padding-bottom: 30px;
+    }
+
+    .social-media ul li {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
     
 }
