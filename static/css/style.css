@@ -217,6 +217,9 @@ footer {
 
     .view-recipe-buttons {
         text-align: left;
+    }
+
+    .view-recipe-btn-row {
         margin-bottom: 50px;
     }
 		

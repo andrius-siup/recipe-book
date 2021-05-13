@@ -21,7 +21,7 @@
             <p>{{ recipes.instructions }}</p>
         </div>
     </div>
-    <div class="row">
+    <div class="row view-recipe-btn-row">
         <div class="col s12 m12 view-recipe-buttons">
             {% if session.user|lower == recipes.created_by|lower %}
                 <a href="{{ url_for('edit_recipe', recipe_id=recipes._id) }}" class="btn-small green accent-4">Edit</a>
