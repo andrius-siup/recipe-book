@@ -257,9 +257,14 @@ footer {
         margin-top: 20px;
     }
 
+    .login-page-row {
+        margin-top: 30px;
+    }
+
     .login-header {
-        padding-top: 20px;
-        padding-bottom: 20px;
+        /* was 20px */
+        padding-top: 30px;      
+        padding-bottom: 30px;
     }
 
     .login-header h3 {
@@ -268,11 +273,13 @@ footer {
 
     .login-form-row {
         margin-bottom: 100px;
-        margin-top: 50px;
+        margin-top: 100px;
+        /* was top 50px */
     }
 
     .register-link-row {
-        margin-bottom: 55px;
+        margin-bottom: 20px;
+        /* was 55px */
     }
 
     .register-link-row .s12 p {
@@ -285,8 +292,8 @@ footer {
     }
 
     .login-form-row .card-panel {
-        margin-top: 30px;
-        margin-bottom: 30px;
+        margin-top: 7px;
+        margin-bottom: 14px;
     }
 
     /************************ register */
