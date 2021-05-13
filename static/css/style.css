@@ -211,6 +211,17 @@ footer {
         height: 6rem;
     }
 
+    /************************ edit recipe */
+
+    .edit-recipe-header h2 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .edit-form-row {
+        margin-bottom: 50px;
+    }
+
     /************************ footer */
 
     .social-media-row {
