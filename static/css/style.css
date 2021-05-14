@@ -19,7 +19,7 @@ footer {
     text-align: center;
 }
 
-
+/* if the screen size is 480px or less */
 @media screen and (max-width: 480px) {
 
     /*********************** flash message */
