@@ -176,7 +176,8 @@ footer {
 
 } 
 
-@media screen and (max-width: 768px) {
+/* if the screen size 768px or more */
+@media screen and (min-width: 768px) {
 
     /************************ recipes */
     .recipes-header h1 {
