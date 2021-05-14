@@ -251,6 +251,26 @@ footer {
         margin-bottom: 50px;
     }
 
+    /************************ add category */
+
+    .add-category-header-row {
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+
+    .add-category-form-row {
+        margin-top: 130px;
+        margin-bottom: 190px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .add-category-form-row .row .input-field input {
+        font-size: 25px;
+    }
+
+
+
     /************************ login */
     .flash-message h4 {
         /* margin-bottom: 20px; */
