@@ -190,6 +190,8 @@ footer {
     .search-panel {
         margin-top: 30px;
         margin-bottom: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     .recipe-card {
@@ -254,6 +256,8 @@ footer {
 
     .add-recipe-form {
         margin-bottom: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     textarea {
@@ -297,8 +301,11 @@ footer {
     .add-category-form-row {
         margin-top: 130px;
         margin-bottom: 190px;
+        margin-left: 10px;
+        margin-right: 10px;
         padding-top: 50px;
         padding-bottom: 50px;
+
     }
 
     .add-category-form-row .row .input-field input {
@@ -315,6 +322,8 @@ footer {
     .edit-category-form-row {
         margin-top: 130px;
         margin-bottom: 190px;
+        margin-left: 10px;
+        margin-right: 10px;
         padding-top: 50px;
         padding-bottom: 50px;
     }
