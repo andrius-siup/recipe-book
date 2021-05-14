@@ -12,6 +12,8 @@ $(document).ready(function () {
         $('.edit-cancel-btn').removeClass('btn-large').addClass('btn-small');
         $('.edit-submit-btn').removeClass('btn-large').addClass('btn-small');
         $('.add-recipe-btn').removeClass('btn-large').addClass('btn-small');
+        $('.edit-category-cancel-btn').removeClass('btn-large').addClass('btn-small');
+        $('.edit-category-edit-btn').removeClass('btn-large').addClass('btn-small');
     }
 
 
