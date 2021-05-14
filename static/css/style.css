@@ -251,6 +251,22 @@ footer {
         margin-bottom: 50px;
     }
 
+    /************************ categories */
+
+    .categories-header-row {
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+
+    .add-category-btn-row {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .categories-row {
+        margin-bottom: 50px;
+    }
+
     /************************ add category */
 
     .add-category-header-row {
