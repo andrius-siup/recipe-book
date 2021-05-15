@@ -512,6 +512,20 @@ footer {
         padding-bottom: 50px;
     }
 
+    /************************ add category */
+
+    .add-category-form-row {
+        margin-top: 270px;
+        margin-bottom: 350px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .add-category-form-row .btn-large {
+        margin-top: 30px;
+    }
+
+
     /************************ login */
 
     .login-page-row {
