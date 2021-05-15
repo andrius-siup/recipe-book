@@ -179,7 +179,7 @@ footer {
 
 } 
 
-/* if the screen size 768px or more */
+/************************ if the screen size 768px or more */
 @media screen and (min-width: 768px) {
 
     /************************ recipes */
@@ -256,8 +256,8 @@ footer {
 
     .add-recipe-form {
         margin-bottom: 50px;
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 100px;
+        margin-right: 100px;
     }
 
     textarea {
@@ -273,6 +273,8 @@ footer {
 
     .edit-form-row {
         margin-bottom: 50px;
+        margin-left: 100px;
+        margin-right: 100px;
     }
 
     /************************ categories */
