@@ -19,7 +19,7 @@ footer {
     text-align: center;
 }
 
-/* if the screen size is 480px or less */
+/************************ if the screen size is 480px or less */
 @media screen and (max-width: 480px) {
 
     /*********************** flash message */
@@ -126,6 +126,8 @@ footer {
 
     .add-recipe-form {
         margin-bottom: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
 
@@ -141,6 +143,8 @@ footer {
     .add-category-form-row {
         margin-top: 40px;
         margin-bottom: 70px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     /************************ edit category */
@@ -148,6 +152,8 @@ footer {
     .edit-category-form-row {
         margin-top: 40px;
         margin-bottom: 70px;
+        margin-left: 10px;
+        margin-right: 10px;
         padding-top: 35px;
         padding-bottom: 35px;
     }
