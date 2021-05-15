@@ -77,10 +77,10 @@ footer {
     }
 
     .view-recipe-img img {
-    width: 100%;
-    max-width: 300px;
-    margin-left: auto;
-    margin-right: auto;
+        width: 100%;
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .view-recipe-instruction h2,
@@ -115,7 +115,7 @@ footer {
     /************************ add-recipe */
 
     .input-field.col label {
-    left: .99rem;
+        left: .99rem;
     }
 
     .add-recipe-header h2 {
@@ -183,7 +183,7 @@ footer {
         padding-top: 30px;
     }
 
-} 
+}
 
 /************************ if the screen size 768px or more */
 @media screen and (min-width: 768px) {
@@ -254,7 +254,7 @@ footer {
     .view-recipe-btn-row {
         margin-bottom: 50px;
     }
-		
+
 
 
     /************************ add recipe */
@@ -356,12 +356,12 @@ footer {
 
     .login-header {
         /* was 20px */
-        padding-top: 30px;      
+        padding-top: 30px;
         padding-bottom: 30px;
     }
 
     .login-header h3 {
-         font-size: 60px;
+        font-size: 60px;
     }
 
     .login-form-row {
@@ -401,7 +401,7 @@ footer {
 
     .register-form-row {
         margin-top: 100px;
-        margin-bottom: 100px;        
+        margin-bottom: 100px;
     }
 
     .login-link p {
@@ -433,10 +433,26 @@ footer {
         margin-right: 10px;
         margin-left: 10px;
     }
-    
+
 }
 
 /* if the screen size 1024px or more */
 @media screen and (min-width: 1024px) {
+    
+    /************************ recipes */
 
+    .recipes-header {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .search-panel {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    .recipes-row {
+        margin: 100px 10px;
+        padding: 20px 10px;
+    }
 }
