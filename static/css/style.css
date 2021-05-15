@@ -232,6 +232,10 @@ footer {
         /* font-weight: bold; */
     }
 
+    .view-recipe-img {
+        text-align: center;
+    }
+
     .view-recipe-img img {
         padding-top: 20px;
         padding-bottom: 20px;
