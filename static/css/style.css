@@ -503,6 +503,15 @@ footer {
         margin-bottom: 90px;
     }
 
+    /************************ manage categories */
+
+    .categories-row {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
     /************************ login */
 
     .login-page-row {
