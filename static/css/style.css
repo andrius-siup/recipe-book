@@ -512,4 +512,26 @@ footer {
         margin-bottom: 50px;
     }
 
+    
+    /************************ register */
+
+    .register-header-row {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .register-form-row {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .register-form-row form .card-panel {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .login-link {
+        margin-bottom: 50px;
+    }
+
 }
