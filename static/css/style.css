@@ -491,6 +491,18 @@ footer {
         margin-bottom: 90px;
     }
 
+    /************************ add recipes */
+
+    .edit-recipe-header {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .edit-form-row {
+        margin-top: 90px;
+        margin-bottom: 90px;
+    }
+
     /************************ login */
 
     .login-page-row {
