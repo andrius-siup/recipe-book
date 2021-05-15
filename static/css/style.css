@@ -303,8 +303,8 @@ footer {
     .add-category-form-row {
         margin-top: 130px;
         margin-bottom: 190px;
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 100px;
+        margin-right: 100px;
         padding-top: 50px;
         padding-bottom: 50px;
 
@@ -324,8 +324,8 @@ footer {
     .edit-category-form-row {
         margin-top: 130px;
         margin-bottom: 190px;
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 100px;
+        margin-right: 100px;
         padding-top: 50px;
         padding-bottom: 50px;
     }
