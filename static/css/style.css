@@ -525,6 +525,21 @@ footer {
         margin-top: 30px;
     }
 
+    /************************ edit category */
+
+    .edit-category-form-row {
+        margin-top: 270px;
+        margin-bottom: 350px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #edit-category-btn-row {
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+
 
     /************************ login */
 
