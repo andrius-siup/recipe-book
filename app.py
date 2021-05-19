@@ -31,6 +31,10 @@ def get_recipes():
 @app.route("/view_recipe/<recipe_id>")
 def view_recipe(recipe_id):
     the_recipe = mongo.db.recipes.find_one_or_404({"_id": ObjectId(recipe_id)})
+
+    if 'user' not in session:
+        return redirect(url_for("login"))
+
     return render_template(
         "view_recipe.html", recipes=the_recipe, page_title="View Recipe")
 
@@ -159,7 +163,7 @@ def edit_recipe(recipe_id):
             the_recipe = mongo.db.recipes.find_one_or_404({"_id": ObjectId(recipe_id)})
             return render_template(
                 "view_recipe.html", recipes=the_recipe, page_title="View Recipe")
-        
+
     recipe = mongo.db.recipes.find_one_or_404({"_id": ObjectId(recipe_id)})
     categories = mongo.db.categories.find().sort("category_name")
     return render_template(
