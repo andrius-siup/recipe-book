@@ -30,7 +30,7 @@ def get_recipes():
 
 @app.route("/view_recipe/<recipe_id>")
 def view_recipe(recipe_id):
-    the_recipe = mongo.db.recipes.find_one({"_id": ObjectId(recipe_id)})
+    the_recipe = mongo.db.recipes.find_one_or_404({"_id": ObjectId(recipe_id)})
     return render_template(
         "view_recipe.html", recipes=the_recipe, page_title="View Recipe")
 
@@ -105,7 +105,7 @@ def profile(username):
 
     if session["user"]:
         return render_template(
-            "profile.html", username=username, page_title="Profile")
+            "profile.html", username=username, page_title="Profile")            
 
     return redirect(url_for("login"))
 
@@ -156,11 +156,11 @@ def edit_recipe(recipe_id):
         flash("Recipe Successfully Updated")
 
         if submit:
-            the_recipe = mongo.db.recipes.find_one({"_id": ObjectId(recipe_id)})
+            the_recipe = mongo.db.recipes.find_one_or_404({"_id": ObjectId(recipe_id)})
             return render_template(
                 "view_recipe.html", recipes=the_recipe, page_title="View Recipe")
         
-    recipe = mongo.db.recipes.find_one({"_id": ObjectId(recipe_id)})
+    recipe = mongo.db.recipes.find_one_or_404({"_id": ObjectId(recipe_id)})
     categories = mongo.db.categories.find().sort("category_name")
     return render_template(
         "edit_recipe.html", recipe=recipe, categories=categories,
