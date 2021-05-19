@@ -14,11 +14,15 @@
     <div class="row">
         <div class="col s12 m12 view-recipe-ingredients">
             <h2>Ingredient List:</h2>
-            <p>{{ recipes.ingredients_list }}</p>
+            {% for ingredient in recipes.ingredients_list %}
+                <p>{{ ingredient}}</p>
+            {% endfor %}
         </div>
         <div class="col s12 m12 view-recipe-instruction">
             <h2>Instruction:</h2>
-            <p>{{ recipes.instructions }}</p>
+            {% for instruction in recipes.instructions %}
+                <p>{{ instruction }}</p>
+            {% endfor %}    
         </div>
     </div>
     <div class="row view-recipe-btn-row">
