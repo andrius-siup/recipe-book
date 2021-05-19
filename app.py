@@ -154,6 +154,11 @@ def edit_recipe(recipe_id):
         mongo.db.recipes.update({"_id": ObjectId(recipe_id)}, submit)
         flash("Recipe Successfully Updated")
 
+        if submit:
+            the_recipe = mongo.db.recipes.find_one({"_id": ObjectId(recipe_id)})
+            return render_template(
+                "view_recipe.html", recipes=the_recipe, page_title="View Recipe")
+        
     recipe = mongo.db.recipes.find_one({"_id": ObjectId(recipe_id)})
     categories = mongo.db.categories.find().sort("category_name")
     return render_template(
