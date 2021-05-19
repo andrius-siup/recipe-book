@@ -73,7 +73,7 @@
                 </div> -->
                 <div class="row edit-pg-btn">
                     <div class="col s12 center-align">
-                        <a href="{{ url_for('get_recipes') }}" class="btn-large edit-cancel-btn red">
+                        <a href="{{ url_for('view_recipe', recipe_id=recipe._id) }}" class="btn-large edit-cancel-btn red">
                             Cancel <i class="fas fa-times-circle right hide-on-med-and-down"></i></a>
                         <button type="submit" class="btn-large edit-submit-btn">
                             Edit Recipe <i class="fas fa-edit right hide-on-med-and-down"></i>
