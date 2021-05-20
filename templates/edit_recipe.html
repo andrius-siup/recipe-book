@@ -36,7 +36,11 @@
                 <div class="row">
                     <div class="input-field col s12">
                         <textarea id="ingredients_list" name="ingredients_list" minlength="5" maxlength="1000" type="text" class="validate"
-                            class="materialize-textarea" required> {{ recipe.ingredients_list }} </textarea>
+                            class="materialize-textarea" required> 
+                                {% for ingredients in recipe.ingredients_list %}
+                                    {{- ingredients -}}
+                                {% endfor %}
+                        </textarea>
                         <label for="ingredients_list">Ingredients List</label>
                     </div>
                 </div>
@@ -44,7 +48,11 @@
                 <div class="row">
                     <div class="input-field col s12">
                         <textarea id="instructions" name="instructions" minlength="5" maxlength="3000" type="text" class="validate"
-                            class="materialize-textarea" required>{{ recipe.instructions }}</textarea>
+                            class="materialize-textarea" required>
+                            {% for instructions in recipe.instructions %}
+                                {{- instructions -}}
+                            {% endfor %}
+                        </textarea>
                         <label for="instructions">Instructions</label>
                     </div>
                 </div>

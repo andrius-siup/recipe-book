@@ -125,15 +125,17 @@ def logout():
 @app.route("/add_recipe", methods=["Get", "POST"])
 def add_recipe():
     if request.method == "POST":
+
         submit = {
             "category_name": request.form.get("category_name"),
             "recipe_name": request.form.get("recipe_name"),
-            "ingredients_list": request.form.get("ingredients_list"),
+            "ingredients_list": request.form.get("ingredients_list").splitlines(),
             "recipe_img": request.form.get("recipe_img"),
             "prep_time": request.form.get("prep_time"),
-            "instructions": request.form.get("instructions"),
+            "instructions": request.form.get("instructions").splitlines(),
             "created_by": session["user"]
         }
+        print(submit)
         recipe = mongo.db.recipes.insert_one(submit)
         recipe_id = recipe.inserted_id
         flash("Recipe Successfully Added")
@@ -150,10 +152,10 @@ def edit_recipe(recipe_id):
         submit = {
             "category_name": request.form.get("category_name"),
             "recipe_name": request.form.get("recipe_name"),
-            "ingredients_list": request.form.get("ingredients_list"),
+            "ingredients_list": request.form.get("ingredients_list").splitlines(),
             "recipe_img": request.form.get("recipe_img"),
             "prep_time": request.form.get("prep_time"),
-            "instructions": request.form.get("instructions"),
+            "instructions": request.form.get("instructions").splitlines(),
             "created_by": session["user"]
         }
         mongo.db.recipes.update({"_id": ObjectId(recipe_id)}, submit)
