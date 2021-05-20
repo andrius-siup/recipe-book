@@ -126,7 +126,7 @@ def logout():
 def add_recipe():
     if request.method == "POST":
 
-        recipes = mongo.db.recipes
+        # recipes = mongo.db.recipes
 
         form_data = request.form.to_dict()
 
@@ -135,15 +135,16 @@ def add_recipe():
 
         submit = (
             {
-                "category_name": form_data["category_name"],
-                "recipe_name": form_data["recipe_name"],
+                "category_name": request.form.get("category_name"),
+                "recipe_name": request.form.get("recipe_name"),
                 "ingredients_list": ingredients_split_list,
-                "recipe_img": form_data["recipe_img"],
-                "prep_time": form_data["prep_time"],
+                "recipe_img": request.form.get("recipe_img"),
+                "prep_time": request.form.get("prep_time"),
                 "instructions": instructions_split_list,
                 "created_by": session["user"]
             }
-        )
+        )        
+
         recipe = mongo.db.recipes.insert_one(submit)
         recipe_id = recipe.inserted_id
         flash("Recipe Successfully Added")
@@ -157,15 +158,30 @@ def add_recipe():
 @app.route("/edit_recipe/<recipe_id>", methods=["GET", "POST"])
 def edit_recipe(recipe_id):
     if request.method == "POST":
-        submit = {
-            "category_name": request.form.get("category_name"),
-            "recipe_name": request.form.get("recipe_name"),
-            "ingredients_list": request.form.get("ingredients_list"),
-            "recipe_img": request.form.get("recipe_img"),
-            "prep_time": request.form.get("prep_time"),
-            "instructions": request.form.get("instructions"),
+
+        form_data = request.form.to_dict()
+
+        the_recipe = mongo.db.recipes.find_one_or_404(
+            {"_id": ObjectId(recipe_id)})
+
+        ingredients_split_list = [
+            ingredient for ingredient in the_recipe['ingredients_list']]
+        instructions_split_list = [
+            instruction for instruction in the_recipe['instructions']]
+
+        # ingredients_text = "\n".join(ingredients_split_list)
+        # instruction_text = "\n".join(instructions_split_list)
+
+        submit = ({
+            "category_name": form_data["category_name"],
+            "recipe_name": form_data["recipe_name"],
+            "ingredients_list": ingredients_split_list,
+            "recipe_img": form_data["recipe_img"],
+            "prep_time": form_data["prep_time"],
+            "instructions": instructions_split_list,
             "created_by": session["user"]
-        }
+        })
+
         mongo.db.recipes.update({"_id": ObjectId(recipe_id)}, submit)
         flash("Recipe Successfully Updated")
 
@@ -177,7 +193,7 @@ def edit_recipe(recipe_id):
     recipe = mongo.db.recipes.find_one_or_404({"_id": ObjectId(recipe_id)})
     categories = mongo.db.categories.find().sort("category_name")
     return render_template(
-        "edit_recipe.html", recipe=recipe, categories=categories,
+        "edit_recipe.html", recipe=recipe, categories=categories, ingredients_split_list=ingredients_text, instructions_split_list=instruction_text,
         page_title="Edit Recipe")
 
 
