@@ -10,5 +10,42 @@
             </div>
         </div>
     </div>
+     <div class="row recipes-row">
+        {% for recipe in recipes %}
+        <div class="col s12 m4 l4 xl3 recipe-card">
+            <div class="card">
+                <div class="card-image">
+                    <img src="{{ recipe.recipe_img }}">
+                </div>
+                <div class="card-content">
+                    <div class="row">
+                        <div class="col s12 center-align">
+                            <h6>{{ recipe.recipe_name }}</h6>
+                        </div>
+                    </div>
+                    <!-- <div class="row">
+                        <div class="col s12">
+                            <p>Prepare Time {{ recipe.prep_time }} min</p>
+                        </div>
+                    </div> -->
+                    <!-- <div class="row">
+                        <div class="col s12">
+                            <p><em>Created by: {{ recipe.created_by }}</em></p>
+                        </div>
+                    </div> -->
+                    <div class="row home-pg-card-btn">
+                        <div class="col s12 center-align">
+                            <a href="{{ url_for('view_recipe', recipe_id=recipe._id) }}" class="btn-small blue accent-4">View More</a>
+                        </div>
+                    </div>
+                    <!-- {% if session.user|lower == recipe.created_by|lower %}
+                        <a href="{{ url_for('edit_recipe', recipe_id=recipe._id) }}" class="btn-small green accent-4">Edit</a>
+                        <a href="{{ url_for('delete_recipe', recipe_id=recipe._id) }}" class="btn-small red accent-4">Delete</a>
+                    {% endif %} -->
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+     </div>
 
 {% endblock %}
