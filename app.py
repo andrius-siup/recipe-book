@@ -14,6 +14,8 @@ app = Flask(__name__)
 app.config["MONGO_DBNAME"] = os.environ.get("MONGO_DBNAME")
 app.config["MONGO_URI"] = os.environ.get("MONGO_URI")
 app.secret_key = os.environ.get("SECRET_KEY")
+app.jinja_env.trim_blocks = True
+app.jinja_env.lstrip_blocks = True
 
 mongo = PyMongo(app)
 
@@ -160,6 +162,9 @@ def edit_recipe(recipe_id):
             "instructions": request.form.get("instructions").splitlines(),
             "created_by": session["user"]
         }
+        print(submit["ingredients_list"])
+        for ingredient in submit["ingredients_list"]:
+            ingredient = ingredient.strip()
         mongo.db.recipes.update({"_id": ObjectId(recipe_id)}, submit)
         flash("Recipe Successfully Updated")
 
