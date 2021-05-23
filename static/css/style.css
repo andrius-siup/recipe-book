@@ -99,6 +99,15 @@ footer {
         font-weight: bold;
     }
 
+    .view-recipe-ingredients p {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .view-recipe-btn-row {
+        margin-bottom: 50px;
+    }
+
     .view-recipe-buttons {
         text-align: center;
     }
@@ -190,7 +199,7 @@ footer {
 
     .social-media-row {
         margin-bottom: 0px;
-        padding-top: 30px;
+        /* padding-top: 30px; */
     }
 
 }
@@ -593,5 +602,10 @@ footer {
     .login-link {
         margin-bottom: 50px;
     }
+
+}
+
+/* if the screen size 1201px or more */
+@media screen and (min-width: 1201px) {
 
 }
