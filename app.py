@@ -139,7 +139,7 @@ def add_recipe():
             "instructions": request.form.get("instructions").splitlines(),
             "created_by": session["user"]
         }
-        print(submit)
+        # print(submit)
         recipe = mongo.db.recipes.insert_one(submit)
         recipe_id = recipe.inserted_id
         flash("Recipe Successfully Added")
@@ -163,7 +163,7 @@ def edit_recipe(recipe_id):
             "instructions": request.form.get("instructions").splitlines(),
             "created_by": session["user"]
         }
-        print(submit["ingredients_list"])
+        # print(submit["ingredients_list"])
         for ingredient in submit["ingredients_list"]:
             ingredient = ingredient.strip()
         mongo.db.recipes.update({"_id": ObjectId(recipe_id)}, submit)

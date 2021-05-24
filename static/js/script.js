@@ -16,6 +16,18 @@ $(document).ready(function () {
         $('.edit-category-edit-btn').removeClass('btn-large').addClass('btn-small');
     }
 
+    // confirm delete recipe
+    $(".del").click(function(){
+        var delete_confirmed = confirm("Delete this recipe?");
+        if (delete_confirmed){
+            window.location.href = "{{ url_for('delete_recipe', recipe_id=recipes._id) }}";
+            alert("The recipe has successfully been deleted");
+        }else {
+             alert("The recipe has not benn deleted");
+            
+        }
+    });
+
 
     // The code was borrowed from Tim Nelson tutorial
     validateMaterializeSelect();
