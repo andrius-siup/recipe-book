@@ -23,7 +23,8 @@ $(document).ready(function () {
             window.location.href = "{{ url_for('delete_recipe', recipe_id=recipes._id) }}";
             alert("The recipe has successfully been deleted");
         }else {
-             alert("The recipe has not benn deleted");
+            return false;
+            alert("The recipe has not benn deleted");
             
         }
     });
