@@ -473,9 +473,11 @@ h3 {
     /************************ footer */
 
     .social-media-row {
-        margin-top: 0px;
-        padding-top: 30px;
-        margin-bottom: 0px;
+        /* margin-top: 0px;
+        margin-bottom: 0px; */
+        padding-top: 20px;
+        padding-bottom: 20px;
+        
     }
 
     .social-media ul {
