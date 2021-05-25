@@ -136,6 +136,8 @@ def add_recipe():
                 "ingredients_list").splitlines(),
             "recipe_img": request.form.get("recipe_img"),
             "prep_time": request.form.get("prep_time"),
+            "cook_time": request.form.get("cook_time"),
+            "serves": request.form.get("serves"),
             "instructions": request.form.get("instructions").splitlines(),
             "created_by": session["user"]
         }
@@ -160,6 +162,8 @@ def edit_recipe(recipe_id):
                 "ingredients_list").splitlines(),
             "recipe_img": request.form.get("recipe_img"),
             "prep_time": request.form.get("prep_time"),
+            "cook_time": request.form.get("cook_time"),
+            "serves": request.form.get("serves"),
             "instructions": request.form.get("instructions").splitlines(),
             "created_by": session["user"]
         }
