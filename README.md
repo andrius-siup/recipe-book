@@ -72,7 +72,7 @@ To deploy the app using Heroku, use the following steps:
    * KEY **IP**  VALUE **0.0.0.0** click Add
    * KEY **PORT**  VALUE **5000** click Add
    * KEY **SECRET_KEY** VALUE **same unique key as you set it in env.py**
-   * KEY **MONGO_URI** VALUE
+   * KEY **MONGO_URI** VALUE **to retrieved Mongo_URI you will find in MongoDb -> Clusters -> Connect -> Connect your aplication -> and copy connection string into application code**
    * KEY **MONGO_DBNAME** VALUE **recipe_manager**
 1. Go back to **Deploy** tab, but before that go back to terminal and push requirement.txt and Procfile to GitHub. After that in Heroku you can click **Enable Automatic Deploys**.
 1. Than click on the **Deploy Branch**
