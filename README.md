@@ -1,52 +1,81 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome andrius-siup,
+# Deployment
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+The website was developed using Gitpod workspace to commit and push to GitHub. The project uses GitHub for hosting and has been deployed using Heroku.
+To access to my page please follow these steps: 
 
-## Gitpod Reminders
+## Clone Repository
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+* GitHub navigate to **andrius-siup/recipe-book**.
+* Click the **Code** button.
+* To clone with **HTTPS** copy the URL in the box https://github.com/andrius-siup/recipe-book.git
+* Open your Git Bash.
+* Changed the directory to the location you want to clone to be made.
+* Type git clone than paste the copied URL  `git clone https://github.com/andrius-siup/recipe-book.git` . 
+* Enter and your local clone will be created.
 
-`python3 -m http.server`
+## Creating an env.py file
 
-A blue button should appear to click: _Make Public_,
+Install Flask, in your terminal type `pip3 install Flask` , that sets up Flask functionality. Next you will need to create **env.py** file for storing sensitive data, 
+type `touch env.py` in terminal. This file should never be pushed to GitHub, so type `touch .gitignore` to be able to ignore it. Than open the **.gitignore** file and lets 
+ignore your **env.py** file typed:
+```
+env.py
+__pycache__/ 
 
-Another blue button should appear to click: _Open Browser_.
+```
+save and close it.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+In the env.py file we need to hide several bits of data. Open env.py file and type:
+```
+import os
 
-A blue button should appear to click: _Make Public_,
+os.environ.setdefault("IP", "0.0.0.0")
+os.environ.setdefault("PORT", "5000")
+os.environ.setdefault("SECRET_KEY", "********")
+os.environ.setdefault("MONGO_URI", "********")
+os.environ.setdefault("MONGO_DBNAME", "recipe_manager")
+```
+Make sure that your env.py file isn't being tracked, type  `git status` and make sure that you can not see it listed.
 
-Another blue button should appear to click: _Open Browser_.
+## MongoDB schema
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+To create the data schema in your MongoDB Atlas, create a new database called **recipe_manager**, add three collections **categories**, **recipes**, **users**.
 
-To log into the Heroku toolbelt CLI you can use:
+* categories 
+    * category_name
+* recipes
+    * recipe_name 
+    * ingredients_list **should be set into an array**
+    * recipe_img
+    * prep_time
+    * cook_time
+    * serves
+    * instructions **should be set into an array**
+    * created_by
+* users
+    * username
+    * password                
 
-`heroku login -i`
+## Deployment to Heroku
 
-If you have Multi-Factor Authentication (MFA) enabled then use the API key that was generated for you at [Heroku](https://dashboard.heroku.com/account) as your password.
-This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
+To deploy the app using Heroku, use the following steps:
+1. In terminal type `pip3 freeze --local > requirements.txt` to create a list of the dependencies for the website.
+1. Create a Procfile, is what Heroku looks for to know which file runs the app. Type in terminal `echo web: python app.py > Procfile`
+1. Use git commands to stage, commit and pushed these files to your GitHub.
+1. Go to [Heroku](https://www.heroku.com/) page and login.
+1. Create new app by click on **New** and **Create New App** . Enter your unique app name, select your region and than click **create app**.
+1. In the Deployment method section, select **GitHub - connect to GitHub** to set up automatic deployment from your GitHub repository.
+1. Enter your repository name in the input field, and click search. Once is found your repository click connect.
+1. To be able to read Heroku environment variables go to **Settings**  than click on **Reveal Config Vars** .
+1. Add the following variables:
+   * KEY **IP**  VALUE **0.0.0.0** click Add
+   * KEY **PORT**  VALUE **5000** click Add
+   * KEY **SECRET_KEY** VALUE **same unique key as you set it in env.py**
+   * KEY **MONGO_URI** VALUE
+   * KEY **MONGO_DBNAME** VALUE **recipe_manager**
+1. Go back to **Deploy** tab, but before that go back to terminal and push requirement.txt and Procfile to GitHub. After that in Heroku you can click **Enable Automatic Deploys**.
+1. Than click on the **Deploy Branch**
+1. After less than minute to build you will see **Your app was successfully deployed**, click **View** to lounch the app.
 
-## Updates Since The Instructional Video
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
----
-
-Happy coding!
