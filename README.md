@@ -4,6 +4,14 @@
 The website was developed using Gitpod workspace to commit and push to GitHub. The project uses GitHub for hosting and has been deployed using Heroku.
 To access to my page please follow these steps: 
 
+## Download
+
+* Navigate to my repository https://github.com/andrius-siup/recipe-book.git .
+* Click the **Code** button.
+* Click the **Download Zip**.
+* Extract where you want to keep all files. 
+
+
 ## Clone Repository
 
 * GitHub navigate to **andrius-siup/recipe-book**.
@@ -77,5 +85,25 @@ To deploy the app using Heroku, use the following steps:
 1. Go back to **Deploy** tab, but before that go back to terminal and push requirement.txt and Procfile to GitHub. After that in Heroku you can click **Enable Automatic Deploys**.
 1. Than click on the **Deploy Branch**
 1. After less than minute to build you will see **Your app was successfully deployed**, click **View** to lounch the app.
+
+# Testing
+
+## Manual Testing
+
+|   Test:             |  Result:        |  Errors 
+|------------|-----------|--------------|--------|
+| Clicking on the navigation bar's navbar logo and a Home link has been routed to the home page.| Tested, works as should.| No|
+| Clicking on the navigation bar's Profile link, has been routed to the users profile page.| Tested, works as should.| No |
+| Clicking on the navigation bar's New Recipe link, has been routed to the add new recipe page.| Tested, works as should.| No |
+| Clicking on the navigation bar's Manage Categories link, has been routed to the categories page only admin has access to this link. | Tested, works as should.| No |
+| Clicking on the navigation bar's Log Out link, should log out the user from the website and has been routed to Login page. | Tested, works as should.| No |
+| Clicinkg on the navigation bar's Login link has been routed to the login page.| Tested, works as should.| No |
+| Clicking on the navigation bar's Register link, has been routed to the register page.| Tested, works as should.| No |
+| Clicking Home page recipes card View More button, has been routed to the single recipe page. | Tested, works as should.| No |
+| Clicking in the footer social media one of the icons, has been routed to the blank page of this website. | Tested, works as should.| No |
+| Clicking the search panel search button,  an error message appears asking "Please fill out this field". | Tested, works as should.| No |
+| Clicking the search panel's search button, with input text, the matching word will be looked at in the recipes ingredients list or in the recipes instructions. If it will be found, the recipes will be displayed below the search panel. If not be found, the message will be "No Results found". | Tested, works as should.| No |
+
+
 
 
