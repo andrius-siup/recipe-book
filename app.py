@@ -124,6 +124,9 @@ def logout():
 
 @app.route("/add_recipe", methods=["Get", "POST"])
 def add_recipe():
+    if "user" not in session:
+        return redirect(url_for("login"))
+
     if request.method == "POST":
 
         submit = {
@@ -151,6 +154,9 @@ def add_recipe():
 
 @app.route("/edit_recipe/<recipe_id>", methods=["GET", "POST"])
 def edit_recipe(recipe_id):
+    if "user" not in session:
+        return redirect(url_for("login"))
+
     if request.method == "POST":
         submit = {
             "category_name": request.form.get("category_name"),
