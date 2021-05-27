@@ -89,21 +89,56 @@ To deploy the app using Heroku, use the following steps:
 # Testing
 
 ## Manual Testing
+### Home page
 
-|   Test:             |  Result:        |  Errors:                                                           
+|   Test              |  Result         |  Errors                                                            
 | ------------------- | --------------- | ------------------------------------------------------------------ |
 | Clicking on the navigation bar's navbar logo and a Home link has been routed to the home page.| Tested, works as should.| No|
 | Clicking on the navigation bar's Profile link, has been routed to the users profile page.| Tested, works as should.| No |
 | Clicking on the navigation bar's New Recipe link, has been routed to the add new recipe page.| Tested, works as should.| No |
-| Clicking on the navigation bar's Manage Categories link, has been routed to the categories page only admin has access to this link. | Tested, works as should.| No |
+| Clicking on the navigation bar's Manage Categories link(only admin has access), has been routed to the categories page only admin has access to this link. | Tested, works as should.| No |
 | Clicking on the navigation bar's Log Out link, should log out the user from the website and has been routed to Login page. | Tested, works as should.| No |
 | Clicinkg on the navigation bar's Login link has been routed to the login page.| Tested, works as should.| No |
 | Clicking on the navigation bar's Register link, has been routed to the register page.| Tested, works as should.| No |
 | Clicking Home page recipes card View More button, has been routed to the single recipe page. | Tested, works as should.| No |
 | Clicking in the footer social media one of the icons, has been routed to the blank page of this website. | Tested, works as should.| No |
-| Clicking the search panel search button,  an error message appears asking "Please fill out this field". | Tested, works as should.| No |
-| Clicking the search panel's search button, with input text, the matching word will be looked at in the recipes ingredients list or in the recipes instructions. If it will be found, the recipes will be displayed below the search panel. If not be found, the message will be "No Results found". | Tested, works as should.| No |
-|
+| Clicking the search panel SEARCH button,  an error message appears asking "Please fill out this field". | Tested, works as should.| No |
+| Clicking the search panel's SEARCH button, with input text, the matching word will be looked at in the recipes ingredients list or in the recipes instructions. If it will be found, the recipes will be displayed below the search panel. If not be found, the message will be "No Results found". | Tested, works as should.| No |
+| Clicking the search panel RESET button, the user has been redirected to the Home page and removed input text. | Tested, works as should.| No |
+| Clicking the profile page recipes card VIEW MORE button, has been routed to the single recipe page. | Tested, works as should.| No |
 
+### Profile page 
 
+|   Test              |  Result         |  Errors                                                            
+| ------------------- | --------------- | ------------------------------------------------------------------ |
+| Clicking on the navigation bar's navbar logo and a Home link has been routed to the home page.| Tested, works as should.| No|
+| Clicking on the navigation bar's Profile link, has been routed to the users profile page.| Tested, works as should.| No |
+| Clicking on the navigation bar's New Recipe link, has been routed to the add new recipe page.| Tested, works as should.| No |
+| Clicking on the navigation bar's Manage Categories link(only admin has access), has been routed to the categories page only admin has access to this link. | Tested, works as should.| No |
+| Clicking on the navigation bar's Log Out link, should log out the user from the website and has been routed to Login page. | Tested, works as should.| No |
+| Clicinkg on the navigation bar's Login link has been routed to the login page.| Tested, works as should.| No |
+| Clicking on the navigation bar's Register link, has been routed to the register page.| Tested, works as should.| No |
+| Clicking Home page recipes card View More button, has been routed to the single recipe page. | Tested, works as should.| No |
+| Clicking in the footer social media one of the icons, has been routed to the blank page of this website. | Tested, works as should.| No |
+
+### New Recipe page
+
+|   Test              |  Result         |  Errors                                                            
+| ------------------- | --------------- | ------------------------------------------------------------------ |
+| Clicking on the navigation bar's navbar logo and a Home link has been routed to the home page.| Tested, works as should.| No|
+| Clicking on the navigation bar's Profile link, has been routed to the users profile page.| Tested, works as should.| No |
+| Clicking on the navigation bar's New Recipe link, has been routed to the add new recipe page.| Tested, works as should.| No |
+| Clicking on the navigation bar's Manage Categories link(only admin has access), has been routed to the categories page only admin has access to this link. | Tested, works as should.| No |
+| Clicking on the navigation bar's Log Out link, should log out the user from the website and has been routed to Login page. | Tested, works as should.| No |
+| Clicinkg on the navigation bar's Login link has been routed to the login page.| Tested, works as should.| No |
+| Clicking on the navigation bar's Register link, has been routed to the register page.| Tested, works as should.| No |
+| Clicking in the footer social media one of the icons, has been routed to the blank page of this website. | Tested, works as should.| No |
+| Clicking add recipe Category field, the user can choose the category from the list.| Tested, works as should.| No |
+| Clicking on the recipe name field, the user can enter the recipe name, must be lenght between 5-50 chareacters.| Tested, works as should.| No |
+| Clicking on the recipe ingredients field, the user can enter the recipe ingredients, must be lenght between 5-3000 chareacters. All text can be separated on the new line. | Tested, works as should.| No |
+| Clicking on the recipe instructions field, the user can enter the recipe instructions, must be lenght between 5-3000 chareacters. All text can be separated on the new line. | Tested, works as should.| No |
+| Clicking on the recipe Image URL field, the user can paste the recipe img url. Added a invalid url or longer than 300 characters should display error message. | Tested, works as should.| No |
+prep time 0-120 number
+cook_time 0-120 number
+serves 1-10 number
 
