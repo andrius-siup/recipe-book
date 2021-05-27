@@ -208,7 +208,7 @@ def get_categories():
             "categories.html", categories=categories, page_title="Categories")
 
     flash("You do not have permission")
-    return redirect(url_for('login'))        
+    return redirect(url_for('login'))
 
 
 @app.route("/add_category", methods=["GET", "POST"])
@@ -228,7 +228,7 @@ def add_category():
         return render_template("add_category.html", page_title="Create Category")
 
     flash("You do not have permission")
-    return redirect(url_for('login'))      
+    return redirect(url_for('login'))
 
 
 @app.route("/edit_category/<category_id>", methods=["GET", "POST"])
