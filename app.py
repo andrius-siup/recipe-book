@@ -195,15 +195,27 @@ def delete_recipe(recipe_id):
     return redirect(url_for("get_recipes"))
 
 
+# only admin has access to this page
 @app.route("/get_categories")
 def get_categories():
+    if "user" not in session:
+        return redirect(url_for("login"))
+
     categories = list(mongo.db.categories.find().sort("category_name", 1))
-    return render_template(
-        "categories.html", categories=categories, page_title="Categories")
+
+    if session['user'] == "admin":
+        return render_template(
+            "categories.html", categories=categories, page_title="Categories")
+
+    flash("You do not have permission")
+    return redirect(url_for('login'))        
 
 
 @app.route("/add_category", methods=["GET", "POST"])
 def add_category():
+    if "user" not in session:
+        return redirect(url_for("login"))
+
     if request.method == "POST":
         category = {
             "category_name": request.form.get("category_name")
@@ -217,6 +229,9 @@ def add_category():
 
 @app.route("/edit_category/<category_id>", methods=["GET", "POST"])
 def edit_category(category_id):
+    if "user" not in session:
+        return redirect(url_for("login"))
+
     if request.method == "POST":
         submit = {
             "category_name": request.form.get("category_name")
