@@ -216,15 +216,19 @@ def add_category():
     if "user" not in session:
         return redirect(url_for("login"))
 
-    if request.method == "POST":
-        category = {
-            "category_name": request.form.get("category_name")
-        }
-        mongo.db.categories.insert_one(category)
-        flash("New Category Added")
-        return redirect(url_for("get_categories"))
+    if session['user'] == "admin":
+        if request.method == "POST":
+            category = {
+                "category_name": request.form.get("category_name")
+            }
+            mongo.db.categories.insert_one(category)
+            flash("New Category Added")
+            return redirect(url_for("get_categories"))
 
-    return render_template("add_category.html", page_title="Create Category")
+        return render_template("add_category.html", page_title="Create Category")
+
+    flash("You do not have permission")
+    return redirect(url_for('login'))      
 
 
 @app.route("/edit_category/<category_id>", methods=["GET", "POST"])
