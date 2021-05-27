@@ -236,17 +236,21 @@ def edit_category(category_id):
     if "user" not in session:
         return redirect(url_for("login"))
 
-    if request.method == "POST":
-        submit = {
-            "category_name": request.form.get("category_name")
-        }
-        mongo.db.categories.update({"_id": ObjectId(category_id)}, submit)
-        flash("Category Successfully Updated")
-        return redirect(url_for("get_categories"))
+    if session['user'] == "admin":
+        if request.method == "POST":
+            submit = {
+                "category_name": request.form.get("category_name")
+            }
+            mongo.db.categories.update({"_id": ObjectId(category_id)}, submit)
+            flash("Category Successfully Updated")
+            return redirect(url_for("get_categories"))
 
-    category = mongo.db.categories.find_one({"_id": ObjectId(category_id)})
-    return render_template(
-        "edit_category.html", category=category, page_title="Edit Category")
+        category = mongo.db.categories.find_one({"_id": ObjectId(category_id)})
+        return render_template(
+            "edit_category.html", category=category, page_title="Edit Category")
+
+    flash("You do not have permission")
+    return redirect(url_for('login'))
 
 
 @app.route("/delete_category/<category_id>")
