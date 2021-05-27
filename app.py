@@ -103,18 +103,15 @@ def login():
     return render_template("login.html", page_title="Login")
 
 
-@app.route("/profile/<username>", methods=["GET", "POST"])
-def profile(username):
-    # grab the session user's username from db
-    username = mongo.db.users.find_one({
-        "username": session["user"]})["username"]
+@app.route("/profile/", methods=["GET", "POST"])
+def profile():
+    if "user" not in session:
+        return redirect(url_for("login"))
 
-    if session["user"]:
-        recipes = mongo.db.recipes.find({"created_by": session["user"]}).sort("_id", -1)
-        return render_template(
-            "profile.html", username=username, recipes=recipes, page_title="Profile")
+    recipes = mongo.db.recipes.find({"created_by": session["user"]}).sort("_id", -1)
 
-    return redirect(url_for("login"))
+    return render_template(
+        "profile.html", username=session["user"], recipes=recipes, page_title="Profile")
 
 
 @app.route("/logout")
@@ -176,9 +173,7 @@ def edit_recipe(recipe_id):
         if submit:
             the_recipe = mongo.db.recipes.find_one_or_404(
                 {"_id": ObjectId(recipe_id)})
-            return render_template(
-                "view_recipe.html", recipes=the_recipe,
-                page_title="View Recipe")
+            return redirect(url_for('view_recipe', recipe_id=recipe_id))
 
     recipe = mongo.db.recipes.find_one_or_404({"_id": ObjectId(recipe_id)})
     categories = mongo.db.categories.find().sort("category_name")
