@@ -90,8 +90,8 @@ To deploy the app using Heroku, use the following steps:
 
 ## Manual Testing
 
-|   Test:             |  Result:        |  Errors 
-|------------|-----------|--------------|--------|
+|   Test:             |  Result:        |  Errors:                                                           
+| ------------------- | --------------- | ------------------------------------------------------------------ |
 | Clicking on the navigation bar's navbar logo and a Home link has been routed to the home page.| Tested, works as should.| No|
 | Clicking on the navigation bar's Profile link, has been routed to the users profile page.| Tested, works as should.| No |
 | Clicking on the navigation bar's New Recipe link, has been routed to the add new recipe page.| Tested, works as should.| No |
@@ -103,7 +103,7 @@ To deploy the app using Heroku, use the following steps:
 | Clicking in the footer social media one of the icons, has been routed to the blank page of this website. | Tested, works as should.| No |
 | Clicking the search panel search button,  an error message appears asking "Please fill out this field". | Tested, works as should.| No |
 | Clicking the search panel's search button, with input text, the matching word will be looked at in the recipes ingredients list or in the recipes instructions. If it will be found, the recipes will be displayed below the search panel. If not be found, the message will be "No Results found". | Tested, works as should.| No |
-
+|
 
 
 
