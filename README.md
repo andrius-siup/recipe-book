@@ -89,7 +89,21 @@ To deploy the app using Heroku, use the following steps:
 # Testing
 
 ## Manual Testing
-### Home page
+
+### Home page, user not logged in
+
+|   Test              |  Result         |  Errors 
+| ------------------- | --------------- | ------------------------------------------------------------------ |
+| Clicking on the navigation bar's navbar logo and a Home link has been routed to the home page.| Tested, works as should.| No|
+| Clicinkg on the navigation bar's Login link has been routed to the login page.| Tested, works as should.| No |
+| Clicking on the navigation bar's Register link, has been routed to the register page.| Tested, works as should.| No |
+| Clicking the search panel SEARCH button, an error message appears asking "Please fill out this field". | Tested, works as should.| No |
+| Clicking the search panel's SEARCH button, with input text, the matching word will be looked at in the recipes ingredients list or in the recipes instructions. If it will be found, the recipes will be displayed below the search panel. If not be found, the message will be "No Results found". | Tested, works as should.| No |
+| Clicking the search panel RESET button, the user has been redirected to the Home page and removed input text. | Tested, works as should.| No |
+| Clicking the profile page recipes card VIEW MORE button, has been routed to the login  page. | Tested, works as should.| No |
+
+
+### Home page, user logged in
 
 |   Test              |  Result         |  Errors                                                            
 | ------------------- | --------------- | ------------------------------------------------------------------ |
@@ -98,8 +112,6 @@ To deploy the app using Heroku, use the following steps:
 | Clicking on the navigation bar's New Recipe link, has been routed to the add new recipe page.| Tested, works as should.| No |
 | Clicking on the navigation bar's Manage Categories link(only admin has access), has been routed to the categories page only admin has access to this link. | Tested, works as should.| No |
 | Clicking on the navigation bar's Log Out link, should log out the user from the website and has been routed to Login page. | Tested, works as should.| No |
-| Clicinkg on the navigation bar's Login link has been routed to the login page.| Tested, works as should.| No |
-| Clicking on the navigation bar's Register link, has been routed to the register page.| Tested, works as should.| No |
 | Clicking Home page recipes card View More button, has been routed to the single recipe page. | Tested, works as should.| No |
 | Clicking in the footer social media one of the icons, has been routed to the blank page of this website. | Tested, works as should.| No |
 | Clicking the search panel SEARCH button,  an error message appears asking "Please fill out this field". | Tested, works as should.| No |
@@ -226,9 +238,22 @@ To deploy the app using Heroku, use the following steps:
 | Clicking on the navigation bar's navbar logo and a Home link has been routed to the home page.| Tested, works as should.| No|
 | Clicinkg on the navigation bar's Login link has been routed to the login page.| Tested, works as should.| No |
 | Clicking on the navigation bar's Register link, has been routed to the register page.| Tested, works as should.| No |
-| Clicking on the USERNAME input field, 
-| Clicking on the PASSWORD input field,
-| Clicking LOG IN button, 
-| Clicking on the  Register link below LOGIN form, has been routed to the register page.| Tested, works as should.| No |
+| Clicking on the USERNAME input field, the entered text can be any letter or number and 5-15 characters long. Display an error message for special character or not in range. | Tested, works as should.| No |
+| Clicking on the PASSWORD input field, the entered text can be any letter or number and 5-15 characters long. Display an error message for special character or not in range. | Tested, works as should.| No |
+| Clicking LOG IN button, the username and password have to match the user's inputs in registration page. If it match the user has been routed to Profile page, if not match user will redirected back to Login page, and display message for incorrect of the input fields. | Tested, works as should.| No |
+| Clicking on the  Register ACCOUNT link below LOGIN form, has been routed to the register page.| Tested, works as should.| No |
+| Clicking in the footer social media one of the icons, has been routed to the blank page of this website. | Tested, works as should.| No |
+
+### Register page
+
+|   Test              |  Result         |  Errors                                                            
+| ------------------- | --------------- | ------------------------------------------------------------------ |
+| Clicking on the navigation bar's navbar logo and a Home link has been routed to the home page.| Tested, works as should.| No|
+| Clicinkg on the navigation bar's Login link has been routed to the login page.| Tested, works as should.| No |
+| Clicking on the navigation bar's Register link, has been routed to the register page.| Tested, works as should.| No |
+| Clicking on the USERNAME input field, the entered text can be any letter or number and 5-15 characters long. Display an error message for special character or not in range. | Tested, works as should.| No |
+| Clicking on the PASSWORD input field, the entered text can be any letter or number and 5-15 characters long. Display an error message for special character or not in range. | Tested, works as should.| No |
+| Clicking REGISTER button, if all input fields entered correctlyt, than the user has been routed to Profile page. | Tested, works as should.| No |
+| Clicking on the  Log In link below REGISTER form, has been routed to the login page.| Tested, works as should.| No |
 | Clicking in the footer social media one of the icons, has been routed to the blank page of this website. | Tested, works as should.| No |
 
