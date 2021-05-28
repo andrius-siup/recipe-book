@@ -134,11 +134,101 @@ To deploy the app using Heroku, use the following steps:
 | Clicking on the navigation bar's Register link, has been routed to the register page.| Tested, works as should.| No |
 | Clicking in the footer social media one of the icons, has been routed to the blank page of this website. | Tested, works as should.| No |
 | Clicking add recipe Category field, the user can choose the category from the list.| Tested, works as should.| No |
-| Clicking on the recipe name field, the user can enter the recipe name, must be lenght between 5-50 chareacters.| Tested, works as should.| No |
-| Clicking on the recipe ingredients field, the user can enter the recipe ingredients, must be lenght between 5-3000 chareacters. All text can be separated on the new line. | Tested, works as should.| No |
-| Clicking on the recipe instructions field, the user can enter the recipe instructions, must be lenght between 5-3000 chareacters. All text can be separated on the new line. | Tested, works as should.| No |
+| Clicking on the recipe name field, the user can enter the recipe name, must be lenght between 5-50 chareacters. Display error message when characters are over than in range.| Tested, works as should.| No |
+| Clicking on the recipe ingredients field, the user can enter the recipe ingredients, must be lenght between 5-3000 chareacters. All text can be separated on the new line. Display error message when characters are over than in range. | Tested, works as should.| No |
+| Clicking on the recipe instructions field, the user can enter the recipe instructions, must be lenght between 5-3000 chareacters. All text can be separated on the new line. Display error message when characters are over than in range. | Tested, works as should.| No |
 | Clicking on the recipe Image URL field, the user can paste the recipe img url. Added a invalid url or longer than 300 characters should display error message. | Tested, works as should.| No |
-prep time 0-120 number
-cook_time 0-120 number
-serves 1-10 number
+| Clicking on the recipe Prepare Time field, the user can enter number between 0-120 min. Added number out of range when and clicking submit button should display error message. | Tested, works as should.| No |
+| Clicking on the recipe Cook Time field, the user can enter number between 0-120 min. Added number out of range when and clicking submit button should display error message. | Tested, works as should.| No |
+| Clicking on the recipe Serving field, the user can enter number between 1-10. Added number out of range when and clicking submit button should display error message. | Tested, works as should.| No |
+| Clicking SUBMIT button to add new recipe form, all form fieds must be fill in and new recipe redirected to VIEW RECIPE page. Display error message if field is empty or character or number out of range. | Tested, works as should.| No |
+
+### Single Recipe page
+
+|   Test              |  Result         |  Errors                                                            
+| ------------------- | --------------- | ------------------------------------------------------------------ |
+| Clicking on the navigation bar's navbar logo and a Home link has been routed to the home page.| Tested, works as should.| No|
+| Clicking on the navigation bar's Profile link, has been routed to the users profile page.| Tested, works as should.| No |
+| Clicking on the navigation bar's New Recipe link, has been routed to the add new recipe page.| Tested, works as should.| No |
+| Clicking on the navigation bar's Manage Categories link(only admin has access), has been routed to the categories page only admin has access to this link. | Tested, works as should.| No |
+| Clicking on the navigation bar's Log Out link, should log out the user from the website and has been routed to Login page. | Tested, works as should.| No |
+| Clicking in the footer social media one of the icons, has been routed to the blank page of this website. | Tested, works as should.| No |
+| Clicking single recipe page EDIT button, the user has been routed to EDIT recipe page. | Tested, works as should.| No |
+| Clicking single recipe page DELETE button, the pop up confirmation message pop up on the screen. Clicking AGREE the recipe will be deleted from the page. Clicking CLOSE the pop up message will close. | Tested, works as should.| No |
+| Clicking single recipe page HOME button, the user has been routed to home page. | Tested, works as should.| No |
+
+### Edit Recipe page
+
+|   Test              |  Result         |  Errors                                                            
+| ------------------- | --------------- | ------------------------------------------------------------------ |
+| Clicking on the navigation bar's navbar logo and a Home link has been routed to the home page.| Tested, works as should.| No|
+| Clicking on the navigation bar's Profile link, has been routed to the users profile page.| Tested, works as should.| No |
+| Clicking on the navigation bar's New Recipe link, has been routed to the add new recipe page.| Tested, works as should.| No |
+| Clicking on the navigation bar's Manage Categories link(only admin has access), has been routed to the categories page only admin has access to this link. | Tested, works as should.| No |
+| Clicking on the navigation bar's Log Out link, should log out the user from the website and has been routed to Login page. | Tested, works as should.| No |
+| Clicking in the footer social media one of the icons, has been routed to the blank page of this website. | Tested, works as should.| No |
+| Clicking the EDIT recipe Category field, the user can choose the category from the list.| Tested, works as should.| No |
+| Clicking the EDIT recipe name field, the user can enter the recipe name, must be lenght between 5-50 chareacters. Display error message when characters are over than in range.| Tested, works as should.| No |
+| Clicking the EDIT recipe ingredients field, the user can enter the recipe ingredients, must be lenght between 5-3000 chareacters. All text can be separated on the new line. Display error message when characters are over than in range. | Tested, works as should.| No |
+| Clicking the EDIT recipe instructions field, the user can enter the recipe instructions, must be lenght between 5-3000 chareacters. All text can be separated on the new line. Display error message when characters are over than in range. | Tested, works as should.| No |
+| Clicking the EDIT recipe Image URL field, the user can paste the recipe img url. Added a invalid url or longer than 300 characters should display error message. | Tested, works as should.| No |
+| Clicking the EDIT recipe Prepare Time field, the user can enter number between 0-120 min. Added number out of range when and clicking submit button should display error message. | Tested, works as should.| No |
+| Clicking the EDIT recipe Cook Time field, the user can enter number between 0-120 min. Added number out of range when and clicking submit button should display error message. | Tested, works as should.| No |
+| Clicking the EDIT recipe Serving field, the user can enter number between 1-10. Added number out of range when and clicking submit button should display error message. | Tested, works as should.| No |
+| Clicking the EDIT recipe CANCEL button, the user has been routed to SINGLE recipe page without any change on the recipe . | Tested, works as should.| No |
+| Clicking the EDIT recipe EDIT RECIPE button, the user has been routed to SINGLE recipe page with new updated recipe. | Tested, works as should.| No |
+
+### Manage Categories page
+
+|   Test              |  Result         |  Errors                                                            
+| ------------------- | --------------- | ------------------------------------------------------------------ |
+| Clicking on the navigation bar's navbar logo and a Home link has been routed to the home page.| Tested, works as should.| No|
+| Clicking on the navigation bar's Profile link, has been routed to the users profile page.| Tested, works as should.| No |
+| Clicking on the navigation bar's New Recipe link, has been routed to the add new recipe page.| Tested, works as should.| No |
+| Clicking on the navigation bar's Manage Categories link(only admin has access), has been routed to the categories page only admin has access to this link. | Tested, works as should.| No |
+| Clicking on the navigation bar's Log Out link, should log out the user from the website and has been routed to Login page. | Tested, works as should.| No |
+| Clicking in the footer social media one of the icons, has been routed to the blank page of this website. | Tested, works as should.| No |
+| Clicking ADD CATEGORY button, the website admin has permision to do that and has been routed to ADD CATEGORY page. | Tested, works as should.| No |
+| Clicking EDIT CATEGORY button, the website admin has permision to do that and has been routed to EDIT CATEGORY page. | Tested, works as should.| No |
+| Clicking DELETE CATEGORY button, the website admin has permision to do that and the pop up confirmation message pop up on the screen. Clicking AGREE the category will be deleted from the page. Clicking CLOSE the pop up message will close. | Tested, works as should.| No |
+
+### Create Category page
+
+|   Test              |  Result         |  Errors                                                            
+| ------------------- | --------------- | ------------------------------------------------------------------ |
+| Clicking on the navigation bar's navbar logo and a Home link has been routed to the home page.| Tested, works as should.| No|
+| Clicking on the navigation bar's Profile link, has been routed to the users profile page.| Tested, works as should.| No |
+| Clicking on the navigation bar's New Recipe link, has been routed to the add new recipe page.| Tested, works as should.| No |
+| Clicking on the navigation bar's Manage Categories link(only admin has access), has been routed to the categories page only admin has access to this link. | Tested, works as should.| No |
+| Clicking on the navigation bar's Log Out link, should log out the user from the website and has been routed to Login page. | Tested, works as should.| No |
+| Clicking in the footer social media one of the icons, has been routed to the blank page of this website. | Tested, works as should.| No |
+| Clicking Category Name field, the admin can enter 3-20 characters long text. Display error message if text is out of range. | Tested, works as should.| No |
+| Clicking ADD CATEGORY button, the admin has been routed to the MANAGE CATEGORIES page and the new category will be added in alphabetical order. | Tested, works as should.| No |
+
+### Edit Category page
+
+|   Test              |  Result         |  Errors                                                            
+| ------------------- | --------------- | ------------------------------------------------------------------ |
+| Clicking on the navigation bar's navbar logo and a Home link has been routed to the home page.| Tested, works as should.| No|
+| Clicking on the navigation bar's Profile link, has been routed to the users profile page.| Tested, works as should.| No |
+| Clicking on the navigation bar's New Recipe link, has been routed to the add new recipe page.| Tested, works as should.| No |
+| Clicking on the navigation bar's Manage Categories link(only admin has access), has been routed to the categories page only admin has access to this link. | Tested, works as should.| No |
+| Clicking on the navigation bar's Log Out link, should log out the user from the website and has been routed to Login page. | Tested, works as should.| No |
+| Clicking in the footer social media one of the icons, has been routed to the blank page of this website. | Tested, works as should.| No |
+| Clicking Category Name field, the admin can enter 3-20 characters long text. Display error message if text is out of range. | Tested, works as should.| No |
+| Clicking CANCEL button, the admin has been routed back to MANAGE CATEGORIES page. | Tested, works as should.| No |
+| Clicking EDIT CATEGORY button, the admin has been routed to the MANAGE CATEGORIES page and the edited category will be added in alphabetical order. | Tested, works as should.| No |
+
+### Login page
+
+|   Test              |  Result         |  Errors                                                            
+| ------------------- | --------------- | ------------------------------------------------------------------ |
+| Clicking on the navigation bar's navbar logo and a Home link has been routed to the home page.| Tested, works as should.| No|
+| Clicinkg on the navigation bar's Login link has been routed to the login page.| Tested, works as should.| No |
+| Clicking on the navigation bar's Register link, has been routed to the register page.| Tested, works as should.| No |
+| Clicking on the USERNAME input field, 
+| Clicking on the PASSWORD input field,
+| Clicking LOG IN button, 
+| Clicking on the  Register link below LOGIN form, has been routed to the register page.| Tested, works as should.| No |
+| Clicking in the footer social media one of the icons, has been routed to the blank page of this website. | Tested, works as should.| No |
 
