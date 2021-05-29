@@ -652,4 +652,34 @@ h3 {
 /* if the screen size 1201px or more */
 @media screen and (min-width: 1201px) {
 
+    /************************ recipes */
+
+    .search-panel {
+        margin-left: 120px;
+        margin-right: 120px;
+        
+    }
+
+    .recipes-row {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    /************************ add recipe */
+
+    .add-recipe-form {
+        margin-left: 150px;
+        margin-right: 150px;
+        padding: 40px;
+    }
+
+    /************************ edit recipe */
+
+    .edit-form-row {
+        margin-left: 150px;
+        margin-right: 150px;
+        padding: 40px;
+    }
+
+   
 }
