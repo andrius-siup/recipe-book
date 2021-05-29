@@ -26,13 +26,13 @@
         </div>
     </div>
     <div class="row">
-        <div class="col s12 m12 view-recipe-ingredients">
+        <div class="col s12 m12 l4 xl4 view-recipe-ingredients">
             <h2>Ingredient List: <i class="fas fa-tasks left hide-on-med-and-down"></i></i></h2>
             {% for ingredients in recipes.ingredients_list %}
                 <p>{{- ingredients -}}</p>
             {% endfor %}
         </div>
-        <div class="col s12 m12 view-recipe-instruction">
+        <div class="col s12 m12 l8 xl8 view-recipe-instruction">
             <h2>Instruction: <i class="fas fa-book left hide-on-med-and-down"></i></h2>
             {% for instructions in recipes.instructions %}
                 <p>{{ instructions }}</p>
