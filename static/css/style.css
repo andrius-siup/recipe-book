@@ -323,7 +323,12 @@ h6 {
     .view-recipe-img img {
         padding-top: 20px;
         padding-bottom: 20px;
+        width: 100%;
+        max-width: 500px;
+        height: auto;
     }
+
+    
 
     .view-recipe-buttons {
         text-align: left;
