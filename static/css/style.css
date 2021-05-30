@@ -706,6 +706,24 @@ h6 {
         margin-right: 100px;
     }
 
+    /************************ profile */
+
+    .profile-card-time-info #prep {
+        padding-left: 5px;
+        padding-right: 0px;
+    }
+
+    .profile-card-time-info #serves {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .profile-card-time-info #cook {
+        padding-left: 0px;
+        padding-right: 5px;
+    }
+
+
     /************************ add recipe */
 
     .add-recipe-form {
