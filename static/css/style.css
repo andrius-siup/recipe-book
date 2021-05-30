@@ -341,6 +341,22 @@ h6 {
     }
 
 
+    /************************ profile */
+
+    .profile-card-time-info #prep {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .profile-card-time-info #serves {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .profile-card-time-info #cook {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
 
     /************************ add recipe */
 
