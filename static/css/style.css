@@ -328,7 +328,9 @@ h6 {
         height: auto;
     }
 
-    
+    #info-time-row {
+        max-width: 500px;
+    }
 
     .view-recipe-buttons {
         text-align: left;
