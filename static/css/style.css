@@ -559,6 +559,10 @@ h6 {
         padding: 30px 10px;
     }
 
+    .hp-card-content #prep-time {
+        padding-right: 0px;
+    }
+
     /************************ view recipes */
 
     .view-recipe-header h1 {
@@ -566,9 +570,9 @@ h6 {
         padding: 20px 20px;
     }
 
-    .view-recipe-img {
+    /* .view-recipe-img {
         margin-top: 50px;
-    }
+    } */
 
     .view-recipe-ingredients {
         margin-top: 50px;
