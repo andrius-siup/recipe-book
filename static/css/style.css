@@ -135,6 +135,11 @@ h3 {
         margin-right: auto;
     }
 
+    #cook-time {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
     .view-recipe-instruction h2,
     .view-recipe-ingredients h2 {
         font-size: 18px;
