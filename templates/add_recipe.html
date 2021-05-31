@@ -7,7 +7,7 @@
         </div>
     </div>
 
-     <div class="row card-panel grey lighten-5 add-recipe-form">
+    <div class="row card-panel grey lighten-5 add-recipe-form">
         <form class="col s12" method="POST" action="{{ url_for('add_recipe') }}">
             <div class="row">
                 <div class="input-field col s12">
@@ -22,73 +22,52 @@
             </div>
             <div class="row">
                 <div class="input-field col s12">
-                    <!-- <i class="fas fa-user-circle prefix"></i> -->
                     <input id="recipe_name" name="recipe_name" minlength="5" maxlength="50" type="text" class="validate" required>
                     <label for="recipe_name"><i class="fas fa-utensils hide-on-small-only"></i> Recipe Name</label>
                 </div>
             </div>    
-                <!-- <div class="row">
-                    <div class="input-field col s12">
-                        <input id="ingredients_list" name="ingredients_list" minlength="5" maxlength="300" type="text"
-                            class="validate" required>
-                        <label for="ingredients_list">Ingredients List</label>
-                    </div>
-                </div> -->
-                 <div class="row">
-                    <div class="input-field col s12">
-                        <textarea id="ingredients_list" name="ingredients_list" minlength="5" maxlength="3000" type="text" class="validate"
-                            class="materialize-textarea" required></textarea>
-                        <label class="ingredient-label" for="ingredients_list"><i class="fas fa-tasks hide-on-small-only"></i> Ingredients List</label>
-                    </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <textarea id="ingredients_list" name="ingredients_list" minlength="5" maxlength="3000" type="text" class="validate"
+                        class="materialize-textarea" required></textarea>
+                    <label class="ingredient-label" for="ingredients_list"><i class="fas fa-tasks hide-on-small-only"></i> Ingredients List</label>
                 </div>
-                <div class="row">
-                    <div class="input-field col s12">
-                        <textarea id="instructions" name="instructions" minlength="5" maxlength="3000" type="text" class="validate"
-                            class="materialize-textarea" required></textarea>
-                        <label class="instruction-label" for="instructions"><i class="fas fa-chalkboard-teacher hide-on-small-only"></i> Instructions</label>
-                    </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <textarea id="instructions" name="instructions" minlength="5" maxlength="3000" type="text" class="validate"
+                        class="materialize-textarea" required></textarea>
+                    <label class="instruction-label" for="instructions"><i class="fas fa-chalkboard-teacher hide-on-small-only"></i> Instructions</label>
                 </div>
-                <div class="row">
-                    <div class="input-field col s12">
-                        <input id="recipe_img" name="recipe_img" type="url" minlength="5" maxlength="300" class="validate" required>
-                        <label for="recipe_img"><i class="far fa-image hide-on-small-only"></i> Image URL</label>
-                    </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="recipe_img" name="recipe_img" type="url" minlength="5" maxlength="300" class="validate" required>
+                    <label for="recipe_img"><i class="far fa-image hide-on-small-only"></i> Image URL</label>
                 </div>
-                <div class="row">
+            </div>
+            <div class="row">
+                <div class="input-field col s4">
+                    <input id="prep_time" name="prep_time" type="number" min="0" max="120" class="validate" required>
+                    <label for="prep_time"><i class="fas fa-hourglass-start hide-on-small-only"></i> Prep Time</label>
+                </div>
                     <div class="input-field col s4">
-                        <!-- <i class="material-icons prefix"></i> -->
-                        <input id="prep_time" name="prep_time" type="number" min="0" max="120" class="validate" required>
-                        <label for="prep_time"><i class="fas fa-hourglass-start hide-on-small-only"></i> Prep Time</label>
-                    </div>
-                      <div class="input-field col s4">
-                        <!-- <i class="material-icons prefix"></i> -->
-                        <input id="cook_time" name="cook_time" type="number" min="0" max="120" class="validate" required>
-                        <label for="cook_time"><i class="fab fa-gripfire hide-on-small-only"></i> Cook Time</label>
-                    </div>
-                      <div class="input-field col s4">
-                        <!-- <i class="material-icons prefix"></i> -->
-                        <input id="serves" name="serves" type="number" min="1" max="10" class="validate" required>
-                        <label for="serves"><i class="fas fa-user-friends hide-on-small-only"></i> Serves</label>
-                    </div>
+                    <input id="cook_time" name="cook_time" type="number" min="0" max="120" class="validate" required>
+                    <label for="cook_time"><i class="fab fa-gripfire hide-on-small-only"></i> Cook Time</label>
                 </div>
-                <!-- <div class="row">
-                    <div class="input-field col s12">
-                        <p>
-                            <label>
-                                <input type="checkbox" />
-                                <span>Owen</span>
-                            </label>
-                        </p>
-                    </div>
-                </div> -->
-                <div class="row">
-                    <div class="col s12 center-align">
-                        <button type="submit" class="btn-large add-recipe-btn">
-                            Add Recipe <i class="fas fa-plus-square right"></i>
-                        </button>
-                    </div>
+                    <div class="input-field col s4">
+                    <input id="serves" name="serves" type="number" min="1" max="10" class="validate" required>
+                    <label for="serves"><i class="fas fa-user-friends hide-on-small-only"></i> Serves</label>
                 </div>
-         </form>
-     </div>
+            </div>
+            <div class="row">
+                <div class="col s12 center-align">
+                    <button type="submit" class="btn-large add-recipe-btn">
+                        Add Recipe <i class="fas fa-plus-square right"></i>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
 
 {% endblock %}

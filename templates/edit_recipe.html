@@ -55,36 +55,32 @@
                     <label class="instruction-label" for="instructions"><i class="fas fa-chalkboard-teacher hide-on-small-only"></i> Instructions</label>
                 </div>
             </div>
+            <!-- recipe image -->
             <div class="row">
                 <div class="input-field col s12">
                     <input id="recipe_img" name="recipe_img" type="url" minlength="5" maxlength="300" value="{{ recipe.recipe_img }}" class="validate" required>
                     <label for="recipe_img"><i class="far fa-image hide-on-small-only"></i> Image URL</label>
                 </div>
             </div>
+            <!-- recipe info times -->
             <div class="row">
                 <div class="input-field col s4">
-                        <input id="prep_time" name="prep_time" type="number" min="0" max="120" value="{{ recipe.prep_time }}" class="validate" required>
-                        <label for="prep_time"><i class="fas fa-hourglass-start hide-on-small-only"></i> Prep Time</label>
-                    </div>
-                      <div class="input-field col s4">
-                        <input id="cook_time" name="cook_time" type="number" min="0" max="120" value="{{ recipe.cook_time }}" class="validate" required>
-                        <label for="cook_time"><i class="fab fa-gripfire hide-on-small-only"></i> Cook Time</label>
-                    </div>
-                      <div class="input-field col s4">
-                        <input id="serves" name="serves" type="number" min="1" max="10" value="{{ recipe.serves }}" class="validate" required>
-                        <label for="serves"><i class="fas fa-user-friends hide-on-small-only"></i> Serves</label>
-                    </div>
-            </div>
-            <!-- <div class="row">
-                <div class="input-field col s12">
-                    <p>
-                        <label>
-                            <input type="checkbox" />
-                            <span>Owen</span>
-                        </label>
-                    </p>
+                    <input id="prep_time" name="prep_time" type="number" min="0" max="120"
+                        value="{{ recipe.prep_time }}" class="validate" required>
+                    <label for="prep_time"><i class="fas fa-hourglass-start hide-on-small-only"></i> Prep Time</label>
                 </div>
-            </div> -->
+                <div class="input-field col s4">
+                    <input id="cook_time" name="cook_time" type="number" min="0" max="120"
+                        value="{{ recipe.cook_time }}" class="validate" required>
+                    <label for="cook_time"><i class="fab fa-gripfire hide-on-small-only"></i> Cook Time</label>
+                </div>
+                <div class="input-field col s4">
+                    <input id="serves" name="serves" type="number" min="1" max="10" value="{{ recipe.serves }}"
+                        class="validate" required>
+                    <label for="serves"><i class="fas fa-user-friends hide-on-small-only"></i> Serves</label>
+                </div>
+            </div>
+            <!-- buttons -->
             <div class="row edit-pg-btn">
                 <div class="col s12 center-align">
                     <a href="{{ url_for('view_recipe', recipe_id=recipe._id) }}" class="btn-large edit-cancel-btn red">
