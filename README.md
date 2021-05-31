@@ -164,7 +164,7 @@ To deploy the app using Heroku, use the following steps:
 | Clicking on the navigation bar's Manage Categories link(only admin has access), has been routed to the categories page only admin has access to this link. | Tested, works as should.| No |
 | Clicking on the navigation bar's Log Out link, should log out the user from the website and has been routed to Login page. | Tested, works as should.| No |
 | Clicking single recipe page EDIT button, the user has been routed to EDIT recipe page. | Tested, works as should.| No |
-| Clicking single recipe page DELETE button, the pop up confirmation message pop up on the screen. Clicking AGREE the recipe will be deleted from the page. Clicking CLOSE the pop up message will close. | Tested, works as should.| No |
+| Clicking single recipe page DELETE button, the pop up confirmation message pop up on the screen. Clicking AGREE the recipe will be deleted from the page and redirected back to user profile page. Clicking CLOSE the pop up message will close. | Tested, works as should.| No |
 | Clicking single recipe page HOME button, the user has been routed to home page. | Tested, works as should.| No |
 | Clicking in the footer social media one of the icons, has been routed to the blank page of this website. | Tested, works as should.| No |
 
