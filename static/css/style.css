@@ -84,6 +84,32 @@ h6 {
         font-size: 20px;
     }
 
+    /*********************** navbar */
+
+     nav .brand-logo {
+        font-weight: 600;
+    }
+
+    .sidenav {
+        background-color: rgb(255 158 128);
+        width: 280px;
+    }
+
+    .sidenav h3 {
+        color: #fff;
+        font-weight: 600;
+    }
+
+    .sidenav li>a {
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    height: 48px;
+    line-height: 48px;
+    padding: 0 32px;
+    }
+
     /*********************** recipes page */
     .recipes-header h1 {
         font-size: 32px;
@@ -290,6 +316,37 @@ h6 {
 
 /************************ if the screen size 768px or more */
 @media screen and (min-width: 768px) {
+
+      /*********************** navbar */
+
+     nav .brand-logo {
+        font-weight: 600;
+        font-size: 3.1rem;
+    }
+
+    .sidenav {
+        background-color: rgb(255 158 128);
+        width: 350px;
+    }
+
+    .sidenav h3 {
+        color: #fff;
+        font-weight: 600;
+    }
+
+    .sidenav li>a {
+    color: #fff;
+    display: block;
+    font-size: 1.7rem;
+    font-weight: 500;
+    height: 48px;
+    line-height: 48px;
+    padding: 0 32px;
+    }
+
+    .fas.fa-bars {
+        font-size: 2.5rem;
+    }
 
     /************************ recipes */
     .recipes-header h1 {
@@ -595,6 +652,15 @@ h6 {
 @media screen and (min-width: 1024px) {
     
     /************************ recipes */
+
+    nav .brand-logo {
+        padding-left: 25px;
+        font-weight: 600;
+    }
+
+    nav ul {
+        font-weight: 600;
+    }
 
     .recipes-header {
         margin-top: 30px;
