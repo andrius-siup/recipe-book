@@ -98,7 +98,7 @@ To deploy the app using Heroku, use the following steps:
 | Clicinkg on the navigation bar's Login link has been routed to the login page.| Tested, works as should.| No |
 | Clicking on the navigation bar's Register link, has been routed to the register page.| Tested, works as should.| No |
 | Clicking the search panel SEARCH button, an error message appears asking "Please fill out this field". | Tested, works as should.| No |
-| Clicking the search panel's SEARCH button, with input text, the matching word will be looked at in the recipes ingredients list or in the recipes instructions. If it will be found, the recipes will be displayed below the search panel. If not be found, the message will be "No Results found". | Tested, works as should.| No |
+| Clicking the search panel's SEARCH button, with input text, the matching word will be looked at in the recipes ingredients list or in the recipes category name. If it will be found, the recipes will be displayed below the search panel. If not be found, the message will be "No Results found". | Tested, works as should.| No |
 | Clicking the search panel RESET button, the user has been redirected to the Home page and removed input text. | Tested, works as should.| No |
 | Clicking the profile page recipes card VIEW MORE button, has been routed to the login  page. | Tested, works as should.| No |
 | Clicking in the footer social media one of the icons, has been routed to the blank page of this website. | Tested, works as should.| No |
@@ -115,7 +115,7 @@ To deploy the app using Heroku, use the following steps:
 | Clicking on the navigation bar's Manage Categories link(only admin has access), has been routed to the categories page only admin has access to this link. | Tested, works as should.| No |
 | Clicking on the navigation bar's Log Out link, should log out the user from the website and has been routed to Login page. | Tested, works as should.| No |
 | Clicking the search panel SEARCH button,  an error message appears asking "Please fill out this field". | Tested, works as should.| No |
-| Clicking the search panel's SEARCH button, with input text, the matching word will be looked at in the recipes ingredients list or in the recipes instructions. If it will be found, the recipes will be displayed below the search panel. If not be found, the message will be "No Results found". | Tested, works as should.| No |
+| Clicking the search panel's SEARCH button, with input text, the matching word will be looked at in the recipes ingredients list or in the recipes category name. If it will be found, the recipes will be displayed below the search panel. If not be found, the message will be "No Results found". | Tested, works as should.| No |
 | Clicking the search panel RESET button, the user has been redirected to the Home page and removed input text. | Tested, works as should.| No |
 | Clicking Home page recipes card, View More button, has been routed to the single recipe page. | Tested, works as should.| No |
 | Clicking in the footer social media one of the icons, has been routed to the blank page of this website. | Tested, works as should.| No |
