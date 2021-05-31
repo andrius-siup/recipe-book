@@ -208,6 +208,19 @@ h6 {
         margin-right: 10px;
     }
 
+     /************************ add and edit recipe for labels */    
+
+    .input-field .ingredient-label {
+        top: -5px;
+    }
+
+    .input-field .instruction-label {
+        top: -5px;
+    }
+
+    .input-field.col label {
+    left: 1rem;
+    } 
 
     /************************ manage categories */
 
@@ -387,6 +400,20 @@ h6 {
         margin-left: 100px;
         margin-right: 100px;
     }
+
+     /************************ add and edit recipe for labels */    
+
+    .input-field .ingredient-label {
+        top: -5px;
+    }
+
+    .input-field .instruction-label {
+        top: -5px;
+    }
+
+    .input-field.col label {
+    left: 1rem;
+    } 
 
     /************************ categories */
 
@@ -742,7 +769,22 @@ h6 {
         margin-left: 150px;
         margin-right: 150px;
         padding: 40px;
+        /* max-width: fit-content; */
     }
+
+    /************************ add and edit recipe for labels */    
+
+    .input-field .ingredient-label {
+        top: -5px;
+    }
+
+    .input-field .instruction-label {
+        top: -5px;
+    }
+
+    .input-field.col label {
+    left: 1rem;
+    }    
 
     /************************ single recipe */
 
