@@ -120,6 +120,13 @@ h6 {
         margin-bottom: 10px;
     }
 
+    /************************ profile */
+
+    .profile-pg-user {
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+
     /************************ view-recipe */
     .view-recipe-header h1 {
         margin-top: 30px;
@@ -317,6 +324,13 @@ h6 {
 
     .home-pg-card-btn {
         margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    /************************ profile */
+
+    .profile-pg-user {
+        margin-top: 50px;
         margin-bottom: 10px;
     }
 
@@ -599,6 +613,16 @@ h6 {
 
     .hp-card-content #prep-time {
         padding-right: 0px;
+    }
+
+    /************************ profile */
+
+    .profile-pg-user {
+        margin-top: 80px;
+    }
+
+    .recipes-row {
+        margin-top: 30px;
     }
 
     /************************ view recipes */
