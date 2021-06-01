@@ -907,4 +907,38 @@ h6 {
     .view-recipe-btn-row {
         margin-left: 50px;
     }
+
+    /************************ login */
+
+    .login-page-row {
+        padding-top: 30px;
+        margin: 0px;
+    }
+
+    .login-form-row form .card-panel {
+        margin-bottom: 0px;
+    }
+
+    .login-form-row {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    /************************ register */
+
+    .register-header-row {
+        padding-top: 30px;
+        margin: 0px;
+    }
+
+    .register-form-row form .card-panel {
+        margin-bottom: 0px;
+    }
+
+    .register-form-row {
+        margin: 0px;
+        padding: 0px;
+    }
+
+
 }
