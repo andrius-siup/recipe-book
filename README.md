@@ -13,22 +13,45 @@ The ideal user are ....
 for recipes
 
 ## User stories - user not registered 
-1. As a new visitor to the website, I want to easaly...
-1. As a new visitor to the website, I want to view...
-1. As a new visitor to the website, I want to lern...
-1. As a new visitor to the website, I want to view...
+1. As a new visitor to the website, I want to easily navigate the site, so I can find what I need efficiently.
+2. As a new visitor to the website, I want to has Register/Log In functions, that only I can have my own profile.
+3. As a new visitor to the website, I want that users recipes can be available only to register users. 
+4. As a new visitor to the website, I want to use search panel to found recipe by category or by ingredient from recipe.
+5. As a new visitor to the website, I want to see social media link, to contact or followed the website on social media.
+
+
 
 ## User stories - user registered
-1. As a new visitor to the website, I want to easaly...
-1. As a new visitor to the website, I want to view...
-1. As a new visitor to the website, I want to lern...
-1. As a new visitor to the website, I want to view...
+1. As a registered visitor to the website, I want to easily navigate the site, so I can find what I need efficiently.
+2. As a registered visitor to the website, I want to has Register/Log In functions, that only I can have my own profile.
+3. As a registered visitor to the website, I want to insert my own recipe and share to others users from the website.
+4. As a registered visitor to the website, I want to edit my recipe if I made mistake for some reason.
+5. As a registered visitor to the website, I want to remove my recipe, if I think that I don't want that others see this recipe.
+6. As a registered visitor to the website, I want to have my own profile, that I can found my all recipes.
+7. As a registered visitor to the website, I want to view othes users recipes, to try what is looks me tasty.
+8. As a registered visitor to the website, I want to get security features, that if I duplicate pages for some reason and Log Out in one page, that others pages also will be logged out.
+9. As a registered visitor to the website, I want to get security features, that others PC users can't come in in my profile from browser history. 
+10. As a registered visitor to the website, I want to use search panel to found recipe by category or by ingredient from recipe.
+11. As a registered to the website, I want to see social media link, to contact or followed the website on social media.
+12. As a registered to the website, I want to got a confirmation message before deleting recipe. 
+
+
 
 ## User stories - registered as admin
-1. As a new visitor to the website, I want to easaly...
-1. As a new visitor to the website, I want to view...
-1. As a new visitor to the website, I want to lern...
-1. As a new visitor to the website, I want to view...
+1. As a admin to the website, I want to easily navigate the site, so I can find what I need efficiently.
+2. As a admin to the website, I want to has Register/Log In functions, that only I can have my own profile.
+3. As a admin to the website, I want to insert my own recipe and share to others users from the website.
+4. As a admin to the website, I want to edit my recipe if I made mistake for some reason.
+5. As a admin to the website, I want to remove my recipe, if I think that I don't want that others see this recipe.
+6. As a admin to the website, I want to has access to edit/remove users recipe, if I think that the recipe is can not be public.
+7. As a admin to the website, I want to has ability to create, edit or remove category for recipe that will be help users will be easily sort or found recipes.
+8. As a admin to the website, I want to got a confirmation message before deleting recipe or category. 
+9. As a admin to the website, I want to have my own profile, that I can found my all recipes.
+10. As a admin to the website, I want to view othes users recipes, to try what is looks me tasty.
+11. As a admin to the website, I want to get security features, that if I duplicate pages for some reason and Log Out in one page, that others pages also will be logged out.
+12. As a admin to the website, I want to get security features, that others PC users can't come in in my profile from browser history. 
+13. As a admin to the website, I want to use search panel to found recipe by category or by ingredient from recipe.
+14. As a admin to the website, I want to see social media link, to contact or followed the website on social media.
 
 # Strategy
 
