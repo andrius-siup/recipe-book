@@ -63,12 +63,51 @@ for recipes
 
 # Features
 ## Existing Features
-* logo and describe
-* home
-* profile
-* new recipe
-* single recipe page
-* edit recipe page
+### Navigation Bar 
+The navigation bar features is when your nav bar is resized into tablet screen size or below, the links on the right turn into a hamburger icon. Also added the entire sidenav, that 
+will store navigation bar links.
+### Home
+The Home page features has keep search panel and all users recipes. The user can seek a recipe by category or by ingredient that is in the recipe.
+Search button will find match a word.  If it found? the recipe will store below the search panel, otherwise displayed message that recipe not found.
+The new added recipe goes at the bottom of all recipes page. 
+
+### Profile
+The Profile page features has the display the username top of the page, also will display all user's recipes, last added will be first in the page. 
+Also recipe card has button to redirected user in to the single recipe page.
+
+### New Recipe
+The new recipe page feature has a form that the user can input text to add new recipe. The all input data will be stored into MongoDB and redirected into others pages.
+The form has placeholder with icon that will move up when the user click into field. If the user leave the input field empty and clicked submit button will display
+ an error message, also input line change colours.
+
+* The CHOOSE CATEGORY field has list of categories that user can pick up for his recipe.
+* The Recipe Name field a user can input 5-50 characters long.
+* The Ingredients List field a user can input 5- 3000 characters long and can be separated on new line for final display all text into array.
+* The form Instructions field a user can input 5- 3000 characters long text and can be separated on new line for final display all text into array.
+* The form IMG URL field the user have to paste image address, and has to be 5-300 characters long.
+* The Preparation Time field a user can input number 0-120.
+* The Cooking Time field a user can input number 0-120.
+* The Serving field a user can input number 1-10. 
+* The Submit button has color change when the user is over the button.
+
+### Edit Recipe 
+The Edit recipe has features to edit recipe form same like user was used to add recipe. Only recipe owner and website admin can edit recipe. There is CANCEL button 
+that will bring you back into single recipe page, and button EDIT RECIPE will update recipe will new text and routed you to the single recipe page. The all edited
+ data will be stored into MongoDB and redirected into others pages. The form has placeholder with icon that will move up when the user click into field. 
+ If the user leave the input field empty and clicked submit button will display an error message, also input line change colours.
+
+* The CHOOSE CATEGORY field has list of categories that user can pick up and change for his recipe.
+* The Recipe Name field a user can simple edit text, final input must be 5-50 characters long.
+* The Ingredients List field a user can simple edit, final input must be 5- 3000 characters long and can be separated on new line for final display all text into array.
+* The form Instructions field a user can simple edit, final input must be input 5- 3000 characters long text and can be separated on new line for final display all text into array.
+* The form IMG URL field the user can simple edit, final input must be image address, and has to be 5-300 characters long.
+* The Preparation Time field a user can simple edit, final input must be number 0-120.
+* The Cooking Time field a user can simple edit, final input must be number 0-120.
+* The Serving field a user can simple edit, final input must be number 1-10. 
+* The Edit Recipe button has color change when the user is over the button, redirected user to single recipe page with new changes that user made.
+* The CANCEL button redirected back to single recipe page.
+
+
 * remove recipe 
 * manage categories
 * add category
@@ -80,6 +119,9 @@ for recipes
 
 
 ## Features Left to Implement
+
+# responsive
+The Home page has responsive design and recipe cards will change from mobile devices has one per screen, tablets and laptops has three per screen, desktops and above has four per screen.
 
 # Tecnology Used
 
