@@ -1,3 +1,66 @@
+# Andrius Siupinys
+
+### Mockup img put here
+
+# Project Summary
+litle bit about project
+# UX
+
+## Ideal user
+The ideal user are ....
+
+## Visitors to this website are searching for:
+for recipes
+
+## User stories - user not registered 
+1. As a new visitor to the website, I want to easaly...
+1. As a new visitor to the website, I want to view...
+1. As a new visitor to the website, I want to lern...
+1. As a new visitor to the website, I want to view...
+
+## User stories - user registered
+1. As a new visitor to the website, I want to easaly...
+1. As a new visitor to the website, I want to view...
+1. As a new visitor to the website, I want to lern...
+1. As a new visitor to the website, I want to view...
+
+## User stories - registered as admin
+1. As a new visitor to the website, I want to easaly...
+1. As a new visitor to the website, I want to view...
+1. As a new visitor to the website, I want to lern...
+1. As a new visitor to the website, I want to view...
+
+# Strategy
+
+# Scope
+
+# Structure
+
+# Skeleton
+
+# Features
+## Existing Features
+* logo and describe
+* home
+* profile
+* new recipe
+* single recipe page
+* edit recipe page
+* remove recipe 
+* manage categories
+* add category
+* edit category
+* delete category
+* Log In
+* Register
+* footer social media
+
+
+## Features Left to Implement
+
+# Tecnology Used
+
+# Credits
 
 # Deployment
 
