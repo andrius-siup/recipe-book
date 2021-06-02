@@ -154,15 +154,36 @@ The register page features are that anyone can be registered to this website. Th
  submit the register button. The password field has to be a 5-15 character long string, included a lower and capital letter and any number. Will be displayed
   an error message if the user will leave an empty field and submit the login button.
  Clicking the register button the user will be routed to his own profile page.
-### Footer Social Media Links
+### Footer
+The footer features has social media links and copyright information. The social links opening on the new blank tab.
 
 
 ## Features Left to Implement
+
+### Home Page
+The Home page will implement to add Advertising, like sell kitchen stuff.
+
+### Login 
+The Login page, will implement forgot password function, that the user can reset his password and create a new one. 
+
+### Profile Page
+The profile page, will implement the user own image, table of his recipes sorted by category, and also will be section to store favorite recipes. 
+
+### New Recipe Page
+The New recipe page, will implement the new input in the form, that the user could input countries kitchen, like Italian or Chinese kitchen.
+
+### Single Recipe Page
+The Single Recipe Page will implement chat function, the users can be left reviews about recipe or asked some questions to recipe owner.
+
+### Register page
+The register page left to implement will add more input lines in form for new users like add email, phone number, for security reason. Also will be added reCAPTCHA.
+
 
 # responsive
 The Home page has responsive design and recipe cards will change from mobile devices has one per screen, tablets and laptops has three per screen, desktops and above has four per screen.
 
 # Tecnology Used
+[Python](https://www.python.org/) 
 
 # Credits
 
