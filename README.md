@@ -139,10 +139,21 @@ In the Edit Category page, the admin can edit the text and the final input has t
 * Clicking Edit Category, the new inputted text will be updated and admin will be routed to the manage category page and the category card will be displayed in alphabetical order.
  Also, this category will be displayed for users in the add new recipe page, Choose category list.
 
-### Log In
+### Login Page
+The login page features are the form that the registered user has to input the username and password, to be able to login to the website.
+The username field has to be a 5-15 character long string, included a lower and capital letter and any number.  Will be displayed an error message if the user 
+will leave an empty field and submit the login button. The password field has to be a 5-15 character long string, included a lower and capital letter and any number.  
+Will be displayed an error message if the user will leave an empty field and submit the login button. Clicking the login button the user will be routed the user's
+ into the profile page if the username and password will match the registered user's username and password, otherwise will be displayed the flash message 
+ with the text "Incorrect Username and/or Password", and the user will stay to the login page. 
+ There is a link to the Register page, below the login form. Clicking that link the user will be routed to the Register page.
 
-### Register
-
+### Register Page
+The register page features are that anyone can be registered to this website. The new user, in the username field, must be input the string which has to
+ be 5-15 characters long, included a lower and capital letter and any number.  Will be displayed an error message if the user will leave an empty field and 
+ submit the register button. The password field has to be a 5-15 character long string, included a lower and capital letter and any number. Will be displayed
+  an error message if the user will leave an empty field and submit the login button.
+ Clicking the register button the user will be routed to his own profile page.
 ### Footer Social Media Links
 
 
