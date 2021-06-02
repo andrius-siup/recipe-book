@@ -62,10 +62,13 @@ for recipes
 # Skeleton
 
 # Features
+
 ## Existing Features
+
 ### Navigation Bar 
-The navigation bar features is when your nav bar is resized into tablet screen size or below, the links on the right turn into a hamburger icon. Also added the entire sidenav, that 
-will store navigation bar links.
+The navigation bar features are fixed and when your navbar is resized into tablet screen size or below, the links on the right turn into a hamburger icon. 
+Also added the entire sidenav, which will store navigation bar links.
+
 ### Home
 The Home page features has keep search panel and all users recipes. The user can seek a recipe by category or by ingredient that is in the recipe.
 Search button will find match a word.  If it found? the recipe will store below the search panel, otherwise displayed message that recipe not found.
@@ -90,6 +93,16 @@ The form has placeholder with icon that will move up when the user click into fi
 * The Serving field a user can input number 1-10. 
 * The Submit button has color change when the user is over the button.
 
+### Single Recipe page
+The Single Recipe page features to look at the user's single recipe. There are recipe name, category, image, preparation and cooking time, serving for how many people,
+ ingredient list, the instruction of how to do it, also there are three buttons below all text(only recipe owner and admin can see those buttons). 
+ They are Edit, Delete, and Home. 
+ * Clicking the Edit button the user will be routed to the Edit recipe page. 
+ * Clicking the Delete button, the confirmation message will popup with two buttons Agree and Close. 
+    * Clicking Agree, the recipe will be removed from the website and database, and the user will be routed to his profile page. 
+    * Clicking Close button, the user will be back to single recipe page. 
+* Clicking the Home button, the user will be routed to the home page. 
+
 ### Edit Recipe 
 The Edit recipe has features to edit recipe form same like user was used to add recipe. Only recipe owner and website admin can edit recipe. There is CANCEL button 
 that will bring you back into single recipe page, and button EDIT RECIPE will update recipe will new text and routed you to the single recipe page. The all edited
@@ -107,15 +120,30 @@ that will bring you back into single recipe page, and button EDIT RECIPE will up
 * The Edit Recipe button has color change when the user is over the button, redirected user to single recipe page with new changes that user made.
 * The CANCEL button redirected back to single recipe page.
 
+### Manage Categories
+The Manage Categories page features are that only website admin has access to this page. There is a button to Add Category, which will route the admin to add category
+ page. Also on the page are displayed all categories that the admin created. In the single category card, there are category name and two buttons: Edit and Delete.
+* Clicking the Edit button the admin will be routed to the Edit category page.
+* Clicking the Delete button, the confirmation message will pop up with two buttons: Agree and Close.
+    * Clicking Agree button the Category will be deleted from the page and from the database.
+    * Clicking the Close button the confirmation message will be closed and the admin will stay on the same page.
 
-* remove recipe 
-* manage categories
-* add category
-* edit category
-* delete category
-* Log In
-* Register
-* footer social media
+### Add Category
+The Add Category page features are that the website admin has access to this page. In the Add category page, the admin can input a 3-20 characters long text,
+ and a single button to submit a new category is ADD CATEGORY. When the admin click submits button, he will be routed to the manage category page and the new category will be displayed in alphabetical order.
+  Also, this category will be displayed for users in the add new recipe page, Choose category list.
+
+### Edit Category
+In the Edit Category page, the admin can edit the text and the final input has to be a 3-20 characters long text. There are two buttons: Cancel and Edit Category.
+* Clicking the Cancel button, the admin will be routed back to the Manage Categories page.
+* Clicking Edit Category, the new inputted text will be updated and admin will be routed to the manage category page and the category card will be displayed in alphabetical order.
+ Also, this category will be displayed for users in the add new recipe page, Choose category list.
+
+### Log In
+
+### Register
+
+### Footer Social Media Links
 
 
 ## Features Left to Implement
