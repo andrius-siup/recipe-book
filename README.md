@@ -183,33 +183,31 @@ The register page left to implement will add more input lines in form for new us
 The Home page has responsive design and recipe cards will change from mobile devices has one per screen, tablets and laptops has three per screen, desktops and above has four per screen.
 
 # Tecnology Used
-[Python3](https://www.python.org/) 
-* [Flask](https://flask.palletsprojects.com/en/1.1.x/tutorial/layout/)
-* [PyMongo](https://pymongo.readthedocs.io/en/stable/)
-* [Werkzeug](https://werkzeug.palletsprojects.com/en/1.0.x/utils/#module-werkzeug.security)
-* [Jinja](https://jinja.palletsprojects.com/en/3.0.x/)
+[Python3](https://www.python.org/) - for the backend development.
+* [Flask](https://flask.palletsprojects.com/en/1.1.x/tutorial/layout/) - Python framework was used all project. Flask depends on the Jinja template engine and the Werkzeug WSGI toolkit.
+* [PyMongo](https://pymongo.readthedocs.io/en/stable/) - is a Python distribution containing tools, used for working with MongoDB.
+* [Werkzeug](https://werkzeug.palletsprojects.com/en/1.0.x/utils/#module-werkzeug.security) - used for password security.
+* [Jinja](https://jinja.palletsprojects.com/en/3.0.x/) - used in conjuction with python for the working of the website
 
-[MongoDB](https://www.mongodb.com/)
+[MongoDB](https://www.mongodb.com/) - database was used to storing and retrieving information in the website.
 
-[HTML](https://www.w3schools.com/html/)
+[HTML](https://www.w3schools.com/html/) - used for creating the website.
 
-[CSS](https://www.w3schools.com/css/default.asp)
+[CSS](https://www.w3schools.com/css/default.asp) - used for styling the website.
 
-[JavaScript](https://www.w3schools.com/js/default.asp)
+[jQuery](https://jquery.com/) - used for confirmation messages and interactive design, also initialise MaterializeCSS components.
 
-[jQuery](https://jquery.com/)
+[MaterializeCSS](https://materializecss.com/) - used to create responsive design, grid system, buttons, navbar, sidenav, dropdown, footer, modal, cards, forms.
 
-[MaterializeCSS](https://materializecss.com/)
+[balsamiq](https://balsamiq.com/) - used to create wireframes.
 
-[balsamiq](https://balsamiq.com/)
+[Gitpod](https://www.gitpod.io/) - used to built all project. 
 
-[Gitpod](https://www.gitpod.io/)
+[GitHub](https://github.com/) - used to hosting the website.
 
-[GitHub](https://github.com/)
+[Heroku](https://www.heroku.com/) - used to deploy the website.
 
-[Heroku](https://www.heroku.com/)
-
-[Chrome DevTools](https://developer.chrome.com/docs/devtools/) - 
+[Chrome DevTools](https://developer.chrome.com/docs/devtools/) - used all the time when created the website.
 
 [grammarly](https://www.grammarly.com/) - used to check typo mistakes.
 
@@ -218,7 +216,7 @@ The Home page has responsive design and recipe cards will change from mobile dev
 [CSS Validation Service](http://jigsaw.w3.org/css-validator/) - used to validate css code.
 [JSHint](https://jshint.com/) - used to validate the jQuery code. 
 [PEP8 online](http://pep8online.com/) - used to validate the Python code.
-
+[Lighthouse](https://developers.google.com/web/tools/lighthouse) - used to improve the quality of the webpage.
 
 
 
