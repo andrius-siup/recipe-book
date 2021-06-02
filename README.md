@@ -183,9 +183,61 @@ The register page left to implement will add more input lines in form for new us
 The Home page has responsive design and recipe cards will change from mobile devices has one per screen, tablets and laptops has three per screen, desktops and above has four per screen.
 
 # Tecnology Used
-[Python](https://www.python.org/) 
+[Python3](https://www.python.org/) 
+* [Flask](https://flask.palletsprojects.com/en/1.1.x/tutorial/layout/)
+* [PyMongo](https://pymongo.readthedocs.io/en/stable/)
+* [Werkzeug](https://werkzeug.palletsprojects.com/en/1.0.x/utils/#module-werkzeug.security)
+* [Jinja](https://jinja.palletsprojects.com/en/3.0.x/)
+
+[MongoDB](https://www.mongodb.com/)
+
+[HTML](https://www.w3schools.com/html/)
+
+[CSS](https://www.w3schools.com/css/default.asp)
+
+[JavaScript](https://www.w3schools.com/js/default.asp)
+
+[jQuery](https://jquery.com/)
+
+[MaterializeCSS](https://materializecss.com/)
+
+[balsamiq](https://balsamiq.com/)
+
+[Gitpod](https://www.gitpod.io/)
+
+[GitHub](https://github.com/)
+
+[Heroku](https://www.heroku.com/)
+
+[Chrome DevTools](https://developer.chrome.com/docs/devtools/) - 
+
+[grammarly](https://www.grammarly.com/) - used to check typo mistakes.
+
+## Testing 
+[W3C Markup Validation Service](https://validator.w3.org/) - used to validate HTML code.
+[CSS Validation Service](http://jigsaw.w3.org/css-validator/) - used to validate css code.
+[JSHint](https://jshint.com/) - used to validate the jQuery code. 
+[PEP8 online](http://pep8online.com/) - used to validate the Python code.
+
+
+
+
 
 # Credits
+
+## Content
+
+## Media
+
+## Code
+
+## Resources
+
+
+
+
+
+## Acknowledgements
 
 # Deployment
 
@@ -237,21 +289,24 @@ Make sure that your env.py file isn't being tracked, type  `git status` and make
 ## MongoDB schema
 
 To create the data schema in your MongoDB Atlas, create a new database called **recipe_manager**, add three collections **categories**, **recipes**, **users**.
-
-* categories 
-    * category_name
-* recipes
-    * recipe_name 
-    * ingredients_list **should be set into an array**
-    * recipe_img
-    * prep_time
-    * cook_time
-    * serves
-    * instructions **should be set into an array**
-    * created_by
-* users
-    * username
-    * password                
+* recipe_manager
+    * categories 
+        * _id:ObjectId
+        * category_name
+    * recipes
+        * _id:ObjectId
+        * recipe_name 
+        * ingredients_list **should be set into an array**
+        * recipe_img
+        * prep_time
+        * cook_time
+        * serves
+        * instructions **should be set into an array**
+        * created_by
+    * users
+        * _id:ObjectId
+        * username
+        * password                
 
 ## Deployment to Heroku
 
