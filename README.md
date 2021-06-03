@@ -9,7 +9,7 @@ litle bit about project
 
 - [User Experency (UX)](#ux)
     + [Ideal user](#ideal-user)
-    + [Visitors to this website are searching for](#visitors-to-this-website-are-searching-for:)
+    + [Visitors to this website are searching for:](#visitors-to-this-website-are-searching-for-:)
     + [User stories - user not registered](#user-stories-user-not-registered )
     + [User stories - user registered](#user-stories-user-registered)
     + [User stories - registered as admin](#user-stories-registered-as-admin)
