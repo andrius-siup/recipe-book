@@ -6,8 +6,6 @@ $(document).ready(function () {
     $("#copyright").text(new Date().getFullYear());
 
 
-
-
     if (screen.width < 480) {
         $('.edit-cancel-btn').removeClass('btn-large').addClass('btn-small');
         $('.edit-submit-btn').removeClass('btn-large').addClass('btn-small');
@@ -16,20 +14,7 @@ $(document).ready(function () {
         $('.edit-category-edit-btn').removeClass('btn-large').addClass('btn-small');
     }
 
-    // confirm delete recipe
-    // $(".del").click(function(){
-    //     var delete_confirmed = confirm("Delete this recipe?");
-    //     if (delete_confirmed){
-    //         window.location.href = "{{ url_for('delete_recipe', recipe_id=recipes._id) }}";
-    //         alert("The recipe has successfully been deleted");
-    //     }else {
-    //         return false;
-    //         alert("The recipe has not benn deleted");
-            
-    //     }
-    // });
-
-    // confirm delete recipe
+   
     $('.modal').modal();
 
 
