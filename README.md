@@ -386,6 +386,27 @@ To deploy the app using Heroku, use the following steps:
 
 ## Code Validators
 
+![HTML](/images/validators/html-validator.png)
+
+1. The end tag was changed into `</h1>` that match the opened tag.
+2. In the `<img>` element was add `alt=""` attribute.
+3. The duplicated id was replaced into class `home-pg-prep-time` and solved that issue.  
+
+![CSS](/images/validators/css-validator-no-error.png)
+
+There are no errors found on the CSS validator.
+
+![jshint](/images/validators/no-errors-jshint.png)
+
+There are no errors found on the JSHint.
+
+![Pep8online](/images/validators/pep8online-checked-found-3-errors.png)
+
+The Python file `app.py` was left four lines too long than 79 characters and Gitpod does not show that. Easily fixed that by split lines.
+
+
+
+
 ## Lighthouse
 
 ## Manual Testing
