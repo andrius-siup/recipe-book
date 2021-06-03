@@ -4,6 +4,54 @@
 
 # Project Summary
 litle bit about project
+
+# Content
+
+- [User Experency (UX)](#ux)
+    + [Ideal user](#ideal-user)
+    + [Visitors to this website are searching for](#visitors-to-this-website-are-searching-for:)
+    + [User stories - user not registered](#user-stories-user-not-registered )
+    + [User stories - user registered](#user-stories-user-registered)
+    + [User stories - registered as admin](#user-stories-registered-as-admin)
+- [Strategy](#strategy)
+- [Scope](#scope)
+- [Structure](#structure)
+- [Skeleton](#skeleton)
+    + [Wireframe](#wireframe)
+- [Features](#features)
+    + [Existing Features](#existing-features)   
+        + [Navigation Bar](#navigation-bar) 
+        + [Home](#home)
+        + [Profile](#profile)
+        + [New Recipe](#new-recipe)
+        + [Single Recipe](#single-recipe)
+        + [Edit Recipe](#edit-recipe)
+        + [Manage Categories](#manage-categories)
+        + [Add Category](#add-category)
+        + [Edit Category](#edit-category)
+        + [Login](#login)
+        + [Register](#register)
+        + [Footer](#footer)
+    + [Features Left to Implement](#features-left-to-implement)
+        + [Home](#home-page)
+        + [Profile](#profile-page)
+        + [New Recipe](#new-recipe-page)
+        + [Single Recipe](#single-recipe-page)
+        + [Login](#login-page)
+        + [Register](#register-page)
+- [Responsive](#responsive)
+- [Tecnology Used](#tecnology-used)  
+    + [Testing Online](#testing-online)   
+- [Credits](#credits)
+    + [Content](#content)
+    + [Media](#media)
+    + [Code](#code)
+    + [Resources](#resources)
+    + [Acknowledgements](#acknowledgements)      
+
+
+
+
 # UX
 
 ## Ideal user
@@ -61,6 +109,8 @@ for recipes
 
 # Skeleton
 
+## wireframe
+
 # Features
 
 ## Existing Features
@@ -93,7 +143,7 @@ The form has placeholder with icon that will move up when the user click into fi
 * The Serving field a user can input number 1-10. 
 * The Submit button has color change when the user is over the button.
 
-### Single Recipe page
+### Single Recipe 
 The Single Recipe page features to look at the user's single recipe. There are recipe name, category, image, preparation and cooking time, serving for how many people,
  ingredient list, the instruction of how to do it, also there are three buttons below all text(only recipe owner and admin can see those buttons). 
  They are Edit, Delete, and Home. 
@@ -139,7 +189,7 @@ In the Edit Category page, the admin can edit the text and the final input has t
 * Clicking Edit Category, the new inputted text will be updated and admin will be routed to the manage category page and the category card will be displayed in alphabetical order.
  Also, this category will be displayed for users in the add new recipe page, Choose category list.
 
-### Login Page
+### Login 
 The login page features are the form that the registered user has to input the username and password, to be able to login to the website.
 The username field has to be a 5-15 character long string, included a lower and capital letter and any number.  Will be displayed an error message if the user 
 will leave an empty field and submit the login button. The password field has to be a 5-15 character long string, included a lower and capital letter and any number.  
@@ -148,7 +198,7 @@ Will be displayed an error message if the user will leave an empty field and sub
  with the text "Incorrect Username and/or Password", and the user will stay to the login page. 
  There is a link to the Register page, below the login form. Clicking that link the user will be routed to the Register page.
 
-### Register Page
+### Register
 The register page features are that anyone can be registered to this website. The new user, in the username field, must be input the string which has to
  be 5-15 characters long, included a lower and capital letter and any number.  Will be displayed an error message if the user will leave an empty field and 
  submit the register button. The password field has to be a 5-15 character long string, included a lower and capital letter and any number. Will be displayed
@@ -163,7 +213,7 @@ The footer features has social media links and copyright information. The social
 ### Home Page
 The Home page will implement to add Advertising, like sell kitchen stuff.
 
-### Login 
+### Login Page
 The Login page, will implement forgot password function, that the user can reset his password and create a new one. 
 
 ### Profile Page
@@ -175,11 +225,11 @@ The New recipe page, will implement the new input in the form, that the user cou
 ### Single Recipe Page
 The Single Recipe Page will implement chat function, the users can be left reviews about recipe or asked some questions to recipe owner.
 
-### Register page
+### Register Page
 The register page left to implement will add more input lines in form for new users like add email, phone number, for security reason. Also will be added reCAPTCHA.
 
 
-# responsive
+# Responsive
 The Home page has responsive design and recipe cards will change from mobile devices has one per screen, tablets and laptops has three per screen, desktops and above has four per screen.
 
 # Tecnology Used
@@ -211,11 +261,15 @@ The Home page has responsive design and recipe cards will change from mobile dev
 
 [grammarly](https://www.grammarly.com/) - used to check typo mistakes.
 
-## Testing 
+## Testing Online 
 [W3C Markup Validation Service](https://validator.w3.org/) - used to validate HTML code.
+
 [CSS Validation Service](http://jigsaw.w3.org/css-validator/) - used to validate css code.
+
 [JSHint](https://jshint.com/) - used to validate the jQuery code. 
+
 [PEP8 online](http://pep8online.com/) - used to validate the Python code.
+
 [Lighthouse](https://developers.google.com/web/tools/lighthouse) - used to improve the quality of the webpage.
 
 
@@ -328,6 +382,10 @@ To deploy the app using Heroku, use the following steps:
 1. After less than minute to build you will see **Your app was successfully deployed**, click **View** to lounch the app.
 
 # Testing
+
+## Code Validators
+
+## Lighthouse
 
 ## Manual Testing
 
