@@ -5,7 +5,7 @@
 # Project Summary
 litle bit about project
 
-# Content
+# Contents
 
 - [User Experency (UX)](#ux)
     + [Ideal user](#ideal-user)                       
@@ -213,9 +213,6 @@ The footer features has social media links and copyright information. The social
 ### Home Page
 The Home page will implement to add Advertising, like sell kitchen stuff.
 
-### Login Page
-The Login page, will implement forgot password function, that the user can reset his password and create a new one. 
-
 ### Profile Page
 The profile page, will implement the user own image, table of his recipes sorted by category, and also will be section to store favorite recipes. 
 
@@ -224,6 +221,9 @@ The New recipe page, will implement the new input in the form, that the user cou
 
 ### Single Recipe Page
 The Single Recipe Page will implement chat function, the users can be left reviews about recipe or asked some questions to recipe owner.
+
+### Login Page
+The Login page, will implement forgot password function, that the user can reset his password and create a new one. 
 
 ### Register Page
 The register page left to implement will add more input lines in form for new users like add email, phone number, for security reason. Also will be added reCAPTCHA.
