@@ -60,7 +60,7 @@ The ideal user are ....
 ## Visitors to this website are searching for
 for recipes
 
-## User stories - user not registered 
+## User stories user not registered 
 1. As a new visitor to the website, I want to easily navigate the site, so I can find what I need efficiently.
 2. As a new visitor to the website, I want to has Register/Log In functions, that only I can have my own profile.
 3. As a new visitor to the website, I want that users recipes can be available only to register users. 
@@ -69,7 +69,7 @@ for recipes
 
 
 
-## User stories - user registered
+## User stories user registered
 1. As a registered visitor to the website, I want to easily navigate the site, so I can find what I need efficiently.
 2. As a registered visitor to the website, I want to has Register/Log In functions, that only I can have my own profile.
 3. As a registered visitor to the website, I want to insert my own recipe and share to others users from the website.
@@ -85,7 +85,7 @@ for recipes
 
 
 
-## User stories - registered as admin
+## User stories registered as admin
 1. As a admin to the website, I want to easily navigate the site, so I can find what I need efficiently.
 2. As a admin to the website, I want to has Register/Log In functions, that only I can have my own profile.
 3. As a admin to the website, I want to insert my own recipe and share to others users from the website.
