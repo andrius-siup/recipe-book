@@ -409,6 +409,13 @@ The Python file `app.py` was left four lines too long than 79 characters and Git
 
 ## Lighthouse
 
+![mobile](/images/lighthouse/lighthouse-mobile-first.png)
+
+Added `alt=""` attribute into `<img>` that if image does not upload, the user can read what is write in attribute.
+
+Added attribute `rel="noopener"`  into `<a>` anchor for social media links.
+
+
 ## Manual Testing
 
 ### Home page user not logged in
