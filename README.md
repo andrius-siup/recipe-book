@@ -40,6 +40,27 @@ litle bit about project
         + [Login](#login-page)
         + [Register](#register-page)
 - [Responsive](#responsive)
+- [Deployment](#deployment)
+    + [Download](#download)
+    + [Clone Repository](#clone-repository)
+    + [Creating an Environment File](#creating-an-environment-file)
+    + [MongoDB Schema](#mongodb-schema)
+    + [Deployment to Heroku](#deployment-to-heroku)
+- [Testing](#testing)  
+    + [Code validators](#code-validators)
+    + [Lighthouse](#lighthouse)
+    + [Manual Testing](#manual-testing)
+        + [Home, user not logged in](#home-page-user-not-logged-in)
+        + [Home, user logged in](#home-page-user-logged-in)
+        + [Profile](#profile-page-manual-test)
+        + [New Recipe](#new-recipe-page-manual-test)
+        + [Single Recipe](#single-recipe-page-manual-test)
+        + [Edit Recipe](#edit-recipe-page-manual-test)
+        + [Manage Categories](#manage-categories-page-manual-test)
+        + [Create Category](#create-category-page-manual-test)
+        + [Edit Category](#edit-category-page-manual-test)
+        + [Login](#login-page-manual-test)
+        + [Register](#register-page-manual-test)
 - [Tecnology Used](#tecnology-used)  
     + [Testing Online](#testing-online)   
 - [Credits](#credits)
@@ -273,24 +294,6 @@ The Home page has responsive design and recipe cards will change from mobile dev
 [Lighthouse](https://developers.google.com/web/tools/lighthouse) - used to improve the quality of the webpage.
 
 
-
-
-# Credits
-
-## Content
-
-## Media
-
-## Code
-
-## Resources
-
-
-
-
-
-## Acknowledgements
-
 # Deployment
 
 The website was developed using Gitpod workspace to commit and push to GitHub. The project uses GitHub for hosting and has been deployed using Heroku.
@@ -314,7 +317,7 @@ To access to my page please follow these steps:
 * Type git clone than paste the copied URL  `git clone https://github.com/andrius-siup/recipe-book.git` . 
 * Enter and your local clone will be created.
 
-## Creating an env.py file
+## Creating an Environment File
 
 Install Flask, in your terminal type `pip3 install Flask` , that sets up Flask functionality. Next you will need to create **env.py** file for storing sensitive data, 
 type `touch env.py` in terminal. This file should never be pushed to GitHub, so type `touch .gitignore` to be able to ignore it. Than open the **.gitignore** file and lets 
@@ -389,7 +392,7 @@ To deploy the app using Heroku, use the following steps:
 
 ## Manual Testing
 
-### Home page, user not logged in
+### Home page user not logged in
 
 |   Test              |  Result         |  Errors 
 | ------------------- | --------------- | ------------------------------------------------------------------ |
@@ -404,7 +407,7 @@ To deploy the app using Heroku, use the following steps:
 
 
 
-### Home page, user logged in
+### Home page user logged in
 
 |   Test              |  Result         |  Errors                                                            
 | ------------------- | --------------- | ------------------------------------------------------------------ |
@@ -420,7 +423,7 @@ To deploy the app using Heroku, use the following steps:
 | Clicking in the footer social media one of the icons, has been routed to the blank page of this website. | Tested, works as should.| No |
 
 
-### Profile page 
+### Profile page manual test
 
 |   Test              |  Result         |  Errors                                                            
 | ------------------- | --------------- | ------------------------------------------------------------------ |
@@ -433,7 +436,7 @@ To deploy the app using Heroku, use the following steps:
 | Clicking in the footer social media one of the icons, has been routed to the blank page of this website. | Tested, works as should.| No |
 
 
-### New Recipe page
+### New Recipe page manual test
 
 |   Test              |  Result         |  Errors                                                            
 | ------------------- | --------------- | ------------------------------------------------------------------ |
@@ -453,7 +456,7 @@ To deploy the app using Heroku, use the following steps:
 | Clicking ADD RECIPE button to add new recipe, the user has been redirected to VIEW RECIPE page. Display an error message if one of he field's are empty or character or number out of range. | Tested, works as should.| No |
 | Clicking in the footer social media one of the icons, has been routed to the blank page of this website. | Tested, works as should.| No |
 
-### Single Recipe page
+### Single Recipe page manual test
 
 |   Test              |  Result         |  Errors                                                            
 | ------------------- | --------------- | ------------------------------------------------------------------ |
@@ -467,7 +470,7 @@ To deploy the app using Heroku, use the following steps:
 | Clicking single recipe page HOME button, the user has been routed to home page. | Tested, works as should.| No |
 | Clicking in the footer social media one of the icons, has been routed to the blank page of this website. | Tested, works as should.| No |
 
-### Edit Recipe page
+### Edit Recipe page manual test
 
 |   Test              |  Result         |  Errors                                                            
 | ------------------- | --------------- | ------------------------------------------------------------------ |
@@ -488,7 +491,7 @@ To deploy the app using Heroku, use the following steps:
 | Clicking the EDIT recipe EDIT RECIPE button, the user has been routed to SINGLE recipe page with new updated recipe. | Tested, works as should.| No |
 | Clicking in the footer social media one of the icons, has been routed to the blank page of this website. | Tested, works as should.| No |
 
-### Manage Categories page
+### Manage Categories page manual test
 
 |   Test              |  Result         |  Errors                                                            
 | ------------------- | --------------- | ------------------------------------------------------------------ |
@@ -502,7 +505,7 @@ To deploy the app using Heroku, use the following steps:
 | Clicking DELETE CATEGORY button, the website admin has permision to do that and the pop up confirmation message pop up on the screen. Clicking AGREE the category will be deleted from the page. Clicking CLOSE the pop up message will close. | Tested, works as should.| No |
 | Clicking in the footer social media one of the icons, has been routed to the blank page of this website. | Tested, works as should.| No |
 
-### Create Category page
+### Create Category page manual test
 
 |   Test              |  Result         |  Errors                                                            
 | ------------------- | --------------- | ------------------------------------------------------------------ |
@@ -515,7 +518,7 @@ To deploy the app using Heroku, use the following steps:
 | Clicking ADD CATEGORY button, the admin has been routed to the MANAGE CATEGORIES page and the new category will be added in alphabetical order. | Tested, works as should.| No |
 | Clicking in the footer social media one of the icons, has been routed to the blank page of this website. | Tested, works as should.| No |
 
-### Edit Category page
+### Edit Category page manual test
 
 |   Test              |  Result         |  Errors                                                            
 | ------------------- | --------------- | ------------------------------------------------------------------ |
@@ -529,7 +532,7 @@ To deploy the app using Heroku, use the following steps:
 | Clicking EDIT CATEGORY button, the admin has been routed to the MANAGE CATEGORIES page and the edited category will be added in alphabetical order. | Tested, works as should.| No |
 | Clicking in the footer social media one of the icons, has been routed to the blank page of this website. | Tested, works as should.| No |
 
-### Login page
+### Login page manual test
 
 |   Test              |  Result         |  Errors                                                            
 | ------------------- | --------------- | ------------------------------------------------------------------ |
@@ -542,7 +545,7 @@ To deploy the app using Heroku, use the following steps:
 | Clicking on the  Register ACCOUNT link below LOGIN form, has been routed to the register page.| Tested, works as should.| No |
 | Clicking in the footer social media one of the icons, has been routed to the blank page of this website. | Tested, works as should.| No |
 
-### Register page
+### Register page manual test
 
 |   Test              |  Result         |  Errors                                                            
 | ------------------- | --------------- | ------------------------------------------------------------------ |
@@ -555,3 +558,18 @@ To deploy the app using Heroku, use the following steps:
 | Clicking on the  Log In link below REGISTER form, has been routed to the login page.| Tested, works as should.| No |
 | Clicking in the footer social media one of the icons, has been routed to the blank page of this website. | Tested, works as should.| No |
 
+# Credits
+
+## Content
+
+
+## Media
+
+
+## Code
+
+
+## Resources
+
+
+## Acknowledgements
