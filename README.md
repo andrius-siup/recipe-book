@@ -1,6 +1,6 @@
 # Andrius Siupinys
 
-### Mockup img put here
+![Recipes](/images/responsive-design.png)
 
 # Project Summary
 litle bit about project
