@@ -108,10 +108,12 @@ def profile():
     if "user" not in session:
         return redirect(url_for("login"))
 
-    recipes = mongo.db.recipes.find({"created_by": session["user"]}).sort("_id", -1)
+    recipes = mongo.db.recipes.find(
+        {"created_by": session["user"]}).sort("_id", -1)
 
     return render_template(
-        "profile.html", username=session["user"], recipes=recipes, page_title="Profile")
+        "profile.html", username=session["user"],
+        recipes=recipes, page_title="Profile")
 
 
 @app.route("/logout")
@@ -225,7 +227,8 @@ def add_category():
             flash("New Category Added")
             return redirect(url_for("get_categories"))
 
-        return render_template("add_category.html", page_title="Create Category")
+        return render_template(
+            "add_category.html", page_title="Create Category")
 
     flash("You do not have permission")
     return redirect(url_for('login'))
@@ -247,7 +250,8 @@ def edit_category(category_id):
 
         category = mongo.db.categories.find_one({"_id": ObjectId(category_id)})
         return render_template(
-            "edit_category.html", category=category, page_title="Edit Category")
+            "edit_category.html", category=category,
+            page_title="Edit Category")
 
     flash("You do not have permission")
     return redirect(url_for('login'))
