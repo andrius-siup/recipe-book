@@ -61,8 +61,7 @@ litle bit about project
         + [Edit Category](#edit-category-page-manual-test)
         + [Login](#login-page-manual-test)
         + [Register](#register-page-manual-test)
-- [Tecnology Used](#tecnology-used)  
-    + [Testing Online](#testing-online)   
+- [Tecnology Used](#tecnology-used)    
 - [Credits](#credits)
     + [Content](#content)
     + [Media](#media)
@@ -130,7 +129,7 @@ for recipes
 
 # Skeleton
 
-## wireframe
+## Wireframe
 
 # Features
 
@@ -282,7 +281,6 @@ The Home page has responsive design and recipe cards will change from mobile dev
 
 [grammarly](https://www.grammarly.com/) - used to check typo mistakes.
 
-## Testing Online 
 [W3C Markup Validation Service](https://validator.w3.org/) - used to validate HTML code.
 
 [CSS Validation Service](http://jigsaw.w3.org/css-validator/) - used to validate css code.
