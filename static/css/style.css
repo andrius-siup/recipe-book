@@ -1,3 +1,15 @@
+body {
+display: flex;
+min-height: 100vh;
+flex-direction: column;
+}
+
+main {
+flex: 1 0 auto;    
+background-color: #fffbf5;
+}
+
+/*********************** header */
 
 header {
     background-color: #ed8c72;
@@ -7,24 +19,24 @@ header {
     background-color: rgb(255, 251, 245);
 }
 
-.search-panel {
-    background-color: #f4eade;
+.navbar-fixed .brand-logo,
+nav a,
+nav ul a,
+.sidenav h3 {
+    color: #fafafa;
 }
 
- body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-  }
-
-  main {
-    flex: 1 0 auto;    
-    background-color: #fffbf5;
-  }
+/*********************** sidenav */
 
 h3 {
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+/*********************** search panel */
+
+.search-panel {
+    background-color: #f4eade;
 }
 
 h6 {
@@ -39,7 +51,7 @@ h6 {
     background-color: #2f496e !important;
 }
 
-/* search panel search btn */
+/* buttons */
 .green  {
     background-color: #2988bc !important;
 }
@@ -64,6 +76,10 @@ h6 {
 
 .page-footer {
     background-color: #ff9e80;
+}
+
+.social-media ul li a {
+    color: #2988bc;
 }
 
 .copyright-row {
@@ -92,12 +108,12 @@ h6 {
     }
 
     .sidenav h3 {
-        color: #fff;
+        color: #fafafa;
         font-weight: 600;
     }
 
     .sidenav li>a {
-    color: #fff;
+    color: #fafafa;
     display: block;
     font-size: 16px;
     font-weight: 400;
@@ -321,12 +337,12 @@ h6 {
     }
 
     .sidenav h3 {
-        color: #fff;
+        color: #fafafa;
         font-weight: 600;
     }
 
     .sidenav li>a {
-    color: #fff;
+    color: #fafafa;
     display: block;
     font-size: 1.7rem;
     font-weight: 500;
