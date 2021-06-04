@@ -139,6 +139,7 @@ they also check the instructions how to cook. Or otherwise, they want to share t
 
 
 # Surface
+## Color Scheme
 ![color-palette](/images/pick-color.png)
 
 I used Grecian Holiday color palette for this website.
@@ -150,6 +151,9 @@ I used Grecian Holiday color palette for this website.
 `#F4EADE` Plaster - used for the website background color.
 
 `#ED8C72` Coral - used for the website navbar and footer.
+
+## Typography
+google fonts
 
 # Features
 
@@ -626,3 +630,7 @@ The color palette was borrowed from [Canva](https://www.canva.com/learn/100-colo
 
 
 ## Acknowledgements
+Brian Macharia - mentor support, huge help through the project.
+
+Code Institute Tutor support team.
+
