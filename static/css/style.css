@@ -814,6 +814,16 @@ h6 {
         margin-bottom: 50px;
     }
 
+    /************************ footer */
+
+    .social-media ul li a i {
+        font-size: xxx-large;
+    }
+
+     .social-media-row p {
+        font-size: x-large;
+    }
+
 }
 
 /* if the screen size 1201px or more */
