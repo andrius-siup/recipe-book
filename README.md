@@ -421,6 +421,11 @@ Added `alt=""` attribute into `<img>` that if image does not upload, the user ca
 
 Added attribute `rel="noopener"`  into `<a>` anchor for social media links.
 
+![pass-mobile](/images/lighthouse/pass-lighthouse-mobile.png)
+Mobile 
+
+![pass-desktop](/images/lighthouse/pass-lighthouse-desktop.png)
+Desktop
 
 ## Manual Testing
 
