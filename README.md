@@ -3,7 +3,11 @@
 ![Recipes](/images/responsive-design.png)
 
 # Project Summary
-litle bit about project
+This is a Recipe landing page, which was created for all people who love food and cooking and want to share it all world. 
+There is also can be a storage platform for your recipes collection and anytime you have access to your recipes. 
+You don't need anymore your notes. We all now live with smartphones. The website is created a responsive design that is very handy to see recipes from mobile devices
+ to tablets or larger screens. The inspiration comes from seeing like my wife trying to save the recipes by a screenshot or take notes and always lost somewhere.
+  Now she can simply add recipes through this website and save them. The website was created for educational purposes.
 
 # Contents
 
@@ -75,10 +79,12 @@ litle bit about project
 # UX
 
 ## Ideal user
-The ideal user are ....
+The ideal user is English reading and writing user who also loves food and cooking. The user wants to share the favorite recipe with the world, 
+or simply use it for recipe collection storing.
 
 ## Visitors to this website are searching for
-for recipes
+The website visitors searching for the recipe to cook something. They found the tasty image or they think that it is tasty than they look at the ingredients list, 
+they also check the instructions how to cook. Or otherwise, they want to share their own recipe.
 
 ## User stories user not registered 
 1. As a new visitor to the website, I want to easily navigate the site, so I can find what I need efficiently.
