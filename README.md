@@ -137,6 +137,20 @@ they also check the instructions how to cook. Or otherwise, they want to share t
 
 ## Wireframe
 
+
+# Surface
+![color-palette](/images/pick-color.png)
+
+I used Grecian Holiday color palette for this website.
+
+`#2988BC` Grecian Blue - used for buttons: Search, View More, Edit, Home.
+
+`#2F496E` Sea - used for the website Manage Categories, cards background.
+
+`#F4EADE` Plaster - used for the website background color.
+
+`#ED8C72` Coral - used for the website navbar and footer.
+
 # Features
 
 ## Existing Features
@@ -607,6 +621,8 @@ Desktop
 
 
 ## Resources
+
+The color palette was borrowed from [Canva](https://www.canva.com/learn/100-color-combinations/) website.
 
 
 ## Acknowledgements
