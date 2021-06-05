@@ -1,4 +1,9 @@
 
+- [Not Registered User](#not-registered-user)
+- [Registered User](#registered-user)
+- [Admin](#admin)
+
+
 # Not Registered User
 
 ## Login 
