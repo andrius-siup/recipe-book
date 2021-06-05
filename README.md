@@ -619,7 +619,13 @@ Desktop
 
 
 ## Media
+Breakfast smoothie, recipe was borrowed from the website [BBC goodfood](https://www.bbcgoodfood.com/recipes/breakfast-smoothie)
 
+Green breakfast smoothie, recipe was borrowed from the website  [BBC goodfood](https://www.bbcgoodfood.com/recipes/green-breakfast-smoothie)
+
+Pasta with salmon & peas, recipe was borrowed from the website [BBC goodfood](https://www.bbcgoodfood.com/recipes/pasta-salmon-peas)
+
+Healthy potato salad, recipe was borrowed from the website [BBC goodfood](https://www.bbcgoodfood.com/recipes/herby-potato-salad)
 
 ## Code
 
