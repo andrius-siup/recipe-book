@@ -44,11 +44,24 @@ Added `alt=""` attribute into `<img>` that if image does not upload, the user ca
 
 Added attribute `rel="noopener"`  into `<a>` anchor for social media links.
 
+* Mobile 
+
 ![pass-mobile](/images/lighthouse/pass-lighthouse-mobile.png)
-Mobile 
+
+* Desktop
 
 ![pass-desktop](/images/lighthouse/pass-lighthouse-desktop.png)
-Desktop
+
+Added google font family Roboto and `<meta name="description" content="text here">`
+
+* Mobile
+
+![mobile](/images/lighthouse/last-one-mobile.png)
+
+* Desktop
+
+![](/images/lighthouse/last-one-desktop.png)
+
 
 ## Manual Testing
 
