@@ -136,6 +136,10 @@ they also check the instructions how to cook. Or otherwise, they want to share t
 # Skeleton
 
 ## Wireframe
+* [User not registered](WIREFRAMES.md)
+* [Registered User](WIREFRAMES.md)
+* [Admin](WIREFRAMES.md)
+
 
 
 # Surface
