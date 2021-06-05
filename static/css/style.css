@@ -33,6 +33,13 @@ h3 {
     margin-bottom: 30px;
 }
 
+.flash-message {
+    background-color: #fffbf5;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 /*********************** search panel */
 
 .search-panel {
@@ -658,6 +665,10 @@ h6 {
         font-weight: 600;
     }
 
+    nav ul a {
+        font-size: 20px;
+    }
+
     .recipes-header {
         margin-top: 30px;
         margin-bottom: 30px;
@@ -817,11 +828,11 @@ h6 {
     /************************ footer */
 
     .social-media ul li a i {
-        font-size: xxx-large;
+        font-size: 35px;
     }
 
      .social-media-row p {
-        font-size: x-large;
+        font-size: 20px;
     }
 
 }
