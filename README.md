@@ -409,20 +409,112 @@ To deploy the app using Heroku, use the following steps:
 
 ## Content
 
+The recipes was borrowed from Taste and BBC Good Food websites.
 
-## Media
-Breakfast smoothie, recipe was borrowed from the website [BBC goodfood](https://www.bbcgoodfood.com/recipes/breakfast-smoothie)
+Pasta with salmon & peas, the recipe image and text was borrowed from the website [BBC Good Food](https://www.bbcgoodfood.com/recipes/pasta-salmon-peas)
 
-Green breakfast smoothie, recipe was borrowed from the website  [BBC goodfood](https://www.bbcgoodfood.com/recipes/green-breakfast-smoothie)
+Healthy potato salad, the recipe image and text was borrowed from the website [BBC Good Food](https://www.bbcgoodfood.com/recipes/herby-potato-salad)
 
-Pasta with salmon & peas, recipe was borrowed from the website [BBC goodfood](https://www.bbcgoodfood.com/recipes/pasta-salmon-peas)
+Smoked salmon omelettes,the recipe image and text was borrowed from the website [Taste](https://www.taste.com.au/recipes/smoked-salmon-omelettes/x7hu3bbi)
 
-Healthy potato salad, recipe was borrowed from the website [BBC goodfood](https://www.bbcgoodfood.com/recipes/herby-potato-salad)
+Carrot and orange smoothie, the recipe image and text was borrowed from the website [BBC Good Food](https://www.bbcgoodfood.com/recipes/carrot-and-orange-smoothie)
+
+Breakfast super shake, the recipe image and text was borrowed from the website [BBC Good Food](https://www.bbcgoodfood.com/recipes/breakfast-super-shake)
+
+Arabian buttered eggs mint lemon, the recipe image and text was borrowed from the website [Taste](https://www.taste.com.au/recipes/arabian-buttered-eggs-mint-lemon/5282cd39-610e-4eb2-b165-cd9152216022)
+
+Cherry bakewell cake, the recipe image and text was borrowed from the website [BBC Good Food](https://www.bbcgoodfood.com/recipes/cherry-bakewell-cake)
+
+Carrot cake, the recipe image and text was borrowed from the website [BBC Good Food](https://www.bbcgoodfood.com/recipes/carrot-cake)
+
+Clean green smoothie, the recipe image and text was borrowed from the website [BBC Good Food](https://www.bbcgoodfood.com/recipes/clean-green-smoothie)
+
+Two minute breakfast smoothie, the recipe image and text was borrowed from the website [BBC Good Food](https://www.bbcgoodfood.com/recipes/two-minute-breakfast-smoothie)
+
+American pancakes, the recipe image and text was borrowed from the website [BBC Good Food](https://www.bbcgoodfood.com/recipes/american-pancakes)
+
+Eggy cheese crumpets, the recipe image and text was borrowed from the website [BBC Good Food](https://www.bbcgoodfood.com/recipes/eggy-cheese-crumpets)
+
+Breakfast smoothie, the recipe image and text was borrowed from the website [BBC Good Food](https://www.bbcgoodfood.com/recipes/breakfast-smoothie)
+
+Green breakfast smoothie, the recipe image and text was borrowed from the website [BBC Good Food](https://www.bbcgoodfood.com/recipes/green-breakfast-smoothie)
+
+Pasta salmon peas, the recipe image and text was borrowed from the website [BBC Good Food](https://www.bbcgoodfood.com/recipes/pasta-salmon-peas)
+
+Herby potato salad, the recipe image and text was borrowed from the website [BBC Good Food](https://www.bbcgoodfood.com/recipes/herby-potato-salad)
+
+Carrot cake porridge, the recipe image and text was borrowed from the website [BBC Good Food](https://www.bbcgoodfood.com/recipes/carrot-cake-porridge)
+
+Pavlova popsicles, the recipe image and text was borrowed from the website [Taste ](https://www.taste.com.au/recipes/pavlova-popsicles-recipe/k310nxu0?r=recipes/strawberryrecipes&c=f6ac16f9-2dce-480e-9bb0-3d1cdea996a1/Strawberry%20recipes)
+
+Panna cotta roasted strawberries, the recipe image and text was borrowed from the website [Taste](https://www.taste.com.au/recipes/panna-cotta-roasted-strawberries-recipe/7xyseu5a?r=recipes/strawberryrecipes&c=f6ac16f9-2dce-480e-9bb0-3d1cdea996a1/Strawberry%20recipes)
+
 
 ## Code
 
+The code was borrowed from CI Tim Nelson tutorial.
+
+` $("#copyright").text(new Date().getFullYear());`
+
+`
+
+    function validateMaterializeSelect() {
+        let classValid = {
+            "border-bottom": "1px solid #4caf50",
+            "box-shadow": "0 1px 0 0 #4caf50"
+        };
+        let classInvalid = {
+            "border-bottom": "1px solid #f44336",
+            "box-shadow": "0 1px 0 0 #f44336"
+        };
+        if ($("select.validate").prop("required")) {
+            $("select.validate").css({
+                "display": "block",
+                "height": "0",
+                "padding": "0",
+                "width": "0",
+                "position": "absolute"
+            });
+        }
+        $(".select-wrapper input.select-dropdown").on("focusin", function () {
+            $(this).parent(".select-wrapper").on("change", function () {
+                if ($(this).children("ul").children("li.selected:not(.disabled)").on("click", function () {})) {
+                    $(this).children("input").css(classValid);
+                }
+            });
+        }).on("click", function () {
+            if ($(this).parent(".select-wrapper").children("ul").children("li.selected:not(.disabled)").css("background-color") === "rgba(0, 0, 0, 0.03)") {
+                $(this).parent(".select-wrapper").children("input").css(classValid);
+            } else {
+                $(".select-wrapper input.select-dropdown").on("focusout", function () {
+                    if ($(this).parent(".select-wrapper").children("select").prop("required")) {
+                        if ($(this).css("border-bottom") != "1px solid rgb(76, 175, 80)") {
+                            $(this).parent(".select-wrapper").children("input").css(classInvalid);
+                        }
+                    }
+                });
+            }
+        });
+    }`
+
+
+
 
 ## Resources
+
+Code Institute course material.
+
+MaterializeCSS - general resource.
+
+W3Schools - general resource.
+
+Flask docs - general resource.
+
+PyMongo docs - general resource.
+
+MongoDB docs - general resource.
+
+Werkzeug docs - general resource.
 
 The color palette was borrowed from [Canva](https://www.canva.com/learn/100-color-combinations/) website.
 
