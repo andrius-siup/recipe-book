@@ -68,7 +68,7 @@ You don't need anymore your notes. We all now live with smartphones. The website
 # UX
 
 ## Ideal user
-The ideal user is English reading and writing user who also loves food and cooking. The user wants to share the favorite recipe with the world, 
+The ideal user is English reading and writing user who also loves food and cooking. The user who wants to share the favorite recipe with the other people, 
 or simply use it for recipe collection storing.
 
 ## Visitors to this website are searching for
@@ -77,44 +77,43 @@ they also check the instructions how to cook. Or otherwise, they want to share t
 
 ## User stories user not registered 
 1. As a new visitor to the website, I want to easily navigate the site, so I can find what I need efficiently.
-2. As a new visitor to the website, I want to has Register/Log In functions, that only I can have my own profile.
-3. As a new visitor to the website, I want that users recipes can be available only to register users. 
-4. As a new visitor to the website, I want to use search panel to found recipe by category or by ingredient from recipe.
-5. As a new visitor to the website, I want to see social media link, to contact or followed the website on social media.
-
+2. As a new visitor to the website, I want to have Register/Log In functions, that I can have my own profile.
+3. As a new visitor to the website, I want that user's recipes can be available only to registered users. 
+4. As a new visitor to the website, I want to use the search panel to found recipes by category or by ingredient.
+5. As a new visitor to the website, I want to see social media links, to contact or follow the website on social media.
 
 
 ## User stories user registered
 1. As a registered visitor to the website, I want to easily navigate the site, so I can find what I need efficiently.
-2. As a registered visitor to the website, I want to has Register/Log In functions, that only I can have my own profile.
-3. As a registered visitor to the website, I want to insert my own recipe and share to others users from the website.
+2. As a registered visitor to the website, I want to have Register/Log In functions, that only I can have my own profile.
+3. As a registered visitor to the website, I want to insert my own recipe and share it with others users from the website.
 4. As a registered visitor to the website, I want to edit my recipe if I made mistake for some reason.
 5. As a registered visitor to the website, I want to remove my recipe, if I think that I don't want that others see this recipe.
-6. As a registered visitor to the website, I want to have my own profile, that I can found my all recipes.
-7. As a registered visitor to the website, I want to view othes users recipes, to try what is looks me tasty.
-8. As a registered visitor to the website, I want to get security features, that if I duplicate pages for some reason and Log Out in one page, that others pages also will be logged out.
-9. As a registered visitor to the website, I want to get security features, that others PC users can't come in in my profile from browser history. 
-10. As a registered visitor to the website, I want to use search panel to found recipe by category or by ingredient from recipe.
-11. As a registered to the website, I want to see social media link, to contact or followed the website on social media.
-12. As a registered to the website, I want to got a confirmation message before deleting recipe. 
+6. As a registered visitor to the website, I want to have my own profile, that I can easily found my all recipes.
+7. As a registered visitor to the website, I want to view others user's recipes, to try what looks tasty.
+8. As a registered visitor to the website, I want to get security features, that if I duplicate a page for some reason and Log Out on one page, that others pages also will be logged out.
+9. As a registered visitor to the website, I want to get security features, that others PC users can't come in in my profile from the browser history. 
+10. As a registered visitor to the website, I want to use the search panel to found recipes by category or by ingredient.
+11. As a registered visitor of the website, I want to see social media links, to contact or follow the website on social media.
+12. As a registered visitor to the website, I want to get a confirmation message before deleting the recipe. 
 
 
 
 ## User stories registered as admin
-1. As a admin to the website, I want to easily navigate the site, so I can find what I need efficiently.
-2. As a admin to the website, I want to has Register/Log In functions, that only I can have my own profile.
-3. As a admin to the website, I want to insert my own recipe and share to others users from the website.
-4. As a admin to the website, I want to edit my recipe if I made mistake for some reason.
-5. As a admin to the website, I want to remove my recipe, if I think that I don't want that others see this recipe.
-6. As a admin to the website, I want to has access to edit/remove users recipe, if I think that the recipe is can not be public.
-7. As a admin to the website, I want to has ability to create, edit or remove category for recipe that will be help users will be easily sort or found recipes.
-8. As a admin to the website, I want to got a confirmation message before deleting recipe or category. 
-9. As a admin to the website, I want to have my own profile, that I can found my all recipes.
-10. As a admin to the website, I want to view othes users recipes, to try what is looks me tasty.
-11. As a admin to the website, I want to get security features, that if I duplicate pages for some reason and Log Out in one page, that others pages also will be logged out.
-12. As a admin to the website, I want to get security features, that others PC users can't come in in my profile from browser history. 
-13. As a admin to the website, I want to use search panel to found recipe by category or by ingredient from recipe.
-14. As a admin to the website, I want to see social media link, to contact or followed the website on social media.
+1. As an admin of the website, I want to easily navigate the site, so I can find what I need efficiently.
+2. As an admin of the website, I want to have Register/Log In functions, that I can have my own profile.
+3. As an admin of the website, I want to add my own recipe and share it with other users from the website.
+4. As an admin of the website, I want to edit my recipe if I made mistake for some reason.
+5. As an admin of the website, I want to remove my recipe, if I think that I don't want that others see this recipe.
+6. As an admin of the website, I want to have access to edit/remove user's recipes, if I think that the recipe is can not be public.
+7. As an admin of the website, I want to have the ability to create, edit or remove categories for recipes that will be help users will be easily sorted or found recipes.
+8. As an admin of the website, I want to get a confirmation message before deleting a recipe or category. 
+9. As an admin of the website, I want to have my own profile, that I can found my all recipes.
+10. As an admin of the website, I want to view others user's recipes, to try what looks tasty.
+11. As an admin of the website, I want to get security features, that if I duplicate a page for some reason and Log Out on one page, that others pages also will be logged out.
+12. As an admin of the website, I want to get security features, that others PC users can't come in in my profile from the browser history. 
+13. As an admin of the website, I want to use the search panel to found recipes by category or by ingredient.
+14. As an admin of the website, I want to see social media links, to contact or follow the website on social media.
 
 # Strategy
 
@@ -135,7 +134,7 @@ they also check the instructions how to cook. Or otherwise, they want to share t
 ## Color Scheme
 ![color-palette](/images/pick-color.png)
 
-I used Grecian Holiday color palette for this website.
+I used the Grecian Holiday color palette for this website.
 
 `#2988BC` Grecian Blue - used for buttons: Search, View More, Edit, Home.
 
@@ -157,28 +156,27 @@ The navigation bar features are fixed and when your navbar is resized into table
 Also added the entire sidenav, which will store navigation bar links.
 
 ### Home
-The Home page features has keep search panel and all users recipes. The user can seek a recipe by category or by ingredient that is in the recipe.
-Search button will find match a word.  If it found? the recipe will store below the search panel, otherwise displayed message that recipe not found.
-The new added recipe goes at the bottom of all recipes page. 
+The Home page features have the search panel and all users recipes. The user can seek a recipe by category or by an ingredient that is in the recipe.
+If the user entered a word to match a word in the recipes. The recipe will store below the search panel, otherwise displayed a message that the recipe not found.
+The newly added recipe goes at the bottom of all recipes pages. 
 
 ### Profile
-The Profile page features has the display the username top of the page, also will display all user's recipes, last added will be first in the page. 
-Also recipe card has button to redirected user in to the single recipe page.
+The Profile page features have the display the username top of the page, also will display all user's recipes, last added will be first on the page. 
+Also, the recipe card has a button to redirect users to the single recipe page.
 
 ### New Recipe
-The new recipe page feature has a form that the user can input text to add new recipe. The all input data will be stored into MongoDB and redirected into others pages.
-The form has placeholder with icon that will move up when the user click into field. If the user leave the input field empty and clicked submit button will display
- an error message, also input line change colours.
+The new recipe page feature has a form that the user can entered text to add a new recipe. All entered data will be stored in MongoDB and redirected to the website's other pages.
+The form has a placeholder with an icon that will move up when the user clicks into the field. If the user leaves the input field empty and clicks Submit button, will display an error message. Also, the input line change colors.
 
-* The CHOOSE CATEGORY field has list of categories that user can pick up for his recipe.
+* The CHOOSE CATEGORY field has a list of categories that the user can pick up for his recipe.
 * The Recipe Name field a user can input 5-50 characters long.
-* The Ingredients List field a user can input 5- 3000 characters long and can be separated on new line for final display all text into array.
-* The form Instructions field a user can input 5- 3000 characters long text and can be separated on new line for final display all text into array.
-* The form IMG URL field the user have to paste image address, and has to be 5-300 characters long.
-* The Preparation Time field a user can input number 0-120.
-* The Cooking Time field a user can input number 0-120.
-* The Serving field a user can input number 1-10. 
-* The Submit button has color change when the user is over the button.
+* The Ingredients List field a user can input 5- 3000 characters long and can be separated on a new line for final display all text into an array.
+* The form Instructions field a user can input 5- 3000 characters long text and can be separated on a new line for final display all text into an array.
+* The form IMG URL field the user has to paste image address and has to be 5-300 characters long.
+* The Preparation Time field a user can input numbers from 0-120.
+* The Cooking Time field a user can input numbers from 0-120.
+* The Serving field a user can input numbers from 1-10. 
+* The Submit button has a color change when the user is over the button.
 
 ### Single Recipe 
 The Single Recipe page features to look at the user's single recipe. There are recipe name, category, image, preparation and cooking time, serving for how many people,
@@ -187,29 +185,27 @@ The Single Recipe page features to look at the user's single recipe. There are r
  * Clicking the Edit button the user will be routed to the Edit recipe page. 
  * Clicking the Delete button, the confirmation message will popup with two buttons Agree and Close. 
     * Clicking Agree, the recipe will be removed from the website and database, and the user will be routed to his profile page. 
-    * Clicking Close button, the user will be back to single recipe page. 
+    * Clicking the Close button, the user will be back to the single recipe page. 
 * Clicking the Home button, the user will be routed to the home page. 
 
 ### Edit Recipe 
-The Edit recipe has features to edit recipe form same like user was used to add recipe. Only recipe owner and website admin can edit recipe. There is CANCEL button 
-that will bring you back into single recipe page, and button EDIT RECIPE will update recipe will new text and routed you to the single recipe page. The all edited
- data will be stored into MongoDB and redirected into others pages. The form has placeholder with icon that will move up when the user click into field. 
- If the user leave the input field empty and clicked submit button will display an error message, also input line change colours.
+The Edit recipe has features to edit recipe form same as the user was used to adding a recipe. Only recipe owners and website admin can edit recipes. There is a CANCEL button that will bring you back to a single recipe page, and the button EDIT RECIPE will update the recipe will new text and routed you to the single recipe page. All edited data will be stored in MongoDB and redirected to others pages. The form has a placeholder with an icon that will move up when the user clicks into the field. 
+ If the user leaves the input field empty and clicked submit button will display an error message, also the input line change colors.
 
-* The CHOOSE CATEGORY field has list of categories that user can pick up and change for his recipe.
-* The Recipe Name field a user can simple edit text, final input must be 5-50 characters long.
-* The Ingredients List field a user can simple edit, final input must be 5- 3000 characters long and can be separated on new line for final display all text into array.
-* The form Instructions field a user can simple edit, final input must be input 5- 3000 characters long text and can be separated on new line for final display all text into array.
-* The form IMG URL field the user can simple edit, final input must be image address, and has to be 5-300 characters long.
-* The Preparation Time field a user can simple edit, final input must be number 0-120.
-* The Cooking Time field a user can simple edit, final input must be number 0-120.
-* The Serving field a user can simple edit, final input must be number 1-10. 
+* The CHOOSE CATEGORY field has a list of categories that the user can pick up and change for his recipe type.
+* The Recipe Name field a user can edit text, the final input must be 5-50 characters long.
+* The Ingredients List field a user can edit, the final input must be 5- 3000 characters long and can be separated on a new line for final display all text into an array.
+* The form Instructions field a user can edit, the final input must be input 5- 3000 characters long text and can be separated on a new line for final display all text into an array.
+* The form IMG URL field the user can edit, the final input must be image address and has to be 5-300 characters long.
+* The Preparation Time field a user can edit, the final input must be a number from 0-120.
+* The Cooking Time field a user can edit, the final input must be a number from 0-120.
+* The Serving field a user can edit, the final input must be a number from 1-10. 
 * The Edit Recipe button has color change when the user is over the button, redirected user to single recipe page with new changes that user made.
-* The CANCEL button redirected back to single recipe page.
+* The CANCEL button redirected back to the single recipe page.
 
 ### Manage Categories
-The Manage Categories page features are that only website admin has access to this page. There is a button to Add Category, which will route the admin to add category
- page. Also on the page are displayed all categories that the admin created. In the single category card, there are category name and two buttons: Edit and Delete.
+The Manage Categories page features are that only website admin has access to this page. There is a button to Add a Category, which will route the admin to add category page.
+ Also on the page are displayed all categories that the admin created. In the single category card, there is a category name and two buttons: Edit and Delete.
 * Clicking the Edit button the admin will be routed to the Edit category page.
 * Clicking the Delete button, the confirmation message will pop up with two buttons: Agree and Close.
     * Clicking Agree button the Category will be deleted from the page and from the database.
@@ -232,7 +228,7 @@ The username field has to be a 5-15 character long string, included a lower and 
 will leave an empty field and submit the login button. The password field has to be a 5-15 character long string, included a lower and capital letter and any number.  
 Will be displayed an error message if the user will leave an empty field and submit the login button. Clicking the login button the user will be routed the user's
  into the profile page if the username and password will match the registered user's username and password, otherwise will be displayed the flash message 
- with the text "Incorrect Username and/or Password", and the user will stay to the login page. 
+ with the text "Incorrect Username and/or Password", and the user will stay on the login page. 
  There is a link to the Register page, below the login form. Clicking that link the user will be routed to the Register page.
 
 ### Register
@@ -242,8 +238,7 @@ The register page features are that anyone can be registered to this website. Th
   an error message if the user will leave an empty field and submit the login button.
  Clicking the register button the user will be routed to his own profile page.
 ### Footer
-The footer features has social media links and copyright information. The social links opening on the new blank tab.
-
+The footer features have social media links and copyright information. The social links open on the new blank tab.
 
 ## Features Left to Implement
 
@@ -251,23 +246,26 @@ The footer features has social media links and copyright information. The social
 The Home page will implement to add Advertising, like sell kitchen stuff.
 
 ### Profile Page
-The profile page, will implement the user own image, table of his recipes sorted by category, and also will be section to store favorite recipes. 
+The profile page will implement the user's own image, table of his recipes sorted by category, and also will be a section to store favorite recipes. 
 
 ### New Recipe Page
 The New recipe page, will implement the new input in the form, that the user could input countries kitchen, like Italian or Chinese kitchen.
 
 ### Single Recipe Page
-The Single Recipe Page will implement chat function, the users can be left reviews about recipe or asked some questions to recipe owner.
+The Single Recipe Page will implement a chat function, the users can be left reviews about recipes or asked some questions to the recipe owner.
 
 ### Login Page
-The Login page, will implement forgot password function, that the user can reset his password and create a new one. 
+The Login page will implement forgot password function, that the user can reset his password and create a new one. 
 
 ### Register Page
 The register page left to implement will add more input lines in form for new users like add email, phone number, for security reason. Also will be added reCAPTCHA.
 
 
 # Responsive
-The Home page has responsive design and recipe cards will change from mobile devices has one per screen, tablets and laptops has three per screen, desktops and above has four per screen.
+The Home page has a responsive design for all devices. The recipe cards will change from mobile devices which have one card per screen, tablets have two and laptops have three per screen, desktops and above has four recipe cards per screen. Also, the Home page navbar has will change on mobile and tablet devices into a hamburger button.
+The Profile page has a responsive design for all devices. The recipe cards will change from mobile devices which have one per screen, tablets have two and laptops have three per screen, desktops and above has four recipe cards per screen.
+
+The Manage Categories page has a responsive design for all devices. The category cards will change from mobile devices which have one per screen, tablets have three, laptops and above has four recipe cards per screen.
 
 # Tecnology Used
 [Python3](https://www.python.org/) - for the backend development.
