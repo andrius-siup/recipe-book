@@ -70,13 +70,13 @@ Added google font family Roboto and `<meta name="description" content="text here
 |   Test              |  Result         |  Errors 
 | ------------------- | --------------- | ------------------------------------------------------------------ |
 | Clicking on the navigation bar's navbar logo and a Home link has been routed to the home page.| Tested, works as should.| No|
-| Clicinkg on the navigation bar's Login link has been routed to the login page.| Tested, works as should.| No |
-| Clicking on the navigation bar's Register link, has been routed to the register page.| Tested, works as should.| No |
+| Clicking on the navigation bar's Login link has been routed to the login page.| Tested, works as should.| No |
+| Clicking on the navigation bar's Register link has been routed to the register page.| Tested, works as should.| No |
 | Clicking the search panel SEARCH button, an error message appears asking "Please fill out this field". | Tested, works as should.| No |
 | Clicking the search panel's SEARCH button, with input text, the matching word will be looked at in the recipes ingredients list or in the recipes category name. If it will be found, the recipes will be displayed below the search panel. If not be found, the message will be "No Results found". | Tested, works as should.| No |
 | Clicking the search panel RESET button, the user has been redirected to the Home page and removed input text. | Tested, works as should.| No |
-| Clicking the profile page recipes card VIEW MORE button, has been routed to the login  page. | Tested, works as should.| No |
-| Clicking in the footer social media one of the icons, has been routed to the blank page of this website. | Tested, works as should.| No |
+| Clicking the profile page recipes card VIEW MORE button has been routed to the login page. | Tested, works as should.| No |
+| Clicking in the footer social media one of the icons has been routed to the blank page of this website. | Tested, works as should.| No |
 
 
 
@@ -85,15 +85,15 @@ Added google font family Roboto and `<meta name="description" content="text here
 |   Test              |  Result         |  Errors                                                            
 | ------------------- | --------------- | ------------------------------------------------------------------ |
 | Clicking on the navigation bar's navbar logo and a Home link has been routed to the home page.| Tested, works as should.| No|
-| Clicking on the navigation bar's Profile link, has been routed to the users profile page.| Tested, works as should.| No |
-| Clicking on the navigation bar's New Recipe link, has been routed to the add new recipe page.| Tested, works as should.| No |
+| Clicking on the navigation bar's Profile link has been routed to the user's profile page.| Tested, works as should.| No |
+| Clicking on the navigation bar's New Recipe link has been routed to the add new recipe page.| Tested, works as should.| No |
 | Clicking on the navigation bar's Manage Categories link(only admin has access), has been routed to the categories page only admin has access to this link. | Tested, works as should.| No |
-| Clicking on the navigation bar's Log Out link, should log out the user from the website and has been routed to Login page. | Tested, works as should.| No |
+| Clicking on the navigation bar's Log Out link should log out the user from the website and has been routed to the Login page. | Tested, works as should.| No |
 | Clicking the search panel SEARCH button,  an error message appears asking "Please fill out this field". | Tested, works as should.| No |
 | Clicking the search panel's SEARCH button, with input text, the matching word will be looked at in the recipes ingredients list or in the recipes category name. If it will be found, the recipes will be displayed below the search panel. If not be found, the message will be "No Results found". | Tested, works as should.| No |
 | Clicking the search panel RESET button, the user has been redirected to the Home page and removed input text. | Tested, works as should.| No |
 | Clicking Home page recipes card, View More button, has been routed to the single recipe page. | Tested, works as should.| No |
-| Clicking in the footer social media one of the icons, has been routed to the blank page of this website. | Tested, works as should.| No |
+| Clicking in the footer social media one of the icons has been routed to the blank page of this website. | Tested, works as should.| No |
 
 
 ### Profile page manual test
@@ -101,12 +101,12 @@ Added google font family Roboto and `<meta name="description" content="text here
 |   Test              |  Result         |  Errors                                                            
 | ------------------- | --------------- | ------------------------------------------------------------------ |
 | Clicking on the navigation bar's navbar logo and a Home link has been routed to the home page.| Tested, works as should.| No|
-| Clicking on the navigation bar's Profile link, has been routed to the users profile page.| Tested, works as should.| No |
-| Clicking on the navigation bar's New Recipe link, has been routed to the add new recipe page.| Tested, works as should.| No |
+| Clicking on the navigation bar's Profile link has been routed to the user's profile page.| Tested, works as should.| No |
+| Clicking on the navigation bar's New Recipe link has been routed to the add new recipe page.| Tested, works as should.| No |
 | Clicking on the navigation bar's Manage Categories link(only admin has access), has been routed to the categories page only admin has access to this link. | Tested, works as should.| No |
-| Clicking on the navigation bar's Log Out link, should log out the user from the website and has been routed to Login page. | Tested, works as should.| No |
+| Clicking on the navigation bar's Log Out link, should log out the user from the website and has been routed to the Login page. | Tested, works as should.| No |
 | Clicking Profile page, recipes card View More button, has been routed to the single recipe page. | Tested, works as should.| No |
-| Clicking in the footer social media one of the icons, has been routed to the blank page of this website. | Tested, works as should.| No |
+| Clicking in the footer social media one of the icons has been routed to the blank page of this website. | Tested, works as should.| No |
 
 
 ### New Recipe page manual test
@@ -114,55 +114,55 @@ Added google font family Roboto and `<meta name="description" content="text here
 |   Test              |  Result         |  Errors                                                            
 | ------------------- | --------------- | ------------------------------------------------------------------ |
 | Clicking on the navigation bar's navbar logo and a Home link has been routed to the home page.| Tested, works as should.| No|
-| Clicking on the navigation bar's Profile link, has been routed to the users profile page.| Tested, works as should.| No |
-| Clicking on the navigation bar's New Recipe link, has been routed to the add new recipe page.| Tested, works as should.| No |
+| Clicking on the navigation bar's Profile link has been routed to the user's profile page.| Tested, works as should.| No |
+| Clicking on the navigation bar's New Recipe link has been routed to the add new recipe page.| Tested, works as should.| No |
 | Clicking on the navigation bar's Manage Categories link(only admin has access), has been routed to the categories page only admin has access to this link. | Tested, works as should.| No |
-| Clicking on the navigation bar's Log Out link, should log out the user from the website and has been routed to Login page. | Tested, works as should.| No |
+| Clicking on the navigation bar's Log Out link, should log out the user from the website and has been routed to the Login page. | Tested, works as should.| No |
 | Clicking add Recipe Category field, the user can choose the category from the list.| Tested, works as should.| No |
-| Clicking on the Recipe Name field, the user can enter the recipe name, must be lenght between 5-50 chareacters. Display error message when characters are over than in range.| Tested, works as should.| No |
-| Clicking on the Recipe Ingredients field, the user can enter the recipe ingredients, must be lenght between 5-3000 chareacters. All text can be separated on the new line. Display error message when characters are over than in range. | Tested, works as should.| No |
-| Clicking on the Recipe Instructions field, the user can enter the recipe instructions, must be lenght between 5-3000 chareacters. All text can be separated on the new line. Display error message when characters are over than in range. | Tested, works as should.| No |
-| Clicking on the recipe Image URL field, the user can paste the recipe img url. Added a invalid url or longer than 300 characters should display error message. | Tested, works as should.| No |
-| Clicking on the recipe Prepare Time field, the user can enter number between 0-120 min. Added number out of range when and clicking submit button should display error message. | Tested, works as should.| No |
-| Clicking on the recipe Cook Time field, the user can enter number between 0-120 min. Added number out of range when and clicking submit button should display error message. | Tested, works as should.| No |
-| Clicking on the recipe Serving field, the user can enter number between 1-10. Added number out of range when and clicking submit button should display error message. | Tested, works as should.| No |
-| Clicking ADD RECIPE button to add new recipe, the user has been redirected to VIEW RECIPE page. Display an error message if one of he field's are empty or character or number out of range. | Tested, works as should.| No |
-| Clicking in the footer social media one of the icons, has been routed to the blank page of this website. | Tested, works as should.| No |
+| Clicking on the Recipe Name field, the user can enter the recipe name, which must be length between 5-50 characters. Display error message when characters are over than in range.| Tested, works as should.| No |
+| Clicking on the Recipe Ingredients field, the user can enter the recipe ingredients, which must be length between 5-3000 characters. All text can be separated on the new line. Display error message when characters are over than in range. | Tested, works as should.| No |
+| Clicking on the Recipe Instructions field, the user can enter the recipe instructions, which must be length between 5-3000 characters. All text can be separated on the new line. Display error message when characters are over than in range. | Tested, works as should.| No |
+| Clicking on the recipe Image URL field, the user can paste the recipe IMG URL. Added an invalid URL or longer than 300 characters should display an error message. | Tested, works as should.| No |
+| Clicking on the recipe Prepare Time field, the user can enter numbers between 0-120 min. Added number out of range when and clicking submit button should display an error message. | Tested, works as should.| No |
+| Clicking on the recipe Cook Time field, the user can enter numbers between 0-120 min. Added number out of range when and clicking submit button should display an error message. | Tested, works as should.| No |
+| Clicking on the recipe Serving field, the user can enter numbers between 1-10. Added number out of range when and clicking submit button should display an error message. | Tested, works as should.| No |
+| Clicking ADD RECIPE button to add a new recipe, the user has been redirected to the VIEW RECIPE page. Display an error message if one of the fields is empty or a character or number out of range. | Tested, works as should.| No |
+| Clicking in the footer social media one of the icons has been routed to the blank page of this website. | Tested, works as should.| No |
 
 ### Single Recipe page manual test
 
 |   Test              |  Result         |  Errors                                                            
 | ------------------- | --------------- | ------------------------------------------------------------------ |
 | Clicking on the navigation bar's navbar logo and a Home link has been routed to the home page.| Tested, works as should.| No|
-| Clicking on the navigation bar's Profile link, has been routed to the users profile page.| Tested, works as should.| No |
-| Clicking on the navigation bar's New Recipe link, has been routed to the add new recipe page.| Tested, works as should.| No |
+| Clicking on the navigation bar's Profile link has been routed to the user's profile page.| Tested, works as should.| No |
+| Clicking on the navigation bar's New Recipe link has been routed to the add new recipe page.| Tested, works as should.| No |
 | Clicking on the navigation bar's Manage Categories link(only admin has access), has been routed to the categories page only admin has access to this link. | Tested, works as should.| No |
-| Clicking on the navigation bar's Log Out link, should log out the user from the website and has been routed to Login page. | Tested, works as should.| No |
-| Clicking single recipe page EDIT button, the user has been routed to EDIT recipe page. | Tested, works as should.| No |
-| Clicking single recipe page DELETE button, the pop up confirmation message pop up on the screen. Clicking AGREE the recipe will be deleted from the page and redirected back to user profile page. Clicking CLOSE the pop up message will close. | Tested, works as should.| No |
-| Clicking single recipe page HOME button, the user has been routed to home page. | Tested, works as should.| No |
-| Clicking in the footer social media one of the icons, has been routed to the blank page of this website. | Tested, works as should.| No |
+| Clicking on the navigation bar's Log Out link, should log out the user from the website and has been routed to the Login page. | Tested, works as should.| No |
+| Clicking the single recipe page EDIT button, the user has been routed to EDIT recipe page. | Tested, works as should.| No |
+| Clicking the single recipe page DELETE button, the pop-up confirmation message pop up on the screen. Clicking AGREE the recipe will be deleted from the page and redirected back to a user profile page. Clicking CLOSE the pop up message will close. | Tested, works as should.| No |
+| Clicking the single recipe page HOME button, the user has been routed to home page. | Tested, works as should.| No |
+| Clicking in the footer social media one of the icons has been routed to the blank page of this website. | Tested, works as should.| No |
 
 ### Edit Recipe page manual test
 
 |   Test              |  Result         |  Errors                                                            
 | ------------------- | --------------- | ------------------------------------------------------------------ |
 | Clicking on the navigation bar's navbar logo and a Home link has been routed to the home page.| Tested, works as should.| No|
-| Clicking on the navigation bar's Profile link, has been routed to the users profile page.| Tested, works as should.| No |
-| Clicking on the navigation bar's New Recipe link, has been routed to the add new recipe page.| Tested, works as should.| No |
+| Clicking on the navigation bar's Profile link has been routed to the user's profile page.| Tested, works as should.| No |
+| Clicking on the navigation bar's New Recipe link has been routed to the add new recipe page.| Tested, works as should.| No |
 | Clicking on the navigation bar's Manage Categories link(only admin has access), has been routed to the categories page only admin has access to this link. | Tested, works as should.| No |
-| Clicking on the navigation bar's Log Out link, should log out the user from the website and has been routed to Login page. | Tested, works as should.| No |
+| Clicking on the navigation bar's Log Out link, should log out the user from the website and has been routed to the Login page. | Tested, works as should.| No |
 | Clicking the EDIT recipe Category field, the user can choose the category from the list.| Tested, works as should.| No |
-| Clicking the EDIT recipe, Recipe Name field, the user can edit or enter the new recipe name, must be lenght between 5-50 chareacters. Display error message when characters are over than in range.| Tested, works as should.| No |
-| Clicking the EDIT recipe, Rcipe Ingredients field, the user can edit or enter the new recipe ingredients, must be lenght between 5-3000 chareacters. All text can be separated on the new line. Display error message when characters are over than in range. | Tested, works as should.| No |
-| Clicking the EDIT recipe, Instructions field, the user can edit or enter the new recipe instructions, must be lenght between 5-3000 chareacters. All text can be separated on the new line. Display error message when characters are over than in range. | Tested, works as should.| No |
-| Clicking the EDIT recipe, Image URL field, the user can edit or paste the new recipe img url. Added a invalid url or longer than 300 characters should display error message. | Tested, works as should.| No |
-| Clicking the EDIT recipe, Prepare Time field, the user can edit or enter the new number between 0-120 (min). Added number out of range when and clicking submit button should display error message. | Tested, works as should.| No |
-| Clicking the EDIT recipe, Cook Time field, the user can edit or enter the new number between 0-120 (min). Added number out of range when and clicking submit button should display error message. | Tested, works as should.| No |
-| Clicking the EDIT recipe, Serving field, the user can edit or enter the new number between 1-10. Added number out of range when and clicking submit button should display error message. | Tested, works as should.| No |
-| Clicking the EDIT recipe CANCEL button, the user has been redirected to SINGLE recipe page without any change on the recipe . | Tested, works as should.| No |
-| Clicking the EDIT recipe EDIT RECIPE button, the user has been routed to SINGLE recipe page with new updated recipe. | Tested, works as should.| No |
-| Clicking in the footer social media one of the icons, has been routed to the blank page of this website. | Tested, works as should.| No |
+| Clicking the EDIT recipe, Recipe Name field, the user can edit or enter the new recipe name, must be length between 5-50 characters. Display error message when characters are over than in range.| Tested, works as should.| No |
+| Clicking the EDIT recipe, Recipe Ingredients field, the user can edit or enter the new recipe ingredients, which must be thelength between 5-3000 characters. All text can be separated on the new line. Display error message when characters are over than in range. | Tested, works as should.| No |
+| Clicking the EDIT recipe, Instructions field, the user can edit or enter the new recipe instructions, which must be the length between 5-3000 characters. All text can be separated on the new line. Display error message when characters are over than in range. | Tested, works as should.| No |
+| Clicking the EDIT recipe, an Image URL field, the user can edit or paste the new recipe IMG URL. Added an invalid URL or longer than 300 characters should display an error message. | Tested, works as should.| No |
+| Clicking the EDIT recipe, Prepare Time field, the user can edit or enter the new number between 0-120 (min). Added number out of range when and clicking submit button should display an error message. | Tested, works as should.| No |
+| Clicking the EDIT recipe, Cook Time field, the user can edit or enter the new number between 0-120 (min). Added number out of range when and clicking submit button should display an error message. | Tested, works as should.| No |
+| Clicking the EDIT recipe, Serving field, the user can edit or enter the new number between 1-10. Added number out of range when and clicking submit button should display an error message. | Tested, works as should.| No |
+| Clicking the EDIT recipe CANCEL button, the user has been redirected to the SINGLE recipe page without any change on the recipe. | Tested, works as should.| No |
+| Clicking the EDIT recipe EDIT RECIPE button, the user has been routed to the SINGLE recipe page with newly new updated recipe. | Tested, works as should.| No |
+| Clicking in the footer social media one of the icons has been routed to the blank page of this website. | Tested, works as should.| No |
 
 ### Manage Categories page manual test
 
