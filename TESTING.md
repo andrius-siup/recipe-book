@@ -169,41 +169,41 @@ Added google font family Roboto and `<meta name="description" content="text here
 |   Test              |  Result         |  Errors                                                            
 | ------------------- | --------------- | ------------------------------------------------------------------ |
 | Clicking on the navigation bar's navbar logo and a Home link has been routed to the home page.| Tested, works as should.| No|
-| Clicking on the navigation bar's Profile link, has been routed to the users profile page.| Tested, works as should.| No |
-| Clicking on the navigation bar's New Recipe link, has been routed to the add new recipe page.| Tested, works as should.| No |
+| Clicking on the navigation bar's Profile link has been routed to the user's profile page.| Tested, works as should.| No |
+| Clicking on the navigation bar's New Recipe link has been routed to the add new recipe page.| Tested, works as should.| No |
 | Clicking on the navigation bar's Manage Categories link(only admin has access), has been routed to the categories page only admin has access to this link. | Tested, works as should.| No |
-| Clicking on the navigation bar's Log Out link, should log out the user from the website and has been routed to Login page. | Tested, works as should.| No |
-| Clicking ADD CATEGORY button, the website admin has permision to do that and has been routed to ADD CATEGORY page. | Tested, works as should.| No |
-| Clicking EDIT CATEGORY button, the website admin has permision to do that and has been routed to EDIT CATEGORY page. | Tested, works as should.| No |
-| Clicking DELETE CATEGORY button, the website admin has permision to do that and the pop up confirmation message pop up on the screen. Clicking AGREE the category will be deleted from the page. Clicking CLOSE the pop up message will close. | Tested, works as should.| No |
-| Clicking in the footer social media one of the icons, has been routed to the blank page of this website. | Tested, works as should.| No |
+| Clicking on the navigation bar's Log Out link, should log out the user from the website and has been routed to the Login page. | Tested, works as should.| No |
+| Clicking the ADD CATEGORY button, the website admin has permission to do that and has been routed to the ADD CATEGORY page. | Tested, works as should.| No |
+| Clicking the EDIT CATEGORY button, the website admin has permission to do that and has been routed to the EDIT CATEGORY page. | Tested, works as should.| No |
+| Clicking the DELETE CATEGORY button, the website admin has permission to do that, and the pop-up confirmation message pop up on the screen. Clicking AGREE the category will be deleted from the page. Clicking CLOSE the pop up message will close. | Tested, works as should.| No |
+| Clicking in the footer social media one of the icons has been routed to the blank page of this website. | Tested, works as should.| No |
 
 ### Create Category page manual test
 
 |   Test              |  Result         |  Errors                                                            
 | ------------------- | --------------- | ------------------------------------------------------------------ |
 | Clicking on the navigation bar's navbar logo and a Home link has been routed to the home page.| Tested, works as should.| No|
-| Clicking on the navigation bar's Profile link, has been routed to the users profile page.| Tested, works as should.| No |
-| Clicking on the navigation bar's New Recipe link, has been routed to the add new recipe page.| Tested, works as should.| No |
+| Clicking on the navigation bar's Profile link has been routed to the user's profile page.| Tested, works as should.| No |
+| Clicking on the navigation bar's New Recipe link has been routed to the add new recipe page.| Tested, works as should.| No |
 | Clicking on the navigation bar's Manage Categories link(only admin has access), has been routed to the categories page only admin has access to this link. | Tested, works as should.| No |
-| Clicking on the navigation bar's Log Out link, should log out the user from the website and has been routed to Login page. | Tested, works as should.| No |
-| Clicking Category Name field, the admin can enter 3-20 characters long text. Display error message if text is out of range. | Tested, works as should.| No |
-| Clicking ADD CATEGORY button, the admin has been routed to the MANAGE CATEGORIES page and the new category will be added in alphabetical order. | Tested, works as should.| No |
-| Clicking in the footer social media one of the icons, has been routed to the blank page of this website. | Tested, works as should.| No |
+| Clicking on the navigation bar's Log Out link, should log out the user from the website and has been routed to the Login page. | Tested, works as should.| No |
+| Clicking the Category Name field, the admin can enter 3-20 characters long text. Display error message if the text is out of range. | Tested, works as should.| No |
+| Clicking the ADD CATEGORY button, the admin has been routed to the MANAGE CATEGORIES page and the new category will be added in alphabetical order. | Tested, works as should.| No |
+| Clicking in the footer social media one of the icons has been routed to the blank page of this website. | Tested, works as should.| No |
 
 ### Edit Category page manual test
 
 |   Test              |  Result         |  Errors                                                            
 | ------------------- | --------------- | ------------------------------------------------------------------ |
 | Clicking on the navigation bar's navbar logo and a Home link has been routed to the home page.| Tested, works as should.| No|
-| Clicking on the navigation bar's Profile link, has been routed to the users profile page.| Tested, works as should.| No |
-| Clicking on the navigation bar's New Recipe link, has been routed to the add new recipe page.| Tested, works as should.| No |
+| Clicking on the navigation bar's Profile link has been routed to the user's profile page.| Tested, works as should.| No |
+| Clicking on the navigation bar's New Recipe link has been routed to the add new recipe page.| Tested, works as should.| No |
 | Clicking on the navigation bar's Manage Categories link(only admin has access), has been routed to the categories page only admin has access to this link. | Tested, works as should.| No |
-| Clicking on the navigation bar's Log Out link, should log out the user from the website and has been routed to Login page. | Tested, works as should.| No |
-| Clicking Category Name field, the admin can enter 3-20 characters long text. Display error message if text is out of range. | Tested, works as should.| No |
-| Clicking CANCEL button, the admin has been routed back to MANAGE CATEGORIES page. | Tested, works as should.| No |
-| Clicking EDIT CATEGORY button, the admin has been routed to the MANAGE CATEGORIES page and the edited category will be added in alphabetical order. | Tested, works as should.| No |
-| Clicking in the footer social media one of the icons, has been routed to the blank page of this website. | Tested, works as should.| No |
+| Clicking on the navigation bar's Log Out link, should log out the user from the website and has been routed to the Login page. | Tested, works as should.| No |
+| Clicking the Category Name field, the admin can enter 3-20 characters long text. Display error message if the text is out of range. | Tested, works as should.| No |
+| Clicking the CANCEL button, the admin has been routed back to the MANAGE CATEGORIES page. | Tested, works as should.| No |
+| Clicking the EDIT CATEGORY button, the admin has been routed to the MANAGE CATEGORIES page and the edited category will be added in alphabetical order. | Tested, works as should.| No |
+| Clicking in the footer social media one of the icons has been routed to the blank page of this website. | Tested, works as should.| No |
 
 ### Login page manual test
 
@@ -211,12 +211,12 @@ Added google font family Roboto and `<meta name="description" content="text here
 | ------------------- | --------------- | ------------------------------------------------------------------ |
 | Clicking on the navigation bar's navbar logo and a Home link has been routed to the home page.| Tested, works as should.| No|
 | Clicinkg on the navigation bar's Login link has been routed to the login page.| Tested, works as should.| No |
-| Clicking on the navigation bar's Register link, has been routed to the register page.| Tested, works as should.| No |
-| Clicking on the USERNAME input field, the entered text can be any letter or number and 5-15 characters long. Display an error message for special character or not in range. | Tested, works as should.| No |
+| Clicking on the navigation bar's Register link has been routed to the register page.| Tested, works as should.| No |
+| Clicking on the USERNAME input field, the entered text can be any letter or number and 5-15 characters long. Display an error message for a special character or not in range. | Tested, works as should.| No |
 | Clicking on the PASSWORD input field, the entered text can be any letter or number and 5-15 characters long. Display an error message for special character or not in range. | Tested, works as should.| No |
-| Clicking LOG IN button, the username and password have to match the user's inputs in registration page. If it match the user has been routed to Profile page, if not match user will redirected back to Login page, and display message for incorrect of the input fields. | Tested, works as should.| No |
-| Clicking on the  Register ACCOUNT link below LOGIN form, has been routed to the register page.| Tested, works as should.| No |
-| Clicking in the footer social media one of the icons, has been routed to the blank page of this website. | Tested, works as should.| No |
+| Clicking LOG IN button, the username and password have to match the user's inputs on the registration page. If it matches the user has been routed to a Profile page, if not match user will be redirected back to the Login page, and display a message for incorrect input fields. | Tested, works as should.| No |
+| Clicking on the Register ACCOUNT link, below LOGIN form, has been routed to the register page.| Tested, works as should.| No |
+| Clicking in the footer social media one of the icons has been routed to the blank page of this website. | Tested, works as should.| No |
 
 ### Register page manual test
 
@@ -224,9 +224,9 @@ Added google font family Roboto and `<meta name="description" content="text here
 | ------------------- | --------------- | ------------------------------------------------------------------ |
 | Clicking on the navigation bar's navbar logo and a Home link has been routed to the home page.| Tested, works as should.| No|
 | Clicinkg on the navigation bar's Login link has been routed to the login page.| Tested, works as should.| No |
-| Clicking on the navigation bar's Register link, has been routed to the register page.| Tested, works as should.| No |
-| Clicking on the USERNAME input field, the entered text can be any letter or number and 5-15 characters long. Display an error message for special character or not in range. | Tested, works as should.| No |
-| Clicking on the PASSWORD input field, the entered text can be any letter or number and 5-15 characters long. Display an error message for special character or not in range. | Tested, works as should.| No |
-| Clicking REGISTER button, if all input fields entered correctly, than the user has been routed to Profile page. | Tested, works as should.| No |
-| Clicking on the  Log In link below REGISTER form, has been routed to the login page.| Tested, works as should.| No |
-| Clicking in the footer social media one of the icons, has been routed to the blank page of this website. | Tested, works as should.| No |
+| Clicking on the navigation bar's Register link has been routed to the register page.| Tested, works as should.| No |
+| Clicking on the USERNAME input field, the entered text can be any letter or number and 5-15 characters long. Display an error message for a special character or not in range. | Tested, works as should.| No |
+| Clicking on the PASSWORD input field, the entered text can be any letter or number and 5-15 characters long. Display an error message for a special character or not in range. | Tested, works as should.| No |
+| Clicking REGISTER button, if all input fields entered correctly then the user has been routed to a Profile page. | Tested, works as should.| No |
+| Clicking on the Log In link, below REGISTER form, has been routed to the login page.| Tested, works as should.| No |
+| Clicking in the footer social media one of the icons has been routed to the blank page of this website. | Tested, works as should.| No |
