@@ -3,11 +3,12 @@
 ![Recipes](/images/responsive-design.png)
 
 # Project Summary
-This is a Recipe landing page, which was created for all people who love food and cooking and want to share it all world. 
-There is also can be a storage platform for your recipes collection and anytime you have access to your recipes. 
-You don't need anymore your notes. We all now live with smartphones. The website is created a responsive design that is very handy to see recipes from mobile devices
- to tablets or larger screens. The inspiration comes from seeing like my wife trying to save the recipes by a screenshot or take notes and always lost somewhere.
-  Now she can simply add recipes through this website and save them. The website was created for educational purposes.
+This is a Recipe landing page, which was created for all people who love food, cooking, or want to share recipes all over the world. 
+This page also can be a storage platform for your recipes collection in which you can have access to see anytime to your recipes. 
+You will no longer need your notes. We all now live with smart devices, so your recipes always will be with you. 
+The website is created in a responsive design that is very handy to see recipes from mobile devices to tablets or larger screens. 
+The inspiration comes from seeing my wife trying to save the recipes by a screenshot or take notes and always lost it somewhere. 
+Now she can simply add recipes through this website and save them. The website was created for educational purposes.
 
 # Contents
 
@@ -145,7 +146,7 @@ I used the Grecian Holiday color palette for this website.
 `#ED8C72` Coral - used for the website navbar and footer.
 
 ## Typography
-google fonts
+For all website I used the Google Fonts [Roboto](https://fonts.google.com/specimen/Roboto#standard-styles) font family.
 
 # Features
 
