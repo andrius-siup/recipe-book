@@ -25,6 +25,9 @@ mongo = PyMongo(app)
 @app.route("/")
 @app.route("/get_recipes")
 def get_recipes():
+    """
+    A function that return all recipes into page
+    """
     recipes = list(mongo.db.recipes.find())
     return render_template(
         "recipes.html", recipes=recipes, page_title="All Recipes")
@@ -32,6 +35,9 @@ def get_recipes():
 
 @app.route("/view_recipe/<recipe_id>")
 def view_recipe(recipe_id):
+    """
+    Function find recipe by id
+    """
     the_recipe = mongo.db.recipes.find_one_or_404({"_id": ObjectId(recipe_id)})
 
     if 'user' not in session:
@@ -43,6 +49,9 @@ def view_recipe(recipe_id):
 
 @app.route("/search", methods=["GET", "POST"])
 def search():
+    """
+    Search function - searching for entered text.
+    """
     query = request.form.get("query")
     recipes = list(mongo.db.recipes.find({"$text": {"$search": query}}))
     return render_template(
@@ -54,6 +63,9 @@ def search():
 
 @app.route("/register", methods=["GET", "POST"])
 def register():
+    """
+    Register to the website function
+    """
     if request.method == "POST":
         # check if username already exists in db
         existing_user = mongo.db.users.find_one(
@@ -78,6 +90,9 @@ def register():
 
 @app.route("/login", methods=["GET", "POST"])
 def login():
+    """
+    Login function - login user to the website
+    """
     if request.method == "POST":
         # check if username exists in db
         existing_user = mongo.db.users.find_one(
@@ -105,6 +120,9 @@ def login():
 
 @app.route("/profile/", methods=["GET", "POST"])
 def profile():
+    """
+    Profile function - user personal page with his own recipe collection
+    """
     if "user" not in session:
         return redirect(url_for("login"))
 
@@ -118,6 +136,9 @@ def profile():
 
 @app.route("/logout")
 def logout():
+    """
+    Logout finction - logout user from his profile, redirected to the login page
+    """
     # remove user from session cookies
     flash("You have been logged out")
     session.pop("user")
@@ -126,6 +147,10 @@ def logout():
 
 @app.route("/add_recipe", methods=["Get", "POST"])
 def add_recipe():
+    """
+    Add recipe function - check if user is login
+    add recipe to his collection and to recipe all page.
+    """
     if "user" not in session:
         return redirect(url_for("login"))
 
@@ -156,6 +181,10 @@ def add_recipe():
 
 @app.route("/edit_recipe/<recipe_id>", methods=["GET", "POST"])
 def edit_recipe(recipe_id):
+    """
+    Edit recipe function - checked if user is login,
+    if so can edited recipe.
+    """
     if "user" not in session:
         return redirect(url_for("login"))
 
@@ -192,6 +221,9 @@ def edit_recipe(recipe_id):
 
 @app.route("/delete_recipe/<recipe_id>")
 def delete_recipe(recipe_id):
+    """
+    Delete recipe function - deleted recipe.
+    """
     mongo.db.recipes.remove({"_id": ObjectId(recipe_id)})
     flash("Recipe Successfully Deleted")
     return redirect(url_for("profile"))
@@ -200,6 +232,9 @@ def delete_recipe(recipe_id):
 # only admin has access to this page
 @app.route("/get_categories")
 def get_categories():
+    """
+    Get categories function - only admin has access to this page.
+    """
     if "user" not in session:
         return redirect(url_for("login"))
 
@@ -215,6 +250,9 @@ def get_categories():
 
 @app.route("/add_category", methods=["GET", "POST"])
 def add_category():
+    """
+    Add category function - only admin has access, and can add new categories.
+    """
     if "user" not in session:
         return redirect(url_for("login"))
 
@@ -236,6 +274,9 @@ def add_category():
 
 @app.route("/edit_category/<category_id>", methods=["GET", "POST"])
 def edit_category(category_id):
+    """
+    Edit category fnction - only admin has access, simply can edit category.
+    """
     if "user" not in session:
         return redirect(url_for("login"))
 
@@ -259,6 +300,9 @@ def edit_category(category_id):
 
 @app.route("/delete_category/<category_id>")
 def delete_category(category_id):
+    """
+    Delete category function - admin has access, can delete category.
+    """
     mongo.db.categories.remove({"_id": ObjectId(category_id)})
     flash("Category Successfully Deleted")
     return redirect(url_for("get_categories"))
@@ -267,4 +311,4 @@ def delete_category(category_id):
 if __name__ == "__main__":
     app.run(host=os.environ.get("IP"),
             port=int(os.environ.get("PORT")),
-            debug=False)  
+            debug=False)
