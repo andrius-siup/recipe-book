@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 body {
-display: flex;
-min-height: 100vh;
-flex-direction: column;
-font-family: 'Roboto', sans-serif;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
 }
 
 main {
-flex: 1 0 auto;    
-background-color: #fffbf5;
+    flex: 1 0 auto;
+    background-color: #fffbf5;
 }
 
 /*********************** header */
@@ -62,7 +62,7 @@ h6 {
 }
 
 /* buttons */
-.green  {
+.green {
     background-color: #2988bc !important;
 }
 
@@ -108,7 +108,7 @@ h6 {
 
     /*********************** navbar */
 
-     nav .brand-logo {
+    nav .brand-logo {
         font-weight: 500;
     }
 
@@ -123,18 +123,18 @@ h6 {
     }
 
     .sidenav li>a {
-    color: #fafafa;
-    display: block;
-    font-size: 16px;
-    font-weight: 400;
-    height: 48px;
-    line-height: 48px;
-    padding: 0 32px;
+        color: #fafafa;
+        display: block;
+        font-size: 16px;
+        font-weight: 400;
+        height: 48px;
+        line-height: 48px;
+        padding: 0 32px;
     }
 
     /*********************** recipes page */
     .recipes-header h1 {
-        font-size: 32px;
+        font-size: 2rem;
     }
 
     .valign-wrapper {
@@ -142,16 +142,22 @@ h6 {
     }
 
     .search-panel {
-        margin: 30px 10px;
+        margin: 2rem 1rem;
+    }
+
+    .row .col.s12 {
+        padding: 0 1rem;
     }
 
     .recipe-card {
-        margin-bottom: 30px;
-        margin-top: 30px;
+        margin-bottom: 32px;
+        margin-top: 32px;
     }
 
     .recipe-card .card-image img {
         width: 100%;
+        height: 18rem;
+        object-fit: cover;
     }
 
     .recipe-card .card-content {
@@ -166,6 +172,10 @@ h6 {
         margin-top: 20px;
         margin-bottom: 10px;
     }
+
+
+
+
 
     /************************ profile */
 
@@ -263,7 +273,7 @@ h6 {
         margin-right: 10px;
     }
 
-     /************************ add and edit recipe for labels */    
+    /************************ add and edit recipe for labels */
 
     .input-field .ingredient-label {
         top: -5px;
@@ -274,8 +284,8 @@ h6 {
     }
 
     .input-field.col label {
-    left: 1rem;
-    } 
+        left: 1rem;
+    }
 
     /************************ manage categories */
 
@@ -333,9 +343,9 @@ h6 {
 /************************ if the screen size 768px or more */
 @media screen and (min-width: 768px) {
 
-      /*********************** navbar */
+    /*********************** navbar */
 
-     nav .brand-logo {
+    nav .brand-logo {
         font-weight: 500;
         font-size: 3.1rem;
     }
@@ -351,13 +361,13 @@ h6 {
     }
 
     .sidenav li>a {
-    color: #fafafa;
-    display: block;
-    font-size: 1.7rem;
-    font-weight: 500;
-    height: 48px;
-    line-height: 48px;
-    padding: 0 32px;
+        color: #fafafa;
+        display: block;
+        font-size: 1.7rem;
+        font-weight: 500;
+        height: 48px;
+        line-height: 48px;
+        padding: 0 32px;
     }
 
     .fas.fa-bars {
@@ -498,7 +508,7 @@ h6 {
         margin-right: 100px;
     }
 
-     /************************ add and edit recipe for labels */    
+    /************************ add and edit recipe for labels */
 
     .input-field .ingredient-label {
         top: -5px;
@@ -509,8 +519,8 @@ h6 {
     }
 
     .input-field.col label {
-    left: 1rem;
-    } 
+        left: 1rem;
+    }
 
     /************************ categories */
 
@@ -635,7 +645,7 @@ h6 {
     .social-media-row {
         padding-top: 20px;
         padding-bottom: 20px;
-        
+
     }
 
     .social-media ul {
@@ -655,7 +665,7 @@ h6 {
 
 /* if the screen size 1024px or more */
 @media screen and (min-width: 1024px) {
-    
+
     /************************ recipes */
 
     nav .brand-logo {
@@ -810,16 +820,14 @@ h6 {
         font-size: 30px;
     }
 
-     .social-media-row p {
+    .social-media-row p {
         font-size: 16px;
     }
 
 }
 
 /* if the screen size between 1201px and 1600px */
-@media screen 
-    and (min-width: 1201px) 
-    and (max-width: 1600px) {
+@media screen and (min-width: 1201px) and (max-width: 1600px) {
 
     /************************ recipes */
 
@@ -871,7 +879,7 @@ h6 {
         padding: 40px;
     }
 
-    /************************ add and edit recipe for labels */    
+    /************************ add and edit recipe for labels */
 
     .input-field .ingredient-label {
         top: -5px;
@@ -882,8 +890,8 @@ h6 {
     }
 
     .input-field.col label {
-    left: 1rem;
-    }    
+        left: 1rem;
+    }
 
     /************************ single recipe */
 
@@ -936,19 +944,17 @@ h6 {
 
 /* if the screen size between 1601px and 2500px */
 
-@media screen 
-    and (min-width: 1601px) 
-    and (max-width: 2500px) {
-    
+@media screen and (min-width: 1601px) and (max-width: 2500px) {
+
     /************************ recipe */
-    
+
     .recipe-card .card-image img {
-    width: 100%;
-    height: 270px;
+        width: 100%;
+        height: 270px;
     }
 
     .recipe-card .card-content {
-    height: 200px;
-    padding: 15px;
+        height: 200px;
+        padding: 15px;
     }
 }
