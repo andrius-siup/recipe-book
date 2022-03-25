@@ -82,6 +82,19 @@ h6 {
     background-color: #2988bc !important;
 }
 
+.home-pg-card-btn a:link,
+.home-pg-card-btn a:visited {
+    border-radius: 7px;
+    box-shadow: 0 .3rem .5rem 0 rgba(0, 0, 0, 0.3);
+}
+
+.home-pg-card-btn a:hover,
+.home-pg-card-btn a:active {
+    background-color: #f4e !important;
+    box-shadow: 0 .5rem .7rem 0 rgba(0, 0, 0, 0.3);
+}
+
+
 /*********************** footer */
 
 .page-footer {
