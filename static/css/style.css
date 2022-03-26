@@ -46,6 +46,7 @@ h3 {
 /*********************** search panel */
 
 .search-panel {
+    max-width: 400px;
     background-color: #f4eade;
     border-radius: 9px;
     margin: 2rem;
@@ -101,7 +102,7 @@ h6 {
 } */
 
 /*********************** profile */
-.card-panel {
+.profile-pg-user .card-panel {
     max-width: 400px;
     background-color: #ffece6;
     margin-left: auto;
@@ -198,7 +199,7 @@ h6 {
 
     /*********************** recipes page */
     .recipes-header h1 {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     .valign-wrapper {
@@ -332,9 +333,9 @@ h6 {
     }
 
     .add-recipe-form {
-        margin-bottom: 30px;
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-bottom: 4rem;
+        /* margin-left: 10px;
+        margin-right: 10px; */
     }
 
     /************************ add and edit recipe for labels */
