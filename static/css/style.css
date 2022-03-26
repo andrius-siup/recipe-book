@@ -47,6 +47,10 @@ h3 {
 
 .search-panel {
     background-color: #f4eade;
+    border-radius: 9px;
+    margin: 2rem;
+    box-shadow: 0 .7rem 1.4rem 0 rgba(0, 0, 0, .2);
+
 }
 
 h6 {
@@ -61,7 +65,23 @@ h6 {
     background-color: #2f496e !important;
 }
 
-/* buttons */
+/*********************** recipe cards */
+.recipe-card .card {
+    max-width: 300px;
+    border-radius: 9px;
+    box-shadow: 0 .5rem 1.2rem 0 rgba(0, 0, 0, .2);
+    margin-left: auto;
+    margin-right: auto;
+    transition: all 0.3s;
+}
+
+.recipe-card .card:hover {
+    box-shadow: 0 1rem 2rem 0 rgba(0, 0, 0, .3);
+    transform: translateY(-0.3rem);
+}
+
+
+/*********************** buttons */
 .green {
     background-color: #2988bc !important;
 }
@@ -86,6 +106,7 @@ h6 {
 .home-pg-card-btn a:visited {
     border-radius: 7px;
     box-shadow: 0 .3rem .5rem 0 rgba(0, 0, 0, 0.3);
+    transition: all 0.3s;
 }
 
 .home-pg-card-btn a:hover,
@@ -154,9 +175,9 @@ h6 {
         display: block;
     }
 
-    .search-panel {
+    /* .search-panel {
         margin: 2rem 1rem;
-    }
+    } */
 
     .row .col.s12 {
         padding: 0 1rem;
