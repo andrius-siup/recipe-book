@@ -891,7 +891,12 @@ h6 {
         margin-right: 120px;
     }
 
-    
+    .row .col.xl3 {
+        width: 33%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
 
     .recipes-row {
         margin-left: 100px;
