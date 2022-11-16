@@ -310,5 +310,5 @@ def delete_category(category_id):
 
 
 if __name__ == "__main__":
-    app.run(host=os.environ.get("IP"), port=int(os.environ.get("PORT")), debug=True)
+    app.run(host=os.environ.get("IP"), port=int(os.environ.get("PORT")), debug=False)
     # change to False for production. Important
