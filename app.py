@@ -1,8 +1,8 @@
 """Imports"""
 
-from bson.objectid import ObjectId
 from flask import Flask, flash, redirect, render_template, request, session, url_for
 from flask_pymongo import PyMongo
+from bson.objectid import ObjectId
 from werkzeug.security import check_password_hash, generate_password_hash
 import os
 
